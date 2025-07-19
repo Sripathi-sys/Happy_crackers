@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimate - Happy Enjoy Crackers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="estimate.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dark" href="index.html">
+                <i class="fas fa-fire text-warning me-2"></i>Happy Enjoy Crackers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-medium" href="estimate.html">Estimate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="payment-info.html">Payment Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Horizontal Scroller -->
+    <div class="horizontal-scroller bg-warning bg-opacity-10">
+        <div class="scroller-content">
+            <span class="text-dark fw-bold">🎆 Get Your Instant Estimate - Premium Quality Fireworks at Best Prices! 🎆</span>
+            <span class="text-dark fw-bold">🎇 Free Home Delivery Available - Order Now! 🎇</span>
+            <span class="text-dark fw-bold">✨ Safe & Licensed Crackers - Celebrate Responsibly! ✨</span>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Our Premium Collection</h2>
+            
+            <!-- Search and Filter Section -->
+            <div class="search-filter-section mb-4">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="search-box">
+                            <input type="text" class="form-control" id="global-search" placeholder="Search products...">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 mb-3">
+                        <select class="form-select" id="category-filter">
+                            <option value="">All Categories</option>
+                            <option value="sparklers">Sparklers</option>
+                            <option value="chakkars">Ground Chakkars</option>
+                            <option value="aerial">Aerial Shots</option>
+                            <option value="flower-pots">Flower Pots</option>
+                            <option value="sound">Sound Crackers</option>
+                            <option value="gift-boxes">Gift Boxes</option>
+                        </select>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="products-container">
+                <!-- Sparklers Category -->
+                <div class="category-header mb-3" data-category="sparklers">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-sparkles text-warning me-2"></i>Sparklers
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sparklers" data-name="Electric Sparklers (10 pcs)">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro1.jpg" alt="Electric Sparklers" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">	1 . 10 CM ELECTRIC SPARKLER 10 Pcs<br>
+                                            10 செ.மீ சாதா கம்பி</h6>
+                                        <p class="product-price" data-price="50">₹50</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sparklers" data-name="Golden Sparklers (15 pcs)">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro2.jpg" alt="Golden Sparklers" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Golden Sparklers (15 pcs)</h6>
+                                        <p class="product-price" data-price="75">₹75</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sparklers" data-name="Golden Sparklers (15 pcs)">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro3.jpg" alt="Golden Sparklers" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Golden Sparklers (15 pcs)</h6>
+                                        <p class="product-price" data-price="75">₹75</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sparklers" data-name="Golden Sparklers (15 pcs)">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro4.jpg" alt="Golden Sparklers" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Golden Sparklers (15 pcs)</h6>
+                                        <p class="product-price" data-price="75">₹75</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ground Chakkars Category -->
+                <div class="category-header mb-3" data-category="chakkars">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-circle-notch text-warning me-2"></i>Ground Chakkars
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="chakkars" data-name="Big Chakkar Special">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro5.jpg" alt="Big Chakkar" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Big Chakkar Special</h6>
+                                        <p class="product-price" data-price="25">₹25</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="chakkars" data-name="Color Changing Chakkar">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro6.jpg" alt="Color Chakkar" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Color Changing Chakkar</h6>
+                                        <p class="product-price" data-price="35">₹35</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aerial Shots Category -->
+                <div class="category-header mb-3" data-category="aerial">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-rocket text-warning me-2"></i>Aerial Shots
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="aerial" data-name="Sky Shot Multi Color">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro7.jpg" alt="Sky Shot" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Sky Shot Multi Color</h6>
+                                        <p class="product-price" data-price="150">₹150</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="aerial" data-name="Thunder Shot Deluxe">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro7.jpg" alt="Thunder Shot" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Thunder Shot Deluxe</h6>
+                                        <p class="product-price" data-price="200">₹200</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flower Pots Category -->
+                <div class="category-header mb-3" data-category="flower-pots">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-seedling text-warning me-2"></i>Flower Pots
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="flower-pots" data-name="Small Flower Pot">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Small Flower Pot" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Small Flower Pot</h6>
+                                        <p class="product-price" data-price="15">₹15</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="flower-pots" data-name="Large Flower Pot">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Large Flower Pot" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Large Flower Pot</h6>
+                                        <p class="product-price" data-price="35">₹35</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sound Crackers Category -->
+                <div class="category-header mb-3" data-category="sound">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-volume-up text-warning me-2"></i>Sound Crackers
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sound" data-name="Single Sound">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Single Sound" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Single Sound</h6>
+                                        <p class="product-price" data-price="5">₹5</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="sound" data-name="Garland (50 pcs)">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Garland" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Garland (50 pcs)</h6>
+                                        <p class="product-price" data-price="150">₹150</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gift Boxes Category -->
+                <div class="category-header mb-3" data-category="gift-boxes">
+                    <h3 class="fw-bold text-primary">
+                        <i class="fas fa-gift text-warning me-2"></i>Gift Boxes
+                    </h3>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="gift-boxes" data-name="Family Pack">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Family Pack" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Family Pack</h6>
+                                        <p class="product-price" data-price="500">₹500</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 mb-3">
+                        <div class="product-card" data-category="gift-boxes" data-name="Premium Pack">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <div class="product-image">
+                                        <img src="assets/products/pro8.png" alt="Premium Pack" onclick="openImageModal(this)">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <h6 class="product-name">Premium Pack</h6>
+                                        <p class="product-price" data-price="1000">₹1000</p>
+                                        <div class="quantity-section">
+                                            <div class="quantity-controls">
+                                                <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
+                                                <span class="quantity-display">0</span>
+                                                <button class="qty-btn plus" onclick="increaseQuantity(this)">+</button>
+                                            </div>
+                                            <div class="total-price">₹0.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Cart Summary -->
+    <div id="cartSummary" class="cart-summary" style="display: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="cart-info">
+                        <span class="cart-items-count">0 items</span>
+                        <span class="cart-total-label">Grand Total: </span>
+                        <span class="cart-total-amount">₹0.00</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <button class="btn btn-success btn-lg" onclick="orderViaWhatsApp()">
+                        <i class="fab fa-whatsapp me-2"></i>Order via WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Product Image</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Product Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixed Icons -->
+    <div class="fixed-icons">
+        <div class="whatsapp-icon" onclick="openWhatsApp()">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="download-icon" onclick="downloadPriceList()">
+            <i class="fas fa-download"></i>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white">
+        <div class="container">
+            <div class="footer-top py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="footer-brand">
+                            <h3 class="fw-bold text-warning mb-3">
+                                <i class="fas fa-fire me-2"></i>Happy Enjoy Crackers
+                            </h3>
+                            <p class="text-light mb-3">Premium quality fireworks for all your celebrations. Making every festival brighter, safer, and more memorable since 2000.</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link me-3"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link me-3"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link me-3"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4">
+                        <div class="footer-links">
+                            <h5 class="fw-bold text-warning mb-3">Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="index.html" class="footer-link">Home</a></li>
+                                <li><a href="estimate.html" class="footer-link">Estimate</a></li>
+                                <li><a href="about.html" class="footer-link">About Us</a></li>
+                                <li><a href="contact.html" class="footer-link">Contact</a></li>
+                                <li><a href="payment-info.html" class="footer-link">Payment Info</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-contact">
+                            <h5 class="fw-bold text-warning mb-3">Contact Info</h5>
+                            <div class="contact-item mb-2">
+                                <i class="fas fa-map-marker-alt text-warning me-2"></i>
+                                <span>123 Fireworks Street, Sivakasi, Tamil Nadu 626123</span>
+                            </div>
+                            <div class="contact-item mb-2">
+                                <i class="fas fa-phone text-warning me-2"></i>
+                                <span>+91 98765 43210</span>
+                            </div>
+                            <div class="contact-item mb-2">
+                                <i class="fas fa-envelope text-warning me-2"></i>
+                                <span>info@happyenjoycrackers.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock text-warning me-2"></i>
+                                <span>Mon-Sat: 9AM-9PM, Sun: 10AM-6PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="footer-newsletter">
+                            <h5 class="fw-bold text-warning mb-3">Newsletter</h5>
+                            <p class="text-light mb-3">Subscribe to get updates on new products and offers!</p>
+                            <div class="newsletter-form">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your email">
+                                    <button class="btn btn-warning" type="button">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-3 border-top border-secondary">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2024 Happy Enjoy Crackers. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-badges">
+                            <span class="badge bg-success me-2">
+                                <i class="fas fa-shield-alt me-1"></i>Safety Certified
+                            </span>
+                            <span class="badge bg-warning text-dark">
+                                <i class="fas fa-award me-1"></i>Licensed Dealer
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="estimate.js"></script>
+</body>
+</html>
