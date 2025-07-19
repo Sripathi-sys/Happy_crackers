@@ -6,14 +6,88 @@
     <title>Payment Information - Happy Enjoy Crackers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <style>
+        /* Payment Info Page Styles */
+.payment-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    min-height: 80vh;
+}
+
+.payment-method {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.payment-method:hover {
+    transform: translateY(-5px);
+}
+
+.method-icon i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.upi-details, .bank-details {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.order-steps {
+    padding: 1rem 0;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.step-number {
+    width: 35px;
+    height: 35px;
+    background: var(--warning-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h6 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.qr-code-container {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    display: inline-block;
+}
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="index.html">
-                <i class="fas fa-fire text-warning me-2"></i>Happy Enjoy Crackers
+            <a class="navbar-brand fw-bold text-color" href="index.html">
+                <img src="assets/images/logo.png" alt="Happy Enjoy Crackers Logo" style="height: 40px; margin-right: 10px;">
+                Happy Enjoy Crackers
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -77,8 +151,9 @@
                                         <h5 class="fw-bold">UPI Payment</h5>
                                         <p class="text-muted">Pay instantly using Google Pay, PhonePe, Paytm, or any UPI app</p>
                                         <div class="upi-details">
-                                            <p><strong>UPI ID:</strong> happyenjoycrackers@paytm</p>
-                                            <p><strong>Name:</strong> Happy Enjoy Crackers</p>
+                                            <p><strong>UPI ID:</strong> rathanammm@okicici</p>
+                                            <p><strong>Name:</strong> RATHINA SAMY </p>
+                                            <p><strong>GPay / PhonePe:</strong> 9962314877 🏆💰 / 9940013344</p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,13 +165,18 @@
                                         <h5 class="fw-bold">Bank Transfer</h5>
                                         <p class="text-muted">Direct bank transfer for larger orders</p>
                                         <div class="bank-details">
-                                            <p><strong>Account Name:</strong> Happy Enjoy Crackers</p>
-                                            <p><strong>Account No:</strong> 1234567890</p>
-                                            <p><strong>IFSC Code:</strong> HDFC0001234</p>
-                                            <p><strong>Bank:</strong> HDFC Bank</p>
+                                            <p><strong>Account Name:</strong> RATHINA SAMY ⭐</p>
+                                            <p><strong>Account No:</strong> 751040404 🌹</p>
+                                            <p><strong>IFSC Code:</strong> IDIB000V001 🌈</p>
+                                            <p><strong>Bank:</strong> Indian Bank</p>
+                                            <p><strong>Branch:</strong> Vadapalani, Chennai 🇮🇳</p>
+                                            <p><strong>State:</strong> Tamil Nadu</p>
+                                                                              
                                         </div>
+                                        <p class="mt-2 text-primary fw-bold">வாழ்கவளமுடன் 💛❤💚🌹💐</p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -160,7 +240,7 @@
                         </div>
                         <div class="card-body text-center">
                             <div class="qr-code-container">
-                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=happyenjoycrackers@paytm&pn=Happy%20Enjoy%20Crackers" alt="UPI QR Code" class="img-fluid rounded">
+                                <img src="assets/images/qrscan.jpeg" alt="UPI QR Code" class="img-fluid rounded">
                             </div>
                             <p class="mt-3 text-muted">Scan this QR code with any UPI app to make quick payments</p>
                         </div>
@@ -176,11 +256,11 @@
                             <div class="contact-info">
                                 <div class="contact-item">
                                     <i class="fas fa-phone text-primary"></i>
-                                    <span>+91 98765 43210</span>
+                                    <span>+91 99623 14877</span>
                                 </div>
                                 <div class="contact-item">
                                     <i class="fab fa-whatsapp text-success"></i>
-                                    <span>+91 98765 43210</span>
+                                    <span>+91 99623 14877</span>
                                 </div>
                                 <div class="contact-item">
                                     <i class="fas fa-envelope text-info"></i>
@@ -242,22 +322,22 @@
                             <h5 class="fw-bold text-warning mb-3">Contact Info</h5>
                             <div class="contact-item mb-2">
                                 <i class="fas fa-map-marker-alt text-warning me-2"></i>
-                                <span>123 Fireworks Street, Sivakasi, Tamil Nadu 626123</span>
+                                <span>392/2, Munees Nagar, Near Railway Station, Kattalaipatti Road, Sivakasi – 626124</span>
                             </div>
                             <div class="contact-item mb-2">
                                 <i class="fas fa-phone text-warning me-2"></i>
-                                <span>+91 98765 43210</span>
+                                <span>+91 99623 14877</span>
                             </div>
-                            <div class="contact-item mb-2">
+                            <!-- <div class="contact-item mb-2">
                                 <i class="fas fa-envelope text-warning me-2"></i>
                                 <span>info@happyenjoycrackers.com</span>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-clock text-warning me-2"></i>
                                 <span>Mon-Sat: 9AM-9PM, Sun: 10AM-6PM</span>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="footer-newsletter">
                             <h5 class="fw-bold text-warning mb-3">Newsletter</h5>

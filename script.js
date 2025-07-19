@@ -259,7 +259,7 @@ function openWhatsApp() {
 }
 
 function sendWhatsAppMessage(message) {
-    const phoneNumber = '919876543210'; // Replace with actual WhatsApp number
+    const phoneNumber = '9962314877'; // Replace with actual WhatsApp number
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     

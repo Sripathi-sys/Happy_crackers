@@ -269,6 +269,72 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Category Card */
+
+.bg-cat1 {
+    background-image: url('../assets/images/category2.jpg');
+}
+.bg-cat2 {
+    background-image: url('../assets/images/category3.jpg');
+}
+.bg-cat3 {
+    background-image: url('../assets/images/category4.jpg');
+}
+.bg-cat4 {
+    background-image: url('../assets/images/category1.jpg');
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+.card-overlay {
+    background: rgba(53, 53, 53, 0.55);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-tag {
+    background: #ffc107;
+    color: #000;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.shop-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
 
 /* card secetion */
 .promo-card {
@@ -539,136 +605,69 @@ body {
 }
 
 /* Fixed Icons */
-.fixed-icons {
-    position: fixed;
-    bottom: 20px;
-    z-index: 1000;
-}
-
-.whatsapp-icon {
+/* Fixed Right Icons */
+.fixed-icons-right {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
-    border-radius: 50%;
+    z-index: 1000;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
 }
 
-.whatsapp-icon:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
-}
-
-.whatsapp-icon i {
-    font-size: 30px;
-    color: white;
-}
-
-.download-icon {
+/* Fixed Left Icon */
+.fixed-icon-left {
     position: fixed;
     bottom: 20px;
     left: 20px;
+    z-index: 1000;
+}
+
+/* Shared Icon Style */
+.icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #0056b3 100%);
+    background: white;
     border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
-}
-
-.download-icon:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
-}
-
-.download-icon i {
-    font-size: 24px;
-    color: white;
-}
-
-/* Payment Info Page Styles */
-.payment-section {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    min-height: 80vh;
-}
-
-.payment-method {
-    text-align: center;
-    padding: 2rem;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    animation: zoomInOut 2s infinite;
     transition: transform 0.3s ease;
-    height: 100%;
 }
 
-.payment-method:hover {
-    transform: translateY(-5px);
+.icon:hover {
+    transform: scale(1.1);
 }
 
-.method-icon i {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.fixed-logo {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
 }
 
-.upi-details, .bank-details {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-top: 1rem;
-    text-align: left;
+.icon i {
+    font-size: 26px;
+    color: #0056b3;
 }
 
-.order-steps {
-    padding: 1rem 0;
+/* Zoom animation */
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(0.50);
+    }
+    50% {
+        transform: scale(1.15);
+    }
 }
 
-.step {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-}
 
-.step-number {
-    width: 35px;
-    height: 35px;
-    background: var(--warning-color);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin-right: 1rem;
-    flex-shrink: 0;
-}
 
-.step-content {
-    flex: 1;
-}
 
-.step-content h6 {
-    margin-bottom: 0.5rem;
-    color: var(--primary-color);
-}
-
-.qr-code-container {
-    padding: 1rem;
-    background: #f8f9fa;
-    border-radius: 10px;
-    display: inline-block;
-}
 
 /* Contact Page Styles */
 .contact-section {

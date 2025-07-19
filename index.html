@@ -13,8 +13,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand fw-bold text-color" href="index.html">
-                <i class="fas fa-fire text-warning me-2"></i>Happy Enjoy Crackers
-            </a>
+                <img src="assets/images/logo.png" alt="Happy Enjoy Crackers Logo" style="height: 40px; margin-right: 10px;">
+                Happy Enjoy Crackers
+            </a>            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -60,15 +61,15 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/banner1.jpg" class="d-block w-100" alt="Fireworks Display">
+                    <img src="assets/images/banner4.png" class="d-block w-100" alt="Fireworks Display">
                    
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/banner1.jpg" class="d-block w-100" alt="Colorful Fireworks">
+                    <img src="assets/images/banner2.jpg" class="d-block w-100" alt="Colorful Fireworks">
                     
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/banner1.jpg" class="d-block w-100" alt="Festival Celebration">
+                    <img src="assets/images/banner4.png" class="d-block w-100" alt="Festival Celebration">
                    
                 </div>
             </div>
@@ -80,9 +81,9 @@
             </button>
         </div>
     </section>
-    <div class="order-now-container">
+    <!-- <div class="order-now-container">
         <a href="estimate.html" class="order-now-btn" style="margin-top: 10px;">Order Now</a>
-      </div>
+      </div> -->
 
     <!-- Welcome Section -->
     <section class="welcome-section py-5">
@@ -131,6 +132,53 @@
     <div class="order-now-container">
         <a href="estimate.html" class="order-now-btn">Order Now</a>
       </div>
+
+
+
+        <!-- Category Cards Section -->
+        <div class="category-cards" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 20px;">
+
+            <!-- Card 1 -->
+            <a href="estimate.html" class="card bg-cat1" >
+                <div class="card-overlay">
+                    <div class="card-tag">DAY TIME CRACKERS</div>
+                    <h3>Premium Quality</h3>
+                    <p>Amazing Vibrant Sounds & Thunder Storm Crackers</p>
+                </div>
+            </a>
+
+            <!-- Card 2 -->
+            <a href="estimate.html" class="card bg-cat2" >
+                <div class="card-overlay">
+                    <div class="card-tag">KIDS COLLECTION</div>
+                    <h3>Wonderful Kids Collection</h3>
+                    <p>Cartoons, Photo Flash Sparklers etc</p>
+                    <!-- <button class="shop-btn">Shop Now</button> -->
+                </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="estimate.html" class="card bg-cat3" >
+                <div class="card-overlay">
+                    <div class="card-tag">AERIAL SHOTS</div>
+                    <h3>Amazing Aerial Shots</h3>
+                    <p>with Assured Packing</p>
+                </div>
+            </a>
+
+            <!-- Card 4 -->
+            <a href="estimate.html" class="card bg-cat4" >
+                <div class="card-overlay">
+                    <div class="card-tag">NIGHT TIME CRACKERS</div>
+                    <h3>Show Now</h3>
+                    <p>To get Special Offers</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="order-now-container">
+            <a href="estimate.html" class="order-now-btn">Order Now</a>
+          </div>
 
     <!-- Card -->
     <div class="container py-5">
@@ -316,338 +364,6 @@
         </div>
     </section>
 
-    <!-- Products Section -->
-    <!-- <section class="products-section py-5">
-        <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Our Premium Collection</h2> -->
-            
-            <!-- Sparklers Category -->
-            <!-- <div class="category-section mb-5">
-                <h3 class="fw-bold text-color mb-3">
-                    <i class="fas fa-sparkles text-warning me-2"></i>Sparklers
-                </h3>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <div class="search-box">
-                            <input type="text" class="form-control" id="sparklers-search" placeholder="Search sparklers...">
-                            <i class="fas fa-search search-icon"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <table class="table" id="sparklers-table">
-                        <thead class="table-warning">
-                            <tr>
-                                <th>S.No</th>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Price (₹)</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-                        <tbody id="sparklers-tbody">
-                            <tr>
-                                <td>1</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Electric Sparklers" onclick="openImageModal(this)"></td>
-                                <td>Electric Sparklers (10 pcs)</td>
-                                <td data-price="50">₹50</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Golden Sparklers" onclick="openImageModal(this)"></td>
-                                <td>Golden Sparklers (15 pcs)</td>
-                                <td data-price="75">₹75</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div> -->
-            
-            <!-- <div class="row" id="sparklers-card-wrapper"> -->
-                <!-- Product Card 1 -->
-                <!-- <div class="col-md-6 mb-3">
-                  <div class="product-card d-flex p-2">
-                    <img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1"
-                      class="product-card-img me-3" alt="Electric Sparklers" onclick="openImageModal(this)">
-                    <div class="product-card-details flex-grow-1">
-                      <div class="d-flex justify-content-between fw-bold mb-1">
-                        <div class="product-name">Electric Sparklers (10 pcs)</div>
-                        <div class="product-price" data-price="50">₹50</div>
-                      </div>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="quantity-controls d-flex align-items-center">
-                          <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                          <span class="quantity-display px-2">0</span>
-                          <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                        </div>
-                        <div class="fw-bold total-price">₹0.00</div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-              
-                <!-- Product Card 2 -->
-                <!-- <div class="col-md-6 mb-3">
-                  <div class="product-card d-flex p-2">
-                    <img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1"
-                      class="product-card-img me-3" alt="Golden Sparklers" onclick="openImageModal(this)">
-                    <div class="product-card-details flex-grow-1">
-                      <div class="d-flex justify-content-between fw-bold mb-1">
-                        <div class="product-name">Golden Sparklers (15 pcs)</div>
-                        <div class="product-price" data-price="75">₹75</div>
-                      </div>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="quantity-controls d-flex align-items-center">
-                          <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                          <span class="quantity-display px-2">0</span>
-                          <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                        </div>
-                        <div class="fw-bold total-price">₹0.00</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-<script>
-    let cart = [];
-let grandTotal = 0;
-
-function increaseQuantity(button) {
-  const card = button.closest('.product-card');
-  const quantityDisplay = card.querySelector('.quantity-display');
-  const currentQuantity = parseInt(quantityDisplay.textContent);
-  const newQuantity = currentQuantity + 1;
-
-  quantityDisplay.textContent = newQuantity;
-  updateCardTotal(card);
-  updateCartSummary();
-}
-
-function decreaseQuantity(button) {
-  const card = button.closest('.product-card');
-  const quantityDisplay = card.querySelector('.quantity-display');
-  const currentQuantity = parseInt(quantityDisplay.textContent);
-
-  if (currentQuantity > 0) {
-    quantityDisplay.textContent = currentQuantity - 1;
-    updateCardTotal(card);
-    updateCartSummary();
-  }
-}
-
-function updateCardTotal(card) {
-  const priceElement = card.querySelector('[data-price]');
-  const quantityDisplay = card.querySelector('.quantity-display');
-  const totalElement = card.querySelector('.total-price');
-
-  const price = parseFloat(priceElement.getAttribute('data-price'));
-  const quantity = parseInt(quantityDisplay.textContent);
-  const total = price * quantity;
-
-  totalElement.textContent = `₹${total.toFixed(2)}`;
-}
-
-function updateCartSummary() {
-  const allCards = document.querySelectorAll('.product-card');
-  let totalItems = 0;
-  let totalAmount = 0;
-  const cartItems = [];
-
-  allCards.forEach(card => {
-    const quantity = parseInt(card.querySelector('.quantity-display').textContent);
-    if (quantity > 0) {
-      const name = card.querySelector('.product-name').textContent;
-      const price = parseFloat(card.querySelector('[data-price]').getAttribute('data-price'));
-      const total = price * quantity;
-
-      totalItems += quantity;
-      totalAmount += total;
-
-      cartItems.push({
-        name: name,
-        price: price,
-        quantity: quantity,
-        total: total
-      });
-    }
-  });
-
-  cart = cartItems;
-  grandTotal = totalAmount;
-
-  const cartSummary = document.getElementById('cartSummary');
-  const itemsCount = document.querySelector('.cart-items-count');
-  const totalAmountElement = document.querySelector('.cart-total-amount');
-
-  if (totalItems > 0) {
-    cartSummary.style.display = 'block';
-    itemsCount.textContent = `${totalItems} item${totalItems > 1 ? 's' : ''}`;
-    totalAmountElement.textContent = `₹${totalAmount.toFixed(2)}`;
-  } else {
-    cartSummary.style.display = 'none';
-  }
-}
-
-</script>               -->
-            
-
-            <!-- Ground Chakkars Category -->
-            <!-- <div class="category-section mb-5">
-                <h3 class="fw-bold text-color mb-3">
-                    <i class="fas fa-circle-notch text-warning me-2"></i>Ground Chakkars
-                </h3>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <div class="search-box">
-                            <input type="text" class="form-control" id="chakkars-search" placeholder="Search ground chakkars...">
-                            <i class="fas fa-search search-icon"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <table class="table" id="chakkars-table">
-                        <thead class="table-warning">
-                            <tr>
-                                <th>S.No</th>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Price (₹)</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-                        <tbody id="chakkars-tbody">
-                            <tr>
-                                <td>1</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Big Chakkar" onclick="openImageModal(this)"></td>
-                                <td>Big Chakkar Special</td>
-                                <td data-price="25">₹25</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Color Chakkar" onclick="openImageModal(this)"></td>
-                                <td>Color Changing Chakkar</td>
-                                <td data-price="35">₹35</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div> -->
-
-            <!-- Aerial Shots Category -->
-            <!-- <div class="category-section mb-5">
-                <h3 class="fw-bold text-color mb-3">
-                    <i class="fas fa-rocket text-warning me-2"></i>Aerial Shots
-                </h3>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <div class="search-box">
-                            <input type="text" class="form-control" id="aerial-search" placeholder="Search aerial shots...">
-                            <i class="fas fa-search search-icon"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-responsive">
-                    <table class="table" id="aerial-table">
-                        <thead class="table-warning">
-                            <tr>
-                                <th>S.No</th>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Price (₹)</th>
-                                <th>Quantity</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-                        <tbody id="aerial-tbody">
-                            <tr>
-                                <td>1</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Sky Shot" onclick="openImageModal(this)"></td>
-                                <td>Sky Shot Multi Color</td>
-                                <td data-price="150">₹150</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=1" class="product-img" alt="Thunder Shot" onclick="openImageModal(this)"></td>
-                                <td>Thunder Shot Deluxe</td>
-                                <td data-price="200">₹200</td>
-                                <td>
-                                    <div class="quantity-controls">
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="decreaseQuantity(this)">-</button>
-                                        <span class="quantity-display">0</span>
-                                        <button class="btn btn-outline-secondary btn-sm qty-btn" onclick="increaseQuantity(this)">+</button>
-                                    </div>
-                                </td>
-                                <td class="total-price">₹0.00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Sticky Cart Summary -->
-    <!-- <div id="cartSummary" class="cart-summary" style="display: none;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="cart-info">
-                        <span class="cart-items-count">0 items</span>
-                        <span class="cart-total-label">Grand Total: </span>
-                        <span class="cart-total-amount">₹0.00</span>
-                    </div>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <button class="btn btn-success btn-lg" onclick="orderViaWhatsApp()">
-                        <i class="fab fa-whatsapp me-2"></i>Order via WhatsApp
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <!-- Image Modal -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -663,17 +379,28 @@ function updateCartSummary() {
         </div>
     </div>
 
-    <!-- Fixed Icons -->
-    <!-- Fixed Icons -->
-<div class="fixed-icons">
-    
-    <div class="icon whatsapp-icon animate-icon" onclick="openWhatsApp()">
-        <i class="fab fa-whatsapp"></i>
+    <!-- Fixed Right Icons -->
+    <div class="fixed-icons-right">
+        <!-- WhatsApp as Logo -->
+        <div class="icon animate-icon" onclick="openWhatsApp()">
+            <img src="assets/images/whatsappicon.webp" alt="WhatsApp" class="fixed-logo">
+        </div>
+
+        <!-- Download Price List as Logo -->
+        <div class="icon animate-icon" onclick="window.location.href='estimate.html'">
+            <img src="assets/images/order2.webp" alt="Download Price List" class="fixed-logo">
+        </div>
     </div>
-    <div class="icon download-icon animate-icon" onclick="downloadPriceList()">
-        <i class="fas fa-download"></i>
+
+    <!-- Fixed Left Icon -->
+    <div class="fixed-icon-left">
+        <!-- Download Order Icon -->
+        <div class="icon animate-icon" onclick="downloadOrder()">
+            <img src="assets/images/pricelist.webp" alt="Download Price List" class="fixed-logo">
+        </div>
     </div>
-</div>
+
+
 
 
     <!-- Footer -->
@@ -711,22 +438,23 @@ function updateCartSummary() {
                             <h5 class="fw-bold text-warning mb-3">Contact Info</h5>
                             <div class="contact-item mb-2">
                                 <i class="fas fa-map-marker-alt text-warning me-2"></i>
-                                <span>123 Fireworks Street, Sivakasi, Tamil Nadu 626123</span>
+                                <span>392/2, Munees Nagar, Near Railway Station, Kattalaipatti Road, Sivakasi – 626124</span>
                             </div>
                             <div class="contact-item mb-2">
                                 <i class="fas fa-phone text-warning me-2"></i>
-                                <span>+91 98765 43210</span>
+                                <span>+91 99623 14877</span>
                             </div>
-                            <div class="contact-item mb-2">
+                            <!-- <div class="contact-item mb-2">
                                 <i class="fas fa-envelope text-warning me-2"></i>
                                 <span>info@happyenjoycrackers.com</span>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-clock text-warning me-2"></i>
                                 <span>Mon-Sat: 9AM-9PM, Sun: 10AM-6PM</span>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div>                    
+
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="footer-newsletter">
                             <h5 class="fw-bold text-warning mb-3">Newsletter</h5>
