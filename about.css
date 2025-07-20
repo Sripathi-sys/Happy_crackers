@@ -1,0 +1,487 @@
+/* Horizontal Scroller */
+.horizontal-scroller {
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.scroller-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* center alignment */
+    position: relative;
+}
+
+.scroller-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 30s linear infinite;
+    will-change: transform;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* About Page Styles */
+.about-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    min-height: 80vh;
+}
+
+.about-content {
+    padding: 2rem;
+}
+
+.about-image img {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.value-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.achievement-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.achievement-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-content {
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-content i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e9ecef;
+    padding-top: 1rem;
+}
+
+.certification-badge {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.certification-badge:hover {
+    transform: translateY(-3px);
+}
+
+.certification-badge i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, var(--warning-color) 0%, #ffb300 100%);
+    color: white;
+}
+
+#modalImage {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+    }
+    
+    .carousel-item img {
+        height: 50vh;
+    }
+    
+    .carousel-caption {
+        padding: 1rem;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    
+    .category-section {
+        padding: 1rem;
+    }
+
+    .order-now-btn {
+        margin-left: 30%;
+    }
+    
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+    
+    .product-img {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .fixed-icons div {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .fixed-icons i {
+        font-size: 20px;
+    }
+    
+    .payment-method {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .method-icon i {
+        font-size: 2rem;
+    }
+    
+    .about-content {
+        padding: 1rem;
+    }
+    
+    .value-card,
+    .achievement-card,
+    .testimonial-card {
+        padding: 1rem;
+    }
+    
+    .achievement-number {
+        font-size: 2rem;
+    }
+    
+    .contact-info .contact-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-info .contact-item i {
+        margin-bottom: 0.5rem;
+    }
+    
+    .welcome-content {
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    .feature-card,
+    .choose-card {
+        padding: 1.5rem;
+    }
+    
+    .feature-icon i,
+    .choose-icon i {
+        font-size: 2.5rem;
+    }
+    
+    .footer-brand,
+    .footer-links,
+    .footer-contact,
+    .footer-newsletter {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-item {
+        justify-content: center;
+    }
+    
+    .cart-summary {
+        padding: 10px 0;
+    }
+    
+    .cart-info {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .cart-total-amount {
+        font-size: 20px;
+    }
+    
+    .cart-summary .btn-success {
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    .quantity-controls {
+        gap: 5px;
+    }
+    
+    .qty-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .quantity-display {
+        min-width: 35px;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .scroller-content {
+        font-size: 0.9rem;
+    }
+    
+    .hero-section {
+        height: 40vh;
+    }
+    
+    .carousel-item img {
+        height: 40vh;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+    
+    .category-section h3 {
+        font-size: 1.2rem;
+    }
+    
+    .table {
+        font-size: 0.8rem;
+    }
+    
+    .btn-warning {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .achievement-number {
+        font-size: 1.5rem;
+    }
+    
+    .testimonial-content i {
+        font-size: 1.5rem;
+    }
+    
+    .certification-badge i {
+        font-size: 2rem;
+    }
+}
+
+/* Additional Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.category-section {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading state for images */
+.product-img {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .horizontal-scroller,
+    .fixed-icons,
+    footer {
+        display: none !important;
+    }
+    
+    body {
+        margin-top: 0 !important;
+    }
+    
+    .hero-section {
+        height: auto !important;
+    }
+    
+    .carousel-item img {
+        height: auto !important;
+    }
+}
+
+/* Footer Styles */
+.footer-section {
+    background: linear-gradient(135deg, var(--dark-color) 0%, #212529 100%);
+}
+
+.footer-top {
+    border-bottom: 1px solid #495057;
+}
+
+.footer-brand h3 {
+    font-size: 1.5rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 193, 7, 0.1);
+    color: var(--warning-color);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background: var(--warning-color);
+    color: var(--dark-color);
+    transform: translateY(-2px);
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-link {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--warning-color);
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    color: #adb5bd;
+}
+
+.contact-item i {
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.newsletter-form .form-control {
+    border: 1px solid #495057;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.newsletter-form .form-control:focus {
+    border-color: var(--warning-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.newsletter-form .form-control::placeholder {
+    color: #adb5bd;
+}
+
+.footer-badges .badge {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.footer-bottom {
+    background: rgba(0, 0, 0, 0.2);
+}
