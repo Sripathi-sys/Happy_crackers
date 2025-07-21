@@ -67,6 +67,24 @@
     margin-top: 0;
 }
 
+
+.qty-btn.minus {
+    background-color: rgb(242, 58, 58);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.qty-btn.plus {
+    background-color: rgb(34, 216, 34);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+
 /* Product Card Styles */
 .product-card {
     background: white;
