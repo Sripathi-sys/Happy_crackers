@@ -88,18 +88,17 @@
     </section>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch('products.json') // Make sure the path is correct
+            fetch('products.json')
                 .then(response => response.json())
                 .then(data => renderProducts(data))
                 .catch(error => console.error('Error loading JSON:', error));
         });
-        
+    
         function renderProducts(data) {
             const container = document.getElementById('products-container');
             container.innerHTML = '';
-        
+    
             data.forEach(category => {
-                // Add category header
                 const categoryHeader = `
                     <div class="category-header mb-3" data-category="${category.category}">
                         <h3 class="fw-bold text-primary">
@@ -122,7 +121,12 @@
                                                     ${product.name}
                                                     ${product.tamilName ? `<br>${product.tamilName}` : ''}
                                                 </h6>
-                                                <p class="product-price" data-price="${product.price}">₹${product.price}</p>
+                                                <p class="product-box"><strong style = "color: orange"> ${product.box || 'N/A'}</strong></p>
+                                                <p class="product-prices">
+                                                    <span class="text-muted text-decoration-line-through">₹${product.regular_price.toFixed(2)}</span>
+                                                    <span class="text-danger fw-bold ms-2">₹${product.sales_price.toFixed(2)}</span>
+                                                </p>
+                                                <p class="product-price d-none" data-price="${product.sales_price}"></p>
                                                 <div class="quantity-section">
                                                     <div class="quantity-controls">
                                                         <button class="qty-btn minus" onclick="decreaseQuantity(this)">-</button>
@@ -142,9 +146,10 @@
                 container.innerHTML += categoryHeader;
             });
         }
-
+    
         
-        </script>
+    </script>
+    
         
         
 
