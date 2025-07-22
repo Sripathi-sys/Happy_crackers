@@ -110,6 +110,35 @@ body {
 /* shop button */
 /* Container to center the button on screen */
 
+/* Add this CSS to your stylesheet or inside a <style> tag */
+.diwali-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    animation: zoomAnim 4s infinite ease-in-out;
+}
+
+.diwali-banner {
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Zoom in and out animation */
+@keyframes zoomAnim {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 /* Order Now Button Style */
 .order-now-btn {
@@ -785,6 +814,9 @@ body {
         height: 50vh;
     }
     
+    .welcome-section {
+        padding-bottom: 10px;
+    }
     .carousel-item img {
         height: 50vh;
     }
