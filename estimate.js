@@ -241,33 +241,37 @@ function orderViaWhatsApp() {
         showAlert('Please add some items to your cart first!', 'warning');
         return;
     }
-    
-    // Create detailed order message
+
+    // Check for minimum purchase amount
+    if (grandTotal < 4000) {
+        showAlert('Minimum order amount is ₹4000. Please add more items to your cart.', 'warning');
+        return;
+    }
+
     let orderMessage = `🎆 *New Order - Happy Enjoy Crackers* 🎆\n\n`;
     orderMessage += `📅 *Order Date:* ${new Date().toLocaleDateString()}\n`;
     orderMessage += `⏰ *Order Time:* ${new Date().toLocaleTimeString()}\n\n`;
     orderMessage += `📋 *Order Details:*\n`;
     orderMessage += `${'='.repeat(40)}\n`;
-    
+
     cart.forEach((item, index) => {
         orderMessage += `${index + 1}. *${item.name}*\n`;
         orderMessage += `   Price: ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
     });
-    
+
+    const deliveryCharge = grandTotal * 0.03;
+    const totalWithDelivery = grandTotal + deliveryCharge;
+
     orderMessage += `${'='.repeat(40)}\n`;
-    orderMessage += `💰 *Grand Total: ₹${grandTotal.toFixed(2)}*\n\n`;
-    // orderMessage += `📍 Please confirm this order and let me know:\n`;
-    // orderMessage += `• Delivery address\n`;
-    // orderMessage += `• Preferred delivery time\n`;
-    // orderMessage += `• Payment method\n\n`;
+    orderMessage += `🚚 *Delivery Fees: ₹${deliveryCharge.toFixed(2)}*\n`;
+    orderMessage += `💰 *Grand Total: ₹${totalWithDelivery.toFixed(2)}*\n\n`;
     orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
-    
-    // Send to WhatsApp
+
     sendWhatsAppMessage(orderMessage);
-    
-    // Show success message
     showAlert('Order sent via WhatsApp! We will contact you soon.', 'success');
 }
+
+
 
 // Image modal functionality
 function openImageModal(imgElement) {

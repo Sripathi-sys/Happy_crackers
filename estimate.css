@@ -152,6 +152,19 @@
     font-weight: bold;
   }
   
+  .min-order-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
 
 /* Product Card Styles */
 .product-card {
