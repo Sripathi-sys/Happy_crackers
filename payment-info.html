@@ -199,6 +199,73 @@
 .footer-bottom {
     background: rgba(0, 0, 0, 0.2);
 }
+
+/* delivery details */
+.delivery-container {
+  background-color: #fffee2;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2a2a2a;
+  text-align: left;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.en {
+  display: block;
+  font-size: 15px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.thanks-ta,
+.thanks-en {
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .delivery-container {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  .en {
+    font-size: 14px;
+  }
+
+  .thanks-ta,
+  .thanks-en {
+    font-size: 15px;
+  }
+}
+
     </style>
 </head>
 <body>
@@ -218,7 +285,7 @@
                         <a class="nav-link fw-medium" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active fw-medium" href="estimate.html">Estimate</a>
+                        <a class="nav-link fw-medium" href="estimate.html">Estimate</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active fw-medium" href="payment-info.html">Payment Info</a>
@@ -251,6 +318,44 @@
                     <h2 class="text-center mb-5 fw-bold">Payment Information</h2>
                 </div>
             </div>
+
+            <div class="delivery-container">
+                <h2>Delivery Charges Terms & Conditions:</h2>
+                <ol>
+                  <li>
+                    பட்டாசு பெட்டிக்கான டெலிவரி தொகை தாங்களே பார்சல் பெறும் பொழுது செலுத்தி பெற்றுக்கொள்ளவேண்டும்.
+                    <span class="en">(Delivery Charges is Not Free, Customer Should Pay for that at the time of receiving the Parcel)</span>
+                  </li>
+            
+                  <li>
+                    2025, அக்டோபர் 1ம் தேதி வரை டெலிவரி தொகை அனைத்து ஊர்களுக்கும் சராசரியாக டெலிவரி தொகை ரூ.250 முதல் ரூ.400 வரை இருக்கும்.
+                    <span class="en">(Upto October 1st, 2025 Delivery Charge Approximately in the range of Rs.250 to Rs.400.)</span>
+                  </li>
+            
+                  <li>
+                    அக்டோபர் 1ம் தேதி முதல் அக்டோபர் 20ம் தேதி வரை சென்னை, காஞ்சிபுரம், செங்கல்பட்டு, விழுப்புரம், திருவள்ளூர் தவிர மற்ற அனைத்து ஊர்களுக்கும் சராசரியாக டெலிவரி தொகை ரூ.300 முதல் ரூ.650 வரை இருக்கும்.
+                    <span class="en">(After October 1st, 2025 to October 20th, 2025 the Delivery Charge Approximately in the range of Rs.300 to Rs.650 which the areas rest of Chennai, Kanchipuram, Chengalpet, Villupuram and Tiruvallur.)</span>
+                  </li>
+            
+                  <li>
+                    2025, அக்டோபர் 1ம் தேதி முதல் அக்டோபர் 20ம் தேதி வரை சென்னை, காஞ்சிபுரம், செங்கல்பட்டு, விழுப்புரம், திருவள்ளூர் ஆகிய ஊர்களுக்கும் சராசரியாக டெலிவரி தொகை ரூ.400 முதல் ரூ.800 வரை இருக்கும்.
+                    <span class="en">(After October 1st, 2025 to October 20th, 2025 the Delivery Charge for Chennai, Chengalpet, Kanchipuram, Villupuram is to be in the range of Rs.400 to Rs.800.)</span>
+                  </li>
+            
+                  <li>
+                    கேரளா, கர்நாடகா, ஆந்திரா, தெலுங்கானா மற்றும் பாண்டிச்சேரி ஆகிய மாநிலங்களுக்கு சராசரியாக டெலிவரி தொகை ரூ.500 முதல் ரூ.700 வரை இருக்கும்.
+                    <span class="en">(For Kerala, Karnataka, Andhra, Telangana and Pondicherry Delivery charge is approximately lies between Rs.500 to Rs.700.)</span>
+                  </li>
+            
+                  <li>
+                    மேலே குறிப்பிட்டுள்ள மாநிலங்களை தவிர மற்ற மாநிலங்களுக்கு சராசரியாக டெலிவரி தொகை ரூ.600 முதல் ரூ.900 வரை இருக்கும்.
+                    <span class="en">(For the all other states that are not mentioned above is to be Rs.600 to Rs.900 for all time.)</span>
+                  </li>
+                </ol>
+            
+                <p class="thanks-ta">நன்றி!</p>
+                <p class="thanks-en"><strong>Thank You!</strong></p>
+              </div>
 
             <div class="row">
                 <!-- Payment Methods -->
