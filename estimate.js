@@ -259,13 +259,15 @@ function orderViaWhatsApp() {
         orderMessage += `   Price: ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
     });
 
-    const deliveryCharge = grandTotal * 0.03;
+    const deliveryCharge = Math.round(grandTotal * 0.03);
     const totalWithDelivery = grandTotal + deliveryCharge;
 
     orderMessage += `${'='.repeat(40)}\n`;
-    orderMessage += `🚚 *Delivery Fees: ₹${deliveryCharge.toFixed(2)}*\n`;
-    orderMessage += `💰 *Grand Total: ₹${totalWithDelivery.toFixed(2)}*\n\n`;
+    orderMessage += `Total Amount    = ₹${grandTotal.toString().padStart(6)}\n`;
+    orderMessage += `Packing Amount  = ₹${deliveryCharge.toString().padStart(6)}\n`;
+    orderMessage += `Grand Total     = ₹${totalWithDelivery.toString().padStart(6)}\n\n`;
     orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
+
 
     sendWhatsAppMessage(orderMessage);
     showAlert('Order sent via WhatsApp! We will contact you soon.', 'success');
