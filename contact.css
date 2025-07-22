@@ -45,6 +45,7 @@
     background: #f8f9fa;
     border-radius: 8px;
     transition: background-color 0.3s ease;
+    color: #212529;
 }
 
 .contact-info .contact-item:hover {

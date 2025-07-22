@@ -30,7 +30,7 @@
         "regular_price": 150.00,
         "sales_price": 15.00,
         "box": "1 Pkt",
-        "image": "assets/products/pro3.jpg"
+        "image": "assets/products/pro3.webp"
       },
       {
         "sno": 4,
@@ -84,7 +84,7 @@
         "regular_price": 600.00,
         "sales_price": 60.00,
         "box": "1 Pkt",
-        "image": "assets/products/pro9.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 10,
@@ -93,7 +93,7 @@
         "regular_price": 700.00,
         "sales_price": 70.00,
         "box": "1 Pkt",
-        "image": "assets/products/pro10.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 11,
@@ -102,7 +102,7 @@
         "regular_price": 800.00,
         "sales_price": 80.00,
         "box": "1 Pkt",
-        "image": "assets/products/pro11.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -387,7 +387,7 @@
         "regular_price": 220.00,
         "sales_price": 22.00,
         "box": "1 Box",
-        "image": "assets/products/pro38.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 39,
@@ -448,7 +448,7 @@
         "regular_price": 1300.00,
         "sales_price": 130.00,
         "box": "1 Box",
-        "image": "assets/products/pro44.jpg"
+        "image": "assets/products/pro144.webp"
       },
       {
         "sno": 45,
@@ -617,7 +617,7 @@
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
-        "image": "assets/products/pro62.jpg"
+        "image": "assets/products/pro62.webp"
       },
       {
         "sno": 63,
@@ -644,7 +644,7 @@
         "regular_price": 2300.00,
         "sales_price": 230.00,
         "box": "1 Box",
-        "image": "assets/products/pro65.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 66,
@@ -822,7 +822,7 @@
         "sno": 82,
         "name": "CHOTTA FANCY",
         "tamilName": "சோட்டா பேன்சி",
-        "regular_price": 40.00,
+        "regular_price": 400.00,
         "sales_price": 40.00,
         "box": "1 Box",
         "image": "assets/products/pro82.jpg"
@@ -831,16 +831,16 @@
         "sno": 83,
         "name": "7 SHOTS",
         "tamilName": "7 ஷாட்ஸ்",
-        "regular_price": 120.00,
+        "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "1 Box",
-        "image": "assets/products/pro83.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 84,
         "name": "PENTA",
         "tamilName": "பென்டா",
-        "regular_price": 185.00,
+        "regular_price": 1850.00,
         "sales_price": 185.00,
         "box": "1 Box",
         "image": "assets/products/pro84.jpg"
@@ -849,10 +849,10 @@
         "sno": 85,
         "name": "STAR WAR",
         "tamilName": "ஸ்டார்வார்",
-        "regular_price": 160.00,
+        "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
-        "image": "assets/products/pro85.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -877,7 +877,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/products/pro87.jpg"
+        "image": "assets/products/pro87.webp"
       },
       {
         "sno": 88,
@@ -895,7 +895,7 @@
         "regular_price": 3300.00,
         "sales_price": 330.00,
         "box": "1 Box",
-        "image": "assets/products/pro89.jpg"
+        "image": "assets/products/pro89.webp"
       },
       {
         "sno": 90,
@@ -983,7 +983,7 @@
         "regular_price": 3800.00,
         "sales_price": 380.00,
         "box": "1 Box",
-        "image": "assets/products/pro98.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 99,
@@ -1001,7 +1001,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/products/pro100.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -1017,7 +1017,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/products/pro101.jpg"
+        "image": "assets/products/pro101.png"
       },
       {
         "sno": 102,
@@ -1035,7 +1035,7 @@
         "regular_price": 5500.00,
         "sales_price": 550.00,
         "box": "1 Box",
-        "image": "assets/products/pro103.jpg"
+        "image": "assets/products/pro103.webp"
       }
     ]
   },
@@ -1051,7 +1051,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/products/pro104.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 105,
@@ -1060,7 +1060,7 @@
         "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "1 Box",
-        "image": "assets/products/pro105.jpg"
+        "image": "assets/products/pro105.png"
       },
       {
         "sno": 106,
@@ -1069,7 +1069,7 @@
         "regular_price": 2200.00,
         "sales_price": 220.00,
         "box": "1 Box",
-        "image": "assets/products/pro106.jpg"
+        "image": "assets/products/pro106.webp"
       },
       {
         "sno": 107,
@@ -1087,7 +1087,7 @@
         "regular_price": 2800.00,
         "sales_price": 280.00,
         "box": "1 Box",
-        "image": "assets/products/pro108.jpg"
+        "image": "assets/products/pro108.png"
       },
       {
         "sno": 109,
@@ -1096,7 +1096,7 @@
         "regular_price": 7000.00,
         "sales_price": 700.00,
         "box": "1 Box",
-        "image": "assets/products/pro109.jpg"
+        "image": "assets/products/pro109.webp"
       },
       {
         "sno": 110,
@@ -1105,7 +1105,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/products/pro110.jpg"
+        "image": "assets/products/pro110.webp"
       },
       {
         "sno": 111,
@@ -1114,7 +1114,7 @@
         "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
-        "image": "assets/products/pro111.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 112,
@@ -1123,7 +1123,7 @@
         "regular_price": 5500.00,
         "sales_price": 550.00,
         "box": "1 Box",
-        "image": "assets/products/pro112.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 113,
@@ -1132,7 +1132,7 @@
         "regular_price": 6500.00,
         "sales_price": 650.00,
         "box": "1 Box",
-        "image": "assets/products/pro113.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 114,
@@ -1141,7 +1141,7 @@
         "regular_price": 8000.00,
         "sales_price": 800.00,
         "box": "1 Box",
-        "image": "assets/products/pro114.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 115,
@@ -1150,7 +1150,7 @@
         "regular_price": 10000.00,
         "sales_price": 1000.00,
         "box": "1 Box",
-        "image": "assets/products/pro115.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 116,
@@ -1159,7 +1159,7 @@
         "regular_price": 11000.00,
         "sales_price": 1100.00,
         "box": "1 Box",
-        "image": "assets/products/pro116.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 117,
@@ -1168,7 +1168,7 @@
         "regular_price": 16000.00,
         "sales_price": 1600.00,
         "box": "1 Box",
-        "image": "assets/products/pro117.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 118,
@@ -1177,7 +1177,7 @@
         "regular_price": 20000.00,
         "sales_price": 2000.00,
         "box": "1 Box",
-        "image": "assets/products/pro118.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 119,
@@ -1186,7 +1186,7 @@
         "regular_price": 22000.00,
         "sales_price": 2200.00,
         "box": "1 Box",
-        "image": "assets/products/pro119.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 120,
@@ -1195,7 +1195,7 @@
         "regular_price": 35000.00,
         "sales_price": 3500.00,
         "box": "1 Box",
-        "image": "assets/products/pro120.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 121,
@@ -1204,7 +1204,7 @@
         "regular_price": 40000.00,
         "sales_price": 4000.00,
         "box": "1 Box",
-        "image": "assets/products/pro121.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 122,
@@ -1213,7 +1213,7 @@
         "regular_price": 85000.00,
         "sales_price": 8500.00,
         "box": "1 Box",
-        "image": "assets/products/pro122.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -1247,7 +1247,7 @@
         "regular_price": 45000.00,
         "sales_price": 4500.00,
         "box": "1 Box",
-        "image": "assets/products/pro125.jpg"
+        "image": "assets/products/pro125.webp"
       },
       {
         "sno": 126,
@@ -1256,7 +1256,7 @@
         "regular_price": 60000.00,
         "sales_price": 6000.00,
         "box": "1 Box",
-        "image": "assets/products/pro126.jpg"
+        "image": "assets/products/pro126.webp"
       }
     ]
   },
@@ -1308,7 +1308,7 @@
         "regular_price": 1000.00,
         "sales_price": 100.00,
         "box": "1 Box",
-        "image": "assets/products/pro131.jpg"
+        "image": "assets/products/pro131.webp"
       }
     ]
   },
@@ -1333,7 +1333,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/products/pro133.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 134,
@@ -1342,7 +1342,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/products/pro134.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 135,
@@ -1351,7 +1351,7 @@
         "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "1 Box",
-        "image": "assets/products/pro135.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -1367,7 +1367,7 @@
         "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "1 Box",
-        "image": "assets/products/pro136.jpg"
+        "image": "assets/products/pro136.webp"
       },
       {
         "sno": 137,
@@ -1376,7 +1376,7 @@
         "regular_price": 1600.00,
         "sales_price": 160.00,
         "box": "1 Box",
-        "image": "assets/products/pro137.jpg"
+        "image": "assets/products/pro137.webp"
       },
       {
         "sno": 138,
@@ -1385,7 +1385,7 @@
         "regular_price": 2800.00,
         "sales_price": 280.00,
         "box": "1 Box",
-        "image": "assets/products/pro138.jpg"
+        "image": "assets/products/pro138.webp"
       }
     ]
   },
@@ -1419,7 +1419,7 @@
         "regular_price": 1700.00,
         "sales_price": 170.00,
         "box": "10 Box",
-        "image": "assets/products/pro141.jpg"
+        "image": "assets/products/pro141.webp"
       },
       {
         "sno": 142,
@@ -1428,7 +1428,7 @@
         "regular_price": 1900.00,
         "sales_price": 190.00,
         "box": "10 Box",
-        "image": "assets/products/pro142.jpg"
+        "image": "assets/products/pro142.webp"
       },
       {
         "sno": 143,
@@ -1437,7 +1437,7 @@
         "regular_price": 250.00,
         "sales_price": 25.00,
         "box": "1 Box",
-        "image": "assets/products/pro143.jpg"
+        "image": "assets/products/pro143.webp"
       },
       {
         "sno": 144,
@@ -1446,7 +1446,7 @@
         "regular_price": 280.00,
         "sales_price": 28.00,
         "box": "1 Box",
-        "image": "assets/products/pro144.jpg"
+        "image": "assets/products/pro144.webp"
       },
       {
         "sno": 145,
@@ -1455,7 +1455,7 @@
         "regular_price": 300.00,
         "sales_price": 30.00,
         "box": "1 Box",
-        "image": "assets/products/pro145.jpg"
+        "image": "assets/products/pro145.webp"
       },
       {
         "sno": 146,
@@ -1464,7 +1464,7 @@
         "regular_price": 330.00,
         "sales_price": 33.00,
         "box": "1 Box",
-        "image": "assets/products/pro146.jpg"
+        "image": "assets/products/pro146.webp"
       },
       {
         "sno": 147,
@@ -1473,7 +1473,7 @@
         "regular_price": 300.00,
         "sales_price": 30.00,
         "box": "1 Box",
-        "image": "assets/products/pro147.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 148,
@@ -1482,7 +1482,7 @@
         "regular_price": 300.00,
         "sales_price": 30.00,
         "box": "1 Box",
-        "image": "assets/products/pro148.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 149,
@@ -1491,7 +1491,7 @@
         "regular_price": 300.00,
         "sales_price": 30.00,
         "box": "1 Box",
-        "image": "assets/products/pro149.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 150,
@@ -1500,7 +1500,7 @@
         "regular_price": 290.00,
         "sales_price": 29.00,
         "box": "1 Box",
-        "image": "assets/products/pro150.jpg"
+        "image": "assets/products/pro150.webp"
       },
       {
         "sno": 151,
@@ -1509,7 +1509,7 @@
         "regular_price": 310.00,
         "sales_price": 31.00,
         "box": "1 Box",
-        "image": "assets/products/pro151.jpg"
+        "image": "assets/products/pro151.webp"
       },
       {
         "sno": 152,
@@ -1518,7 +1518,7 @@
         "regular_price": 330.00,
         "sales_price": 33.00,
         "box": "1 Box",
-        "image": "assets/products/pro152.jpg"
+        "image": "assets/products/pro152.webp"
       },
       {
         "sno": 153,
@@ -1527,7 +1527,7 @@
         "regular_price": 350.00,
         "sales_price": 35.00,
         "box": "1 Box",
-        "image": "assets/products/pro153.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 154,
@@ -1536,7 +1536,7 @@
         "regular_price": 500.00,
         "sales_price": 50.00,
         "box": "1 Box",
-        "image": "assets/products/pro154.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 155,
@@ -1545,7 +1545,7 @@
         "regular_price": 540.00,
         "sales_price": 54.00,
         "box": "1 Box",
-        "image": "assets/products/pro155.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 156,
@@ -1554,7 +1554,7 @@
         "regular_price": 580.00,
         "sales_price": 58.00,
         "box": "1 Box",
-        "image": "assets/products/pro156.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 157,
@@ -1599,7 +1599,7 @@
         "regular_price": 580.00,
         "sales_price": 58.00,
         "box": "1 Box",
-        "image": "assets/products/pro161.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 162,
@@ -1617,7 +1617,7 @@
         "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "1 Box",
-        "image": "assets/products/pro163.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 164,
@@ -1626,7 +1626,7 @@
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/products/pro164.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 165,
@@ -1651,7 +1651,7 @@
         "regular_price": 250.00,
         "sales_price": 25.00,
         "box": "1 Box",
-        "image": "assets/products/pro166.jpg"
+        "image": "assets/products/pro166.webp"
       },
       {
         "sno": 167,
@@ -1669,7 +1669,7 @@
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/products/pro168.jpg"
+        "image": "assets/products/pro168.jpeg"
       },
       {
         "sno": 169,
@@ -1678,7 +1678,7 @@
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
-        "image": "assets/products/pro169.jpg"
+        "image": "assets/products/pro169.webp"
       },
       {
         "sno": 170,
@@ -1714,7 +1714,7 @@
         "regular_price": 38000.00,
         "sales_price": 3800.00,
         "box": "1 Box",
-        "image": "assets/products/pro173.jpg"
+        "image": "assets/products/pro173.webp"
       }
     ]
   },
@@ -1730,7 +1730,7 @@
         "regular_price": 550.00,
         "sales_price": 55.00,
         "box": "1 Box",
-        "image": "assets/products/pro174.jpg"
+        "image": "assets/products/pro174.webp"
       },
       {
         "sno": 175,
@@ -1748,7 +1748,7 @@
         "regular_price": 1100.00,
         "sales_price": 110.00,
         "box": "1 Box",
-        "image": "assets/products/pro176.jpg"
+        "image": "assets/products/pro176.jpeg"
       },
       {
         "sno": 177,
@@ -1757,7 +1757,7 @@
         "regular_price": 2200.00,
         "sales_price": 220.00,
         "box": "1 Box",
-        "image": "assets/products/pro177.jpg"
+        "image": "assets/products/pro177.jpeg"
       }
     ]
   },
@@ -1773,7 +1773,7 @@
         "regular_price": 3990.00,
         "sales_price": 399.00,
         "box": "1 Box",
-        "image": "assets/products/pro178.jpg"
+        "image": "assets/products/pro178.png"
       },
       {
         "sno": 179,
@@ -1782,7 +1782,7 @@
         "regular_price": 4990.00,
         "sales_price": 499.00,
         "box": "1 Box",
-        "image": "assets/products/pro179.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 180,
@@ -1791,7 +1791,7 @@
         "regular_price": 5990.00,
         "sales_price": 599.00,
         "box": "1 Box",
-        "image": "assets/products/pro180.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 181,
@@ -1800,7 +1800,7 @@
         "regular_price": 6990.00,
         "sales_price": 699.00,
         "box": "1 Box",
-        "image": "assets/products/pro181.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 182,
@@ -1809,7 +1809,7 @@
         "regular_price": 7990.00,
         "sales_price": 799.00,
         "box": "1 Box",
-        "image": "assets/products/pro182.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 183,
@@ -1818,7 +1818,7 @@
         "regular_price": 8990.00,
         "sales_price": 899.00,
         "box": "1 Box",
-        "image": "assets/products/pro183.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 184,
@@ -1827,7 +1827,7 @@
         "regular_price": 9990.00,
         "sales_price": 999.00,
         "box": "1 Box",
-        "image": "assets/products/pro184.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 185,
@@ -1836,7 +1836,7 @@
         "regular_price": 12990.00,
         "sales_price": 1299.00,
         "box": "1 Box",
-        "image": "assets/products/pro185.jpg"
+        "image": "assets/images/logo.png"
       },
       {
         "sno": 186,
@@ -1845,7 +1845,7 @@
         "regular_price": 14990.00,
         "sales_price": 1499.00,
         "box": "1 Box",
-        "image": "assets/products/pro186.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   }
