@@ -249,6 +249,7 @@ body {
 /* Welcome Section */
 .welcome-section {
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    margin-top: 10px;
 }
 
 .welcome-content {
@@ -806,7 +807,9 @@ body {
     background: rgba(0, 0, 0, 0.2);
 }
 
-
+#company{
+    color: white !important;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -890,6 +893,7 @@ body {
     .welcome-content {
         padding: 1rem 0;
         text-align: center;
+        
     }
     
     .feature-card,
