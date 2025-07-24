@@ -264,7 +264,7 @@ function orderViaWhatsApp() {
 
     orderMessage += `${'='.repeat(40)}\n`;
     orderMessage += `Total Amount    = ₹${grandTotal.toString().padStart(6)}\n`;
-    orderMessage += `Packing Amount  = ₹${deliveryCharge.toString().padStart(6)}\n`;
+    orderMessage += `Packing Charge (3%)  = ₹${deliveryCharge.toString().padStart(6)}\n`;
     orderMessage += `Grand Total     = ₹${totalWithDelivery.toString().padStart(6)}\n\n`;
     orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
 
