@@ -666,10 +666,10 @@
       },
       {
         "sno": 68,
-        "name": "DRAGONS",
+        "name": "DRAGONS CRACKLING",
         "tamilName": "டிராகன்ஸ்",
-        "regular_price": 2300.00,
-        "sales_price": 230.00,
+        "regular_price": 2400.00,
+        "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/products/pro68.jpg"
       },
@@ -690,7 +690,7 @@
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/products/pro70.jpg"
-      }
+      }   
     ]
   },
   {
@@ -698,6 +698,33 @@
     "categoryName": "FANCY CHAKKAR",
     "iconClass": "fas fa-circle",
     "products": [
+      {
+        "sno": 71,
+        "name": "RACING CAR (2 PCS)",
+        "tamilName": "ரேசிங்கார் 2 பீசஸ்",
+        "regular_price": 2500.00,
+        "sales_price": 250.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
+      {
+        "sno": 72,
+        "name": "GITOR WATER QUEEN",
+        "tamilName": "கித்தார்வாட்டர் குயின்",
+        "regular_price": 2500.00,
+        "sales_price": 250.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
+      {
+        "sno": 73,
+        "name": "ALERT LAR",
+        "tamilName": "அலர்ட் லார்",
+        "regular_price": 1500.00,
+        "sales_price": 150.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
       {
         "sno": 71,
         "name": "4X4 WHEEL",
@@ -734,6 +761,8 @@
         "box": "1 Box",
         "image": "assets/products/pro74.jpg"
       }
+      
+    
     ]
   },
   {
@@ -741,6 +770,15 @@
     "categoryName": "FANCY PENCIL",
     "iconClass": "fas fa-pencil-alt",
     "products": [
+      {
+        "sno": 78,
+        "name": "CIRCUS",
+        "tamilName": "சர்க்கஸ்",
+        "regular_price": 2000.00,
+        "sales_price": 200.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
       {
         "sno": 75,
         "name": "MIAMI RED 2 PCS",
@@ -768,14 +806,15 @@
         "box": "1 Box",
         "image": "assets/products/pro77.jpg"
       },
+      
       {
-        "sno": 78,
-        "name": "FUJI CANDLE",
-        "tamilName": "ப்யூஜி கேண்டில்",
+        "sno": 82,
+        "name": "FUJI CANDLE WATER QUEEN",
+        "tamilName": "வாட்டர் குயின்",
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/products/pro78.jpg"
+        "image": "assets/images/logo.png"
       }
     ]
   },
@@ -917,10 +956,10 @@
       },
       {
         "sno": 92,
-        "name": "5\" AERIAL OUT 2 PCS",
-        "tamilName": "5\"ஏரியல் அவுட் 3பீசஸ்",
-        "regular_price": 10000.00,
-        "sales_price": 1000.00,
+        "name": "5\" AERIAL OUT 1 PCS",
+        "tamilName": "5\"ஏரியல் அவுட் 1 பீசஸ்",
+        "regular_price": 6500.00,
+        "sales_price": 650.00,
         "box": "1 Box",
         "image": "assets/products/pro92.jpg"
       }
@@ -968,6 +1007,15 @@
         "image": "assets/products/pro96.jpg"
       },
       {
+        "sno": 101,
+        "name": "WOW COLOUR",
+        "tamilName": "வாவ் கலர்",
+        "regular_price": 3800.00,
+        "sales_price": 380.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
+      {
         "sno": 97,
         "name": "GOLDEN EYES",
         "tamilName": "கோல்டன் ஐஸ்",
@@ -1003,6 +1051,7 @@
         "box": "1 Box",
         "image": "assets/images/logo.png"
       }
+    
     ]
   },
   {
@@ -1050,6 +1099,15 @@
         "tamilName": "லவ் டோஸ்",
         "regular_price": 1500.00,
         "sales_price": 150.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
+      {
+        "sno": 110,
+        "name": "SINGING DOLLS",
+        "tamilName": "சிங்கிங் டால்ஸ்",
+        "regular_price": 2500.00,
+        "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1215,6 +1273,7 @@
         "box": "1 Box",
         "image": "assets/images/logo.png"
       }
+      
     ]
   },
   {
@@ -1434,180 +1493,180 @@
         "sno": 143,
         "name": "10 CM ELECTRIC",
         "tamilName": "10 செமீ எலக்ட்ரிக்",
-        "regular_price": 250.00,
-        "sales_price": 25.00,
-        "box": "1 Box",
+        "regular_price": 1250.00,
+        "sales_price": 125.00,
+        "box": "5 Box",
         "image": "assets/products/pro143.webp"
       },
       {
         "sno": 144,
         "name": "10 CM COLOUR",
         "tamilName": "10 செமீ கலர்",
-        "regular_price": 280.00,
-        "sales_price": 28.00,
-        "box": "1 Box",
+        "regular_price": 1400.00,
+        "sales_price": 140.00,
+        "box": "5 Box",
         "image": "assets/products/pro144.webp"
       },
       {
         "sno": 145,
         "name": "10 CM GREEN",
         "tamilName": "10 செமீ கிரீன்",
-        "regular_price": 300.00,
-        "sales_price": 30.00,
-        "box": "1 Box",
+        "regular_price": 1500.00,
+        "sales_price": 150.00,
+        "box": "5 Box",
         "image": "assets/products/pro145.webp"
       },
       {
         "sno": 146,
         "name": "10 CM RED",
         "tamilName": "10 செமீ ரெட்",
-        "regular_price": 330.00,
-        "sales_price": 33.00,
-        "box": "1 Box",
+        "regular_price": 1650.00,
+        "sales_price": 165.00,
+        "box": "5 Box",
         "image": "assets/products/pro146.webp"
       },
       {
         "sno": 147,
         "name": "10 CM VIOLET",
         "tamilName": "10 செமீ வயலட்",
-        "regular_price": 300.00,
-        "sales_price": 30.00,
-        "box": "1 Box",
+        "regular_price": 1500.00,
+        "sales_price": 150.00,
+        "box": "5 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 148,
         "name": "10 CM BLUE",
         "tamilName": "10 செமீ புளு",
-        "regular_price": 300.00,
-        "sales_price": 30.00,
-        "box": "1 Box",
+        "regular_price": 1500.00,
+        "sales_price": 150.00,
+        "box": "5 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 149,
         "name": "10 CM PINK",
         "tamilName": "10 செமீ பிங்க்",
-        "regular_price": 300.00,
-        "sales_price": 30.00,
-        "box": "1 Box",
+        "regular_price": 1500.00,
+        "sales_price": 150.00,
+        "box": "5 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 150,
         "name": "12 CM ELECTRIC",
         "tamilName": "12 செமீ எலக்ட்ரிக்",
-        "regular_price": 290.00,
-        "sales_price": 29.00,
-        "box": "1 Box",
+        "regular_price": 1450.00,
+        "sales_price": 145.00,
+        "box": "5 Box",
         "image": "assets/products/pro150.webp"
       },
       {
         "sno": 151,
         "name": "12 CM COLOUR",
         "tamilName": "12 செமீ கலர்",
-        "regular_price": 310.00,
-        "sales_price": 31.00,
-        "box": "1 Box",
+        "regular_price": 1550.00,
+        "sales_price": 155.00,
+        "box": "5 Box",
         "image": "assets/products/pro151.webp"
       },
       {
         "sno": 152,
         "name": "12 CM GREEN",
         "tamilName": "12 செமீ கிரீன்",
-        "regular_price": 330.00,
-        "sales_price": 33.00,
-        "box": "1 Box",
+        "regular_price": 1650.00,
+        "sales_price": 165.00,
+        "box": "5 Box",
         "image": "assets/products/pro152.webp"
       },
       {
         "sno": 153,
         "name": "12 CM RED",
         "tamilName": "12 செமீ ரெட்",
-        "regular_price": 350.00,
-        "sales_price": 35.00,
-        "box": "1 Box",
+        "regular_price": 1750.00,
+        "sales_price": 175.00,
+        "box": "5 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 154,
         "name": "15 CM ELECTRIC",
         "tamilName": "15 செமீ எலக்ட்ரிக்",
-        "regular_price": 500.00,
-        "sales_price": 50.00,
-        "box": "1 Box",
+        "regular_price": 1000.00,
+        "sales_price": 100.00,
+        "box": "2 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 155,
         "name": "15 CM COLOUR",
         "tamilName": "15 செமீ கலர்",
-        "regular_price": 540.00,
-        "sales_price": 54.00,
-        "box": "1 Box",
+        "regular_price": 1100.00,
+        "sales_price": 110.00,
+        "box": "2 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 156,
         "name": "15 CM GREEN",
         "tamilName": "15 செமீ கிரீன்",
-        "regular_price": 580.00,
-        "sales_price": 58.00,
-        "box": "1 Box",
+        "regular_price": 1200.00,
+        "sales_price": 120.00,
+        "box": "2 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 157,
         "name": "15 CM RED",
         "tamilName": "15 செமீ ரெட்",
-        "regular_price": 620.00,
-        "sales_price": 62.00,
-        "box": "1 Box",
+        "regular_price": 1250.00,
+        "sales_price": 125.00,
+        "box": "2 Box",
         "image": "assets/products/pro157.jpg"
       },
       {
         "sno": 158,
         "name": "15 CM PINK",
         "tamilName": "15 செமீ பிங்க்",
-        "regular_price": 680.00,
-        "sales_price": 68.00,
-        "box": "1 Box",
+        "regular_price": 1350.00,
+        "sales_price": 135.00,
+        "box": "2 Box",
         "image": "assets/products/pro158.jpg"
       },
       {
         "sno": 159,
         "name": "30 CM ELECTRIC",
         "tamilName": "30 செமீ எலக்ட்ரிக்",
-        "regular_price": 500.00,
-        "sales_price": 50.00,
-        "box": "1 Box",
+        "regular_price": 1000.00,
+        "sales_price": 100.00,
+        "box": "2 Box",
         "image": "assets/products/pro159.jpg"
       },
       {
         "sno": 160,
         "name": "30 CM COLOUR",
         "tamilName": "30 செமீ கலர்",
-        "regular_price": 540.00,
-        "sales_price": 54.00,
-        "box": "1 Box",
+        "regular_price": 1100.00,
+        "sales_price": 110.00,
+        "box": "2 Box",
         "image": "assets/products/pro160.jpg"
       },
       {
         "sno": 161,
         "name": "30 CM GREEN",
         "tamilName": "30 செமீ கிரீன்",
-        "regular_price": 580.00,
-        "sales_price": 58.00,
-        "box": "1 Box",
+        "regular_price": 1200.00,
+        "sales_price": 120.00,
+        "box": "2 Box",
         "image": "assets/images/logo.png"
       },
       {
         "sno": 162,
         "name": "30 CM RED",
         "tamilName": "30 செமீ ரெட்",
-        "regular_price": 620.00,
-        "sales_price": 62.00,
-        "box": "1 Box",
+        "regular_price": 1250.00,
+        "sales_price": 125.00,
+        "box": "2 Box",
         "image": "assets/products/pro162.jpg"
       },
       {
@@ -1625,6 +1684,15 @@
         "tamilName": "50 செமீ கலர்",
         "regular_price": 2000.00,
         "sales_price": 200.00,
+        "box": "1 Box",
+        "image": "assets/images/logo.png"
+      },
+      {
+        "sno": 164,
+        "name": "50 CM GREEN",
+        "tamilName": "50 செமீ கிரீன்",
+        "regular_price": 2200.00,
+        "sales_price": 220.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1770,8 +1838,8 @@
         "sno": 178,
         "name": "MINIONS 20 ITEMS",
         
-        "regular_price": 3990.00,
-        "sales_price": 399.00,
+        "regular_price": 4000.00,
+        "sales_price": 400.00,
         "box": "1 Box",
         "image": "assets/products/pro178.png"
       },
@@ -1779,8 +1847,8 @@
         "sno": 179,
         "name": "RIO 25 ITEMS",
         
-        "regular_price": 4990.00,
-        "sales_price": 499.00,
+        "regular_price": 5000.00,
+        "sales_price": 500.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1788,8 +1856,8 @@
         "sno": 180,
         "name": "SUPER SONIC 30 ITEMS",
         
-        "regular_price": 5990.00,
-        "sales_price": 599.00,
+        "regular_price": 6000.00,
+        "sales_price": 600.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1797,8 +1865,8 @@
         "sno": 181,
         "name": "THE LORAX 35 ITEMS",
         
-        "regular_price": 6990.00,
-        "sales_price": 699.00,
+        "regular_price": 7000.00,
+        "sales_price": 700.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1806,8 +1874,8 @@
         "sno": 182,
         "name": "MOANA 40 ITEMS",
         
-        "regular_price": 7990.00,
-        "sales_price": 799.00,
+        "regular_price": 9000.00,
+        "sales_price": 900.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1815,8 +1883,8 @@
         "sno": 183,
         "name": "MEJESTIC 45 ITEMS",
         
-        "regular_price": 8990.00,
-        "sales_price": 899.00,
+        "regular_price": 11000.00,
+        "sales_price": 1100.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1824,8 +1892,8 @@
         "sno": 184,
         "name": "EMPIRE 50 ITEMS",
         
-        "regular_price": 9990.00,
-        "sales_price": 999.00,
+        "regular_price": 12000.00,
+        "sales_price": 1200.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1833,8 +1901,8 @@
         "sno": 185,
         "name": "MIRACLE 55 ITEMS",
         
-        "regular_price": 12990.00,
-        "sales_price": 1299.00,
+        "regular_price": 15000.00,
+        "sales_price": 1500.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       },
@@ -1842,8 +1910,8 @@
         "sno": 186,
         "name": "CASINO 60 ITEMS",
         
-        "regular_price": 14990.00,
-        "sales_price": 1499.00,
+        "regular_price": 17000.00,
+        "sales_price": 1700.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
       }
