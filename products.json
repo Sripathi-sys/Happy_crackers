@@ -902,7 +902,7 @@
     "products": [
       {
         "sno": 86,
-        "name": "2 1/2 \" 3 IDIOTS (3 STEP)",
+        "name": "2 1/2  3 IDIOTS (3 STEP)",
         "tamilName": "2\" ஏரியல் அவுட் சிங்கிள்",
         "regular_price": 2500.00,
         "sales_price": 250.00,
@@ -911,8 +911,8 @@
       },
       {
         "sno": 87,
-        "name": "2\" FANCY (3 PCS)",
-        "tamilName": "2 பேன்ஸி (3 PCS)",
+        "name": "2/ FANCY (3 PCS)",
+        "tamilName": "2/ பேன்ஸி (3 PCS)",
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
@@ -920,8 +920,8 @@
       },
       {
         "sno": 88,
-        "name": "3 1/2\" AERIAL OUT 2PCS",
-        "tamilName": "31/2\" ஏரியல் அவுட் 2பீசஸ்",
+        "name": "3 1/2 AERIAL OUT 2PCS",
+        "tamilName": "31/2 ஏரியல் அவுட் 2பீசஸ்",
         "regular_price": 6000.00,
         "sales_price": 600.00,
         "box": "1 Box",
@@ -929,7 +929,7 @@
       },
       {
         "sno": 89,
-        "name": "3 1/2\" AERIAL TIN (1 PCE)",
+        "name": "3 1/2 AERIAL TIN (1 PCE)",
         "tamilName": "31/2 ஏரியல் அவுட்டின்1 பீஸ்",
         "regular_price": 3300.00,
         "sales_price": 330.00,
@@ -938,8 +938,8 @@
       },
       {
         "sno": 90,
-        "name": "4\" DOUBLE BALL",
-        "tamilName": "4\" ஏரியல் டபுள் பால்",
+        "name": "4/ DOUBLE BALL",
+        "tamilName": "4/ ஏரியல் டபுள் பால்",
         "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
@@ -947,8 +947,8 @@
       },
       {
         "sno": 91,
-        "name": "4 AERIAL FANCY 2 PCS",
-        "tamilName": "41/2\" ஏரியல் அவுட் 2பீசஸ்",
+        "name": "4 1/2 AERIAL FANCY 2 PCS",
+        "tamilName": "41/2 ஏரியல் அவுட் 2பீசஸ்",
         "regular_price": 8000.00,
         "sales_price": 800.00,
         "box": "1 Box",
@@ -956,8 +956,8 @@
       },
       {
         "sno": 92,
-        "name": "5\" AERIAL OUT 1 PCS",
-        "tamilName": "5\"ஏரியல் அவுட் 1 பீசஸ்",
+        "name": "5/ AERIAL OUT 1 PCS",
+        "tamilName": "5 / ஏரியல் அவுட் 1 பீசஸ்",
         "regular_price": 6500.00,
         "sales_price": 650.00,
         "box": "1 Box",
