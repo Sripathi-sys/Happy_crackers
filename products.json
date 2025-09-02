@@ -34,8 +34,8 @@
       },
       {
         "sno": 4,
-        "name": "4\" LAKSHMI",
-        "tamilName": "4 லட்சுமி",
+        "name": "4/ LAKSHMI",
+        "tamilName": "4/ லட்சுமி",
         "regular_price": 200.00,
         "sales_price": 20.00,
         "box": "1 Pkt",
@@ -43,8 +43,8 @@
       },
       {
         "sno": 5,
-        "name": "4\"DLX LAKSHMI",
-        "tamilName": "4 டீலக்ஸ் லட்சுமி",
+        "name": "4/ DLX LAKSHMI",
+        "tamilName": "4/ டீலக்ஸ் லட்சுமி",
         "regular_price": 340.00,
         "sales_price": 34.00,
         "box": "1 Pkt",
@@ -52,7 +52,7 @@
       },
       {
         "sno": 6,
-        "name": "4\" GOLD LAKSHMI",
+        "name": "4/  GOLD LAKSHMI",
         "tamilName": "4 கோல்டு லட்சுமி",
         "regular_price": 360.00,
         "sales_price": 36.00,
@@ -903,7 +903,7 @@
       {
         "sno": 86,
         "name": "2 1/2  3 IDIOTS (3 STEP)",
-        "tamilName": "2\" ஏரியல் அவுட் சிங்கிள்",
+        "tamilName": "2/ ஏரியல் அவுட் சிங்கிள்",
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
@@ -1292,7 +1292,7 @@
       },
       {
         "sno": 124,
-        "name": "2\" SET OUT 30 SHOTS",
+        "name": "2/ SET OUT 30 SHOTS",
         "tamilName": "2 சேட்அவுட் சாட்",
         "regular_price": 35000.00,
         "sales_price": 3500.00,
@@ -1301,8 +1301,8 @@
       },
       {
         "sno": 125,
-        "name": "2 1/2\" GWEN TEN 25 SHOTS",
-        "tamilName": "2 1/2\"குவன் டென் 12 சாட்",
+        "name": "2 1/2/ GWEN TEN 25 SHOTS",
+        "tamilName": "2 1/2/ குவன் டென் 12 சாட்",
         "regular_price": 45000.00,
         "sales_price": 4500.00,
         "box": "1 Box",
@@ -1310,7 +1310,7 @@
       },
       {
         "sno": 126,
-        "name": "3\" BEN TEN 20 SHOTS",
+        "name": "3/ BEN TEN 20 SHOTS",
         "tamilName": "3 பென்டன் 20சாட்",
         "regular_price": 60000.00,
         "sales_price": 6000.00,
