@@ -201,6 +201,10 @@ function updateCartSummary() {
             const productName = card.getAttribute('data-name');
             const price = parseFloat(card.querySelector('[data-price]').getAttribute('data-price'));
             const total = price * quantity;
+
+            // Get box count from DOM
+            const boxElement = card.querySelector('.product-box strong');
+            const box = boxElement ? boxElement.textContent.trim() : null;
             
             totalItems += quantity;
             totalAmount += total;
@@ -209,7 +213,8 @@ function updateCartSummary() {
                 name: productName,
                 price: price,
                 quantity: quantity,
-                total: total
+                total: total,
+                box: box // <-- Add box here
             });
         }
     });
@@ -254,8 +259,13 @@ function orderViaWhatsApp() {
     orderMessage += `📋 *Order Details:*\n`;
     orderMessage += `${'='.repeat(40)}\n`;
 
+    // Loop through cart items
     cart.forEach((item, index) => {
-        orderMessage += `${index + 1}. *${item.name}*\n`;
+        orderMessage += `${index + 1}. *${item.name}*`;
+        if(item.box) {
+            orderMessage += ` (Box: ${item.box})`; // Add box count here
+        }
+        orderMessage += `\n`;
         orderMessage += `   Price: ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
     });
 
@@ -268,10 +278,10 @@ function orderViaWhatsApp() {
     orderMessage += `Grand Total     = ₹${totalWithDelivery.toString().padStart(6)}\n\n`;
     orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
 
-
     sendWhatsAppMessage(orderMessage);
     showAlert('Order sent via WhatsApp! We will contact you soon.', 'success');
 }
+
 
 
 
