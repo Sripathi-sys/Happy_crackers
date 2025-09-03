@@ -263,10 +263,10 @@ function orderViaWhatsApp() {
     cart.forEach((item, index) => {
         orderMessage += `${index + 1}. *${item.name}*`;
         if(item.box) {
-            orderMessage += ` (Box: ${item.box})`; // Add box count here
+            orderMessage += ` (${item.box})`; // Add box count here
         }
         orderMessage += `\n`;
-        orderMessage += `   Price: ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
+        orderMessage += `    ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
     });
 
     const deliveryCharge = Math.round(grandTotal * 0.03);
