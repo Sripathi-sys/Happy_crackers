@@ -9,7 +9,7 @@
         "sno": 1,
         "name": "2 3/4 KURUVI",
         "tamilName": "23/4 குருவி",
-        "regular_price": 80.00,
+        "regular_price": 100.00,
         "sales_price": 10.00,
         "box": "1 Pkt",
         "image": "assets/products/pro1.jpg"
@@ -18,7 +18,7 @@
         "sno": 2,
         "name": "2 3/4 KURUVI (Machine Fuse)",
         "tamilName": "23/4 குருவி (மெஷின் திரி)",
-        "regular_price": 150.00,
+        "regular_price": 200.00,
         "sales_price": 20.00,
         "box": "1 Pkt",
         "image": "assets/products/pro2.jpg"
@@ -27,7 +27,7 @@
         "sno": 3,
         "name": "3 1/4 LAKSHMI",
         "tamilName": "லட்சுமி",
-        "regular_price": 150.00,
+        "regular_price": 190.00,
         "sales_price": 19.00,
         "box": "1 Pkt",
         "image": "assets/products/pro3.webp"
@@ -36,7 +36,7 @@
         "sno": 4,
         "name": "4/ LAKSHMI",
         "tamilName": "4/ லட்சுமி",
-        "regular_price": 200.00,
+        "regular_price": 250.00,
         "sales_price": 25.00,
         "box": "1 Pkt",
         "image": "assets/products/pro4.jpg"
@@ -45,7 +45,7 @@
         "sno": 5,
         "name": "4/ DLX LAKSHMI",
         "tamilName": "4/ டீலக்ஸ் லட்சுமி",
-        "regular_price": 340.00,
+        "regular_price": 400.00,
         "sales_price": 40.00,
         "box": "1 Pkt",
         "image": "assets/products/pro5.jpg"
@@ -54,7 +54,7 @@
         "sno": 6,
         "name": "4/  GOLD LAKSHMI",
         "tamilName": "4 கோல்டு லட்சுமி",
-        "regular_price": 360.00,
+        "regular_price": 410.00,
         "sales_price": 41.00,
         "box": "1 Pkt",
         "image": "assets/products/pro6.jpg"
@@ -63,7 +63,7 @@
         "sno": 7,
         "name": "2 SOUND CRACKERS",
         "tamilName": "2 சவுண்ட்வெடி",
-        "regular_price": 410.00,
+        "regular_price": 470.00,
         "sales_price": 47.00,
         "box": "1 Pkt",
         "image": "assets/products/pro7.jpg"
@@ -72,7 +72,7 @@
         "sno": 8,
         "name": "KUMKI 4ML 12 PLUS",
         "tamilName": "கும்கி 4 எம்மல் 12 பிலஸ்",
-        "regular_price": 500.00,
+        "regular_price": 660.00,
         "sales_price": 66.00,
         "box": "1 Pkt",
         "image": "assets/products/pro8.jpg"
@@ -81,7 +81,7 @@
         "sno": 9,
         "name": "4.5 INCH BAHUBALI PLUS",
         "tamilName": "4.5 இன்ச்பகுபலி பிலஸ்",
-        "regular_price": 600.00,
+        "regular_price": 670.00,
         "sales_price": 67.00,
         "box": "1 Pkt",
         "image": "assets/images/logo.png"
@@ -90,7 +90,7 @@
         "sno": 10,
         "name": "5 INCH 20 PLUS",
         "tamilName": "5 இன்ச் 20 பிலஸ்",
-        "regular_price": 700.00,
+        "regular_price": 790.00,
         "sales_price": 79.00,
         "box": "1 Pkt",
         "image": "assets/images/logo.png"
@@ -99,7 +99,7 @@
         "sno": 11,
         "name": "LION 6 INCH 24 PLUS",
         "tamilName": "லயன் 6 இன்ச் 24 பிலஸ்",
-        "regular_price": 800.00,
+        "regular_price": 900.00,
         "sales_price": 90.00,
         "box": "1 Pkt",
         "image": "assets/images/logo.png"
@@ -115,7 +115,7 @@
         "sno": 12,
         "name": "G.C.BIG",
         "tamilName": "சக்கரம் பிக்",
-        "regular_price": 400.00,
+        "regular_price": 470.00,
         "sales_price": 47.00,
         "box": "1 Box",
         "image": "assets/products/pro12.jpg"
@@ -124,7 +124,7 @@
         "sno": 13,
         "name": "G.C.BIG (25 PIC)",
         "tamilName": "சக்கரம் பிக் (25 பீஸ்)",
-        "regular_price": 1100.00,
+        "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "1 Box",
         "image": "assets/products/pro13.jpg"
@@ -133,7 +133,7 @@
         "sno": 14,
         "name": "G.C.SPL",
         "tamilName": "சக்கரம்ஸ்பெஷல்",
-        "regular_price": 750.00,
+        "regular_price": 800.00,
         "sales_price": 80.00,
         "box": "1 Box",
         "image": "assets/products/pro14.jpg"
@@ -142,7 +142,7 @@
         "sno": 15,
         "name": "G.C.DLX",
         "tamilName": "சக்கரம் டீலக்ஸ்",
-        "regular_price": 1100.00,
+        "regular_price": 1600.00,
         "sales_price": 160.00,
         "box": "1 Box",
         "image": "assets/products/pro15.jpg"
@@ -151,7 +151,7 @@
         "sno": 16,
         "name": "G.C.SPL (PLASTIC BASE)",
         "tamilName": "சக்கரம்ஸ்பெஷல்",
-        "regular_price": 1100.00,
+        "regular_price": 1700.00,
         "sales_price": 170.00,
         "box": "1 Box",
         "image": "assets/products/pro16.jpg"
@@ -160,7 +160,7 @@
         "sno": 17,
         "name": "G.C.DLX (PLASTIC BASE)",
         "tamilName": "சக்கரம் டீலக்ஸ்",
-        "regular_price": 1350.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/products/pro17.jpg"
@@ -169,7 +169,7 @@
         "sno": 18,
         "name": "WIRE CHAKKAR",
         "tamilName": "வயர்சக்கரம்",
-        "regular_price": 2100.00,
+        "regular_price": 2750.00,
         "sales_price": 275.00,
         "box": "1 Box",
         "image": "assets/products/pro18.jpg"
@@ -185,7 +185,7 @@
         "sno": 19,
         "name": "F.P.BIG",
         "tamilName": "பூச்சட்டி பெரியது",
-        "regular_price": 700.00,
+        "regular_price": 800.00,
         "sales_price": 80.00,
         "box": "1 Box",
         "image": "assets/products/pro19.jpg"
@@ -194,7 +194,7 @@
         "sno": 20,
         "name": "F.P.SPL",
         "tamilName": "பூச்சட்டி ஸ்பெசல்",
-        "regular_price": 900.00,
+        "regular_price": 1000.00,
         "sales_price": 100.00,
         "box": "1 Box",
         "image": "assets/products/pro20.jpg"
@@ -203,7 +203,7 @@
         "sno": 21,
         "name": "F.P.ASHOKA",
         "tamilName": "பூச்சட்டி அசோகா",
-        "regular_price": 1200.00,
+        "regular_price": 1400.00,
         "sales_price": 140.00,
         "box": "1 Box",
         "image": "assets/products/pro21.jpg"
@@ -212,7 +212,7 @@
         "sno": 22,
         "name": "F.P.COLOURKOTI",
         "tamilName": "பூச்சட்டி கலர் கோட்டி",
-        "regular_price": 1900.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/products/pro22.jpg"
@@ -221,7 +221,7 @@
         "sno": 23,
         "name": "F.P.DLX (5 PCS)",
         "tamilName": "பூச்சட்டி டீலக்ஸ் (5 பீஸ்)",
-        "regular_price": 2000.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/products/pro23.jpg"
@@ -230,7 +230,7 @@
         "sno": 24,
         "name": "F.P. DLX (10 PCS)",
         "tamilName": "பூச்சட்டி டீலக்ஸ்(10 பீஸ்)",
-        "regular_price": 3900.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro24.jpg"
@@ -239,7 +239,7 @@
         "sno": 25,
         "name": "F.P.SUPER DLX",
         "tamilName": "பூச்சட்டி சூப்பர் டீலக்ஸ்",
-        "regular_price": 1800.00,
+        "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
         "image": "assets/products/pro25.jpg"
@@ -255,7 +255,7 @@
         "sno": 26,
         "name": "BULLET BOMB",
         "tamilName": "புல்லட்பாம்",
-        "regular_price": 300.00,
+        "regular_price": 450.00,
         "sales_price": 45.00,
         "box": "1 Box",
         "image": "assets/products/pro26.jpg"
@@ -264,7 +264,7 @@
         "sno": 27,
         "name": "HYDRO BOMB",
         "tamilName": "ஹைட்ரோ பாம்",
-        "regular_price": 650.00,
+        "regular_price": 700.00,
         "sales_price": 70.00,
         "box": "1 Box",
         "image": "assets/products/pro27.jpg"
@@ -273,7 +273,7 @@
         "sno": 28,
         "name": "CLASSIC BOMB",
         "tamilName": "கிளாசிக் பாம்",
-        "regular_price": 1350.00,
+        "regular_price": 1650.00,
         "sales_price": 165.00,
         "box": "1 Box",
         "image": "assets/products/pro28.jpg"
@@ -282,7 +282,7 @@
         "sno": 29,
         "name": "AGNI BOMB 7",
         "tamilName": "அக்னி பாம் 7",
-        "regular_price": 2000.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/products/pro29.jpg"
@@ -291,7 +291,7 @@
         "sno": 30,
         "name": "MIGHTY BOMB",
         "tamilName": "மைட்டிபாம்",
-        "regular_price": 3000.00,
+        "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
         "image": "assets/products/pro30.jpg"
@@ -300,7 +300,7 @@
         "sno": 31,
         "name": "FLOWER BOMB",
         "tamilName": "ப்ளவர்பாம்",
-        "regular_price": 1000.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro31.jpg"
@@ -316,7 +316,7 @@
         "sno": 32,
         "name": "RED BIJILI 100 Pcs",
         "tamilName": "சிவப்பு பிஜிலி 100 பீஸ்",
-        "regular_price": 400.00,
+        "regular_price": 750.00,
         "sales_price": 75.00,
         "box": "1 Pkt",
         "image": "assets/products/pro32.jpg"
@@ -325,7 +325,7 @@
         "sno": 33,
         "name": "STRIPPED BIJILI 100 Pcs",
         "tamilName": "கோடு பிஜிலி 100 பீஸ்",
-        "regular_price": 450.00,
+        "regular_price": 800.00,
         "sales_price": 80.00,
         "box": "1 Pkt",
         "image": "assets/products/pro33.jpg"
@@ -341,7 +341,7 @@
         "sno": 34,
         "name": "1 1/2 TWINKLING STAR",
         "tamilName": "11/2 அடி சாட்டை",
-        "regular_price": 300.00,
+        "regular_price": 400.00,
         "sales_price": 40.00,
         "box": "1 Box",
         "image": "assets/products/pro34.jpg"
@@ -350,7 +350,7 @@
         "sno": 35,
         "name": "4 TWINKLING STAR",
         "tamilName": "4 அடிசாட்டை",
-        "regular_price": 650.00,
+        "regular_price": 750.00,
         "sales_price": 75.00,
         "box": "1 Box",
         "image": "assets/products/pro35.jpg"
@@ -359,7 +359,7 @@
         "sno": 36,
         "name": "JIL JIL",
         "tamilName": "ஜில் ஜில்",
-        "regular_price": 430.00,
+        "regular_price": 640.00,
         "sales_price": 64.00,
         "box": "1 Box",
         "image": "assets/products/pro36.jpg"
@@ -368,7 +368,7 @@
         "sno": 37,
         "name": "Colour String Red & Green",
         "tamilName": "கலர்ஸ்டிரிங்ரெட் & கிரீன்",
-        "regular_price": 950.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro37.jpg"
@@ -384,7 +384,7 @@
         "sno": 38,
         "name": "STONE",
         "tamilName": "ஸ்டோன்",
-        "regular_price": 220.00,
+        "regular_price": 250.00,
         "sales_price": 25.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -393,7 +393,7 @@
         "sno": 39,
         "name": "KIT KAT",
         "tamilName": "கிட் காட்",
-        "regular_price": 300.00,
+        "regular_price": 350.00,
         "sales_price": 35.00,
         "box": "1 Box",
         "image": "assets/products/pro39.jpg"
@@ -402,7 +402,7 @@
         "sno": 40,
         "name": "MAGIC POP",
         "tamilName": "மேஜிக் பாப்",
-        "regular_price": 200.00,
+        "regular_price": 250.00,
         "sales_price": 25.00,
         "box": "1 Box",
         "image": "assets/products/pro40.jpg"
@@ -411,7 +411,7 @@
         "sno": 41,
         "name": "SERPENT EGG",
         "tamilName": "சர்பண்ட் எக்",
-        "regular_price": 300.00,
+        "regular_price": 350.00,
         "sales_price": 35.00,
         "box": "1 Box",
         "image": "assets/products/pro41.jpg"
@@ -420,7 +420,7 @@
         "sno": 42,
         "name": "ANACONDA",
         "tamilName": "அனகோண்டா",
-        "regular_price": 850.00,
+        "regular_price": 1050.00,
         "sales_price": 105.00,
         "box": "1 Box",
         "image": "assets/products/pro42.jpg"
@@ -436,7 +436,7 @@
         "sno": 43,
         "name": "ROCKET BOMB",
         "tamilName": "ராக்கெட் பாம்",
-        "regular_price": 1000.00,
+        "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "1 Box",
         "image": "assets/products/pro43.jpg"
@@ -445,7 +445,7 @@
         "sno": 44,
         "name": "2 SOUND ROCKET",
         "tamilName": "2 சவுண்ட் ராக்கெட்",
-        "regular_price": 1300.00,
+        "regular_price": 1600.00,
         "sales_price": 160.00,
         "box": "1 Box",
         "image": "assets/products/pro144.webp"
@@ -454,7 +454,7 @@
         "sno": 45,
         "name": "WHISTLING ROCKET",
         "tamilName": "விசிலிங்ராக்கெட்",
-        "regular_price": 2100.00,
+        "regular_price": 2600.00,
         "sales_price": 260.00,
         "box": "1 Box",
         "image": "assets/products/pro45.jpg"
@@ -463,7 +463,7 @@
         "sno": 46,
         "name": "MULTI COLOUR ROCKET",
         "tamilName": "மல்டிகலர் ராக்கெட்",
-        "regular_price": 3800.00,
+        "regular_price": 4200.00,
         "sales_price": 420.00,
         "box": "1 Box",
         "image": "assets/products/pro46.jpg"
@@ -479,7 +479,7 @@
         "sno": 47,
         "name": "PEACOCK FEATHER",
         "tamilName": "மயில் தோகை",
-        "regular_price": 1100.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro47.jpg"
@@ -488,7 +488,7 @@
         "sno": 48,
         "name": "DISCO SHOWER",
         "tamilName": "டிஸ்கோ ஷவர்",
-        "regular_price": 1100.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro48.jpg"
@@ -497,7 +497,7 @@
         "sno": 49,
         "name": "TRI COLOUR FOUNTAIN",
         "tamilName": "5 கலர் பவுன்டைன்",
-        "regular_price": 2800.00,
+        "regular_price": 3100.00,
         "sales_price": 310.00,
         "box": "1 Box",
         "image": "assets/products/pro49.jpg"
@@ -506,7 +506,7 @@
         "sno": 50,
         "name": "TIP TOP",
         "tamilName": "டிப்டாப்",
-        "regular_price": 600.00,
+        "regular_price": 900.00,
         "sales_price": 90.00,
         "box": "1 Box",
         "image": "assets/products/pro50.jpg"
@@ -515,7 +515,7 @@
         "sno": 51,
         "name": "RAAVAN 3 COLOUR",
         "tamilName": "ராவண்3 கலர்",
-        "regular_price": 2300.00,
+        "regular_price": 3100.00,
         "sales_price": 310.00,
         "box": "1 Box",
         "image": "assets/products/pro51.jpg"
@@ -524,7 +524,7 @@
         "sno": 52,
         "name": "LAUGHING MONKEY RED",
         "tamilName": "லாஃபிங்மங்கி ரெட்",
-        "regular_price": 2300.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/products/pro52.jpg"
@@ -533,7 +533,7 @@
         "sno": 53,
         "name": "STRAWBERRY PINK",
         "tamilName": "ஸ்ட்ராபெரி பிங்க்",
-        "regular_price": 1350.00,
+        "regular_price": 3300.00,
         "sales_price": 330.00,
         "box": "1 Box",
         "image": "assets/products/pro53.jpg"
@@ -551,7 +551,7 @@
         "sno": 55,
         "name": "CRACKLING FOUNTAIN",
         "tamilName": "கிராக்ளிங் பவுண்டைன்",
-        "regular_price": 3300.00,
+        "regular_price": 3600.00,
         "sales_price": 360.00,
         "box": "1 Box",
         "image": "assets/products/pro55.jpg"
@@ -560,7 +560,7 @@
         "sno": 56,
         "name": "COCKTAIL",
         "tamilName": "காக் டெயில்",
-        "regular_price": 3300.00,
+        "regular_price": 3700.00,
         "sales_price": 370.00,
         "box": "1 Box",
         "image": "assets/products/pro56.jpg"
@@ -569,7 +569,7 @@
         "sno": 57,
         "name": "WOWSTAR KURKURE5Pcs",
         "tamilName": "வாவ்ஸ்டார் குர்குரே",
-        "regular_price": 2800.00,
+        "regular_price": 3400.00,
         "sales_price": 340.00,
         "box": "1 Box",
         "image": "assets/products/pro57.jpg"
@@ -578,7 +578,7 @@
         "sno": 58,
         "name": "SIREN DLX",
         "tamilName": "சைரன் டீலக்ஸ்",
-        "regular_price": 2300.00,
+        "regular_price": 2650.00,
         "sales_price": 265.00,
         "box": "1 Box",
         "image": "assets/products/pro58.jpg"
@@ -587,7 +587,7 @@
         "sno": 59,
         "name": "TIN SHOWER MIX 4 1/2 INCH",
         "tamilName": "41/2 இன்ச்டின் ஷவர்",
-        "regular_price": 1000.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/products/pro59.jpg"
@@ -596,7 +596,7 @@
         "sno": 60,
         "name": "SHIN CHAN",
         "tamilName": "சின் சான்",
-        "regular_price": 1000.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/products/pro60.jpg"
@@ -605,7 +605,7 @@
         "sno": 61,
         "name": "FIRE EGG",
         "tamilName": "பயர் எஃக்",
-        "regular_price": 2000.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/products/pro61.jpg"
@@ -614,7 +614,7 @@
         "sno": 62,
         "name": "8 TRIPLE MONKEY 3 IN-1",
         "tamilName": "8 டிரிப்பில் மங்க்கி",
-        "regular_price": 2500.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/products/pro62.webp"
@@ -623,7 +623,7 @@
         "sno": 63,
         "name": "6 DOUBLE DECHEN 2 IN-1",
         "tamilName": "6 டபுல்டெக்கன்",
-        "regular_price": 2000.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/products/pro63.jpg"
@@ -632,7 +632,7 @@
         "sno": 64,
         "name": "POWER RANGER",
         "tamilName": "பவர் ரேஞ்சர்",
-        "regular_price": 1300.00,
+        "regular_price": 1700.00,
         "sales_price": 170.00,
         "box": "1 Box",
         "image": "assets/products/pro64.jpg"
@@ -641,7 +641,7 @@
         "sno": 65,
         "name": "MANNY",
         "tamilName": "மெனி",
-        "regular_price": 2300.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -650,7 +650,7 @@
         "sno": 66,
         "name": "SIMBA",
         "tamilName": "சிம்பா",
-        "regular_price": 2300.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/products/pro66.jpg"
@@ -659,7 +659,7 @@
         "sno": 67,
         "name": "BUJI",
         "tamilName": "புஜ்ஜி",
-        "regular_price": 2300.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/products/pro67.jpg"
@@ -668,7 +668,7 @@
         "sno": 68,
         "name": "DRAGONS CRACKLING",
         "tamilName": "டிராகன்ஸ்",
-        "regular_price": 2400.00,
+        "regular_price": 3100.00,
         "sales_price": 310.00,
         "box": "1 Box",
         "image": "assets/products/pro68.jpg"
@@ -677,7 +677,7 @@
         "sno": 69,
         "name": "KIT KAT MIX (5 Pcs)",
         "tamilName": "கிட் கேட் 5 பீசஸ்",
-        "regular_price": 1700.00,
+        "regular_price": 2250.00,
         "sales_price": 225.00,
         "box": "1 Box",
         "image": "assets/products/pro69.jpg"
@@ -686,7 +686,7 @@
         "sno": 70,
         "name": "5 STAR (1IN5)5 COLOR",
         "tamilName": "5ஸ்டார் (1 இன் 5) 5 கலர்",
-        "regular_price": 3000.00,
+        "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
         "image": "assets/products/pro70.jpg"
@@ -702,7 +702,7 @@
         "sno": 71,
         "name": "RACING CAR (2 PCS)",
         "tamilName": "ரேசிங்கார் 2 பீசஸ்",
-        "regular_price": 2500.00,
+        "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -711,7 +711,7 @@
         "sno": 72,
         "name": "GITOR WATER QUEEN",
         "tamilName": "கித்தார்வாட்டர் குயின்",
-        "regular_price": 2500.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -720,7 +720,7 @@
         "sno": 73,
         "name": "ALERT LAR",
         "tamilName": "அலர்ட் லார்",
-        "regular_price": 1500.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -729,7 +729,7 @@
         "sno": 71,
         "name": "4X4 WHEEL",
         "tamilName": "4 x 4 வீல்",
-        "regular_price": 1600.00,
+        "regular_price": 1900.00,
         "sales_price": 190.00,
         "box": "1 Box",
         "image": "assets/products/pro71.jpg"
@@ -738,7 +738,7 @@
         "sno": 72,
         "name": "AVENGER WHEEL",
         "tamilName": "அவென்சர் வீல்",
-        "regular_price": 1300.00,
+        "regular_price": 1900.00,
         "sales_price": 190.00,
         "box": "1 Box",
         "image": "assets/products/pro72.jpg"
@@ -747,7 +747,7 @@
         "sno": 73,
         "name": "WHISTLING DIXIE",
         "tamilName": "விசிலிங் திஷி",
-        "regular_price": 1500.00,
+        "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
         "image": "assets/products/pro73.jpg"
@@ -756,7 +756,7 @@
         "sno": 74,
         "name": "PLANET WHEELING (pop corn)",
         "tamilName": "ப்ளானட்வீல்",
-        "regular_price": 1800.00,
+        "regular_price": 2400.00,
         "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/products/pro74.jpg"
@@ -774,7 +774,7 @@
         "sno": 78,
         "name": "CIRCUS",
         "tamilName": "சர்க்கஸ்",
-        "regular_price": 2000.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -783,7 +783,7 @@
         "sno": 75,
         "name": "MIAMI RED 2 PCS",
         "tamilName": "மியாமி ரெட்",
-        "regular_price": 1300.00,
+        "regular_price": 1900.00,
         "sales_price": 190.00,
         "box": "1 Box",
         "image": "assets/products/pro75.jpg"
@@ -792,7 +792,7 @@
         "sno": 76,
         "name": "RAINBOW SMOKE 3 PCS",
         "tamilName": "ரெயின்போ ஸ்மோக் 3 பீசஸ்",
-        "regular_price": 3000.00,
+        "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
         "image": "assets/products/pro76.jpg"
@@ -801,7 +801,7 @@
         "sno": 77,
         "name": "LOLLY POP CRACKLING",
         "tamilName": "லாலி பாப் கிராக்ளிங்",
-        "regular_price": 1900.00,
+        "regular_price": 2400.00,
         "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/products/pro77.jpg"
@@ -811,7 +811,7 @@
         "sno": 82,
         "name": "FUJI CANDLE WATER QUEEN",
         "tamilName": "வாட்டர் குயின்",
-        "regular_price": 2000.00,
+        "regular_price": 2400.00,
         "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -827,7 +827,7 @@
         "sno": 79,
         "name": "PEACOCK 5 WINGS",
         "tamilName": "பீகாக் 5 விங்ஸ்",
-        "regular_price": 2000.00,
+        "regular_price": 2700.00,
         "sales_price": 270.00,
         "box": "1 Box",
         "image": "assets/products/pro79.jpg"
@@ -836,7 +836,7 @@
         "sno": 80,
         "name": "PEACOCK 3 WINGS",
         "tamilName": "பீகாக் 3 விங்க்ஸ்",
-        "regular_price": 2100.00,
+        "regular_price": 2700.00,
         "sales_price": 270.00,
         "box": "1 Box",
         "image": "assets/products/pro80.jpg"
@@ -845,7 +845,7 @@
         "sno": 81,
         "name": "BADA PEACOCK (2 in 1)",
         "tamilName": "படா பீகாக்",
-        "regular_price": 3800.00,
+        "regular_price": 4200.00,
         "sales_price": 420.00,
         "box": "1 Box",
         "image": "assets/products/pro81.jpg"
@@ -861,7 +861,7 @@
         "sno": 82,
         "name": "CHOTTA FANCY",
         "tamilName": "சோட்டா பேன்சி",
-        "regular_price": 400.00,
+        "regular_price": 600.00,
         "sales_price": 60.00,
         "box": "1 Box",
         "image": "assets/products/pro82.jpg"
@@ -870,7 +870,7 @@
         "sno": 83,
         "name": "7 SHOTS",
         "tamilName": "7 ஷாட்ஸ்",
-        "regular_price": 1200.00,
+        "regular_price": 1400.00,
         "sales_price": 140.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -879,7 +879,7 @@
         "sno": 84,
         "name": "PENTA",
         "tamilName": "பென்டா",
-        "regular_price": 1850.00,
+        "regular_price": 2100.00,
         "sales_price": 210.00,
         "box": "1 Box",
         "image": "assets/products/pro84.jpg"
@@ -888,7 +888,7 @@
         "sno": 85,
         "name": "STAR WAR",
         "tamilName": "ஸ்டார்வார்",
-        "regular_price": 3500.00,
+        "regular_price": 4300.00,
         "sales_price": 430.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -904,7 +904,7 @@
         "sno": 86,
         "name": "2 1/2  3 IDIOTS (3 STEP)",
         "tamilName": "2/ ஏரியல் அவுட் சிங்கிள்",
-        "regular_price": 2500.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/products/pro86.jpg"
@@ -913,7 +913,7 @@
         "sno": 87,
         "name": "2/ FANCY (3 PCS)",
         "tamilName": "2/ பேன்ஸி (3 PCS)",
-        "regular_price": 4000.00,
+        "regular_price": 5200.00,
         "sales_price": 520.00,
         "box": "1 Box",
         "image": "assets/products/pro87.webp"
@@ -922,7 +922,7 @@
         "sno": 88,
         "name": "3 1/2 AERIAL OUT 2PCS",
         "tamilName": "31/2 ஏரியல் அவுட் 2பீசஸ்",
-        "regular_price": 6000.00,
+        "regular_price": 8000.00,
         "sales_price": 800.00,
         "box": "1 Box",
         "image": "assets/products/pro88.jpg"
@@ -931,7 +931,7 @@
         "sno": 89,
         "name": "3 1/2 AERIAL TIN (1 PCE)",
         "tamilName": "31/2 ஏரியல் அவுட்டின்1 பீஸ்",
-        "regular_price": 3300.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro89.webp"
@@ -940,7 +940,7 @@
         "sno": 90,
         "name": "4/ DOUBLE BALL",
         "tamilName": "4/ ஏரியல் டபுள் பால்",
-        "regular_price": 5000.00,
+        "regular_price": 6000.00,
         "sales_price": 600.00,
         "box": "1 Box",
         "image": "assets/products/pro90.jpg"
@@ -949,7 +949,7 @@
         "sno": 91,
         "name": "4 1/2 AERIAL FANCY 2 PCS",
         "tamilName": "41/2 ஏரியல் அவுட் 2பீசஸ்",
-        "regular_price": 8000.00,
+        "regular_price": 11000.00,
         "sales_price": 1100.00,
         "box": "1 Box",
         "image": "assets/products/pro91.jpg"
@@ -958,7 +958,7 @@
         "sno": 92,
         "name": "5/ AERIAL OUT 1 PCS",
         "tamilName": "5 / ஏரியல் அவுட் 1 பீசஸ்",
-        "regular_price": 6500.00,
+        "regular_price": 8500.00,
         "sales_price": 850.00,
         "box": "1 Box",
         "image": "assets/products/pro92.jpg"
@@ -974,7 +974,7 @@
         "sno": 93,
         "name": "WOW PINK",
         "tamilName": "வாவ் பின்க்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro93.jpg"
@@ -983,7 +983,7 @@
         "sno": 94,
         "name": "WOW PURPLE",
         "tamilName": "வாவ் பர்புள்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro94.jpg"
@@ -992,7 +992,7 @@
         "sno": 95,
         "name": "WOW BLUE",
         "tamilName": "வாவ் ப்ளூ",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro95.jpg"
@@ -1001,7 +1001,7 @@
         "sno": 96,
         "name": "WOW ORANGE",
         "tamilName": "வாவ் ஆரஞ்ச்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro96.jpg"
@@ -1010,7 +1010,7 @@
         "sno": 101,
         "name": "WOW COLOUR",
         "tamilName": "வாவ் கலர்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1019,7 +1019,7 @@
         "sno": 97,
         "name": "GOLDEN EYES",
         "tamilName": "கோல்டன் ஐஸ்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/products/pro97.jpg"
@@ -1028,7 +1028,7 @@
         "sno": 98,
         "name": "TEXAS DELIGHT(CRACKLING SHOT)",
         "tamilName": "டிலக்ஸ் டிலைட்",
-        "regular_price": 3800.00,
+        "regular_price": 4500.00,
         "sales_price": 450.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1037,7 +1037,7 @@
         "sno": 99,
         "name": "7 WONDERS (7 STEPS)",
         "tamilName": "7 ஒன்டர்ஸ்",
-        "regular_price": 4000.00,
+        "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
         "image": "assets/products/pro99.jpg"
@@ -1046,7 +1046,7 @@
         "sno": 100,
         "name": "GUN SHOOTER (9 SHOT)",
         "tamilName": "கன் சூட்டர்",
-        "regular_price": 4000.00,
+        "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1072,7 +1072,7 @@
         "sno": 102,
         "name": "25 SHOTS RIDER",
         "tamilName": "25 சாட் ரைடர்",
-        "regular_price": 2800.00,
+        "regular_price": 3600.00,
         "sales_price": 360.00,
         "box": "1 Box",
         "image": "assets/products/pro102.jpg"
@@ -1081,7 +1081,7 @@
         "sno": 103,
         "name": "50 SHOTS RIDER",
         "tamilName": "50 சாட் ரைடர்",
-        "regular_price": 5500.00,
+        "regular_price": 7200.00,
         "sales_price": 720.00,
         "box": "1 Box",
         "image": "assets/products/pro103.webp"
@@ -1097,7 +1097,7 @@
         "sno": 104,
         "name": "LOVE DOSE",
         "tamilName": "லவ் டோஸ்",
-        "regular_price": 1500.00,
+        "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1106,7 +1106,7 @@
         "sno": 110,
         "name": "SINGING DOLLS",
         "tamilName": "சிங்கிங் டால்ஸ்",
-        "regular_price": 2500.00,
+        "regular_price": 3400.00,
         "sales_price": 340.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1115,7 +1115,7 @@
         "sno": 105,
         "name": "12 SHOT RED & GREEN",
         "tamilName": "12 சாட் ரெட்",
-        "regular_price": 1800.00,
+        "regular_price": 2400.00,
         "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/products/pro105.png"
@@ -1124,7 +1124,7 @@
         "sno": 106,
         "name": "RANG CHAKKAR(10 SHOT)",
         "tamilName": "ரங்சக்கரம்",
-        "regular_price": 2200.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/products/pro106.webp"
@@ -1133,7 +1133,7 @@
         "sno": 107,
         "name": "CANDY CRUSH",
         "tamilName": "கேன்டி கிரஸ்",
-        "regular_price": 4500.00,
+        "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
         "image": "assets/products/pro107.jpg"
@@ -1142,7 +1142,7 @@
         "sno": 108,
         "name": "15 SHOT MULTI COLOR",
         "tamilName": "15 சாட் மல்டிகலர்",
-        "regular_price": 2800.00,
+        "regular_price": 3000.00,
         "sales_price": 300.00,
         "box": "1 Box",
         "image": "assets/products/pro108.png"
@@ -1151,7 +1151,7 @@
         "sno": 109,
         "name": "WHISTLING ZIP (25 SHOT)",
         "tamilName": "விஸ்ளிங்சிப்",
-        "regular_price": 7000.00,
+        "regular_price": 8500.00,
         "sales_price": 850.00,
         "box": "1 Box",
         "image": "assets/products/pro109.webp"
@@ -1160,7 +1160,7 @@
         "sno": 110,
         "name": "30 SHOT (M.C) SRI DURGA",
         "tamilName": "30 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-        "regular_price": 4000.00,
+        "regular_price": 4600.00,
         "sales_price": 460.00,
         "box": "1 Box",
         "image": "assets/products/pro110.webp"
@@ -1169,7 +1169,7 @@
         "sno": 111,
         "name": "30 SHOT (M.C) JOKER",
         "tamilName": "30 சாட் மல்டிகலர் ஜோக்கர்",
-        "regular_price": 5000.00,
+        "regular_price": 5600.00,
         "sales_price": 560.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1178,7 +1178,7 @@
         "sno": 112,
         "name": "30 SHOT (M.C) WOW STAR",
         "tamilName": "30சாட் மல்டிகலர்வாவ்ஸ்டார்",
-        "regular_price": 5500.00,
+        "regular_price": 5900.00,
         "sales_price": 590.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1187,7 +1187,7 @@
         "sno": 113,
         "name": "30 SHOT (M.C) VADIVEL",
         "tamilName": "30 சாட் மல்டிகலர் வடிவேல்",
-        "regular_price": 6500.00,
+        "regular_price": 7100.00,
         "sales_price": 710.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1196,7 +1196,7 @@
         "sno": 114,
         "name": "60 SHOT (M.C) SRI DURGA",
         "tamilName": "60 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-        "regular_price": 8000.00,
+        "regular_price": 9200.00,
         "sales_price": 920.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1205,7 +1205,7 @@
         "sno": 115,
         "name": "60 SHOT (M.C) JOKER",
         "tamilName": "60சாட் மல்டிகலர் ஜோக்கர்",
-        "regular_price": 10000.00,
+        "regular_price": 11200.00,
         "sales_price": 1120.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1214,7 +1214,7 @@
         "sno": 116,
         "name": "60 SHOT (M.C)WOW STAR",
         "tamilName": "60சாட் மல்டிகலர் வாவ்ஸ்டார்",
-        "regular_price": 11000.00,
+        "regular_price": 11800.00,
         "sales_price": 1180.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1223,7 +1223,7 @@
         "sno": 117,
         "name": "120 SHOT (M.C) SRI DURGA",
         "tamilName": "120 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-        "regular_price": 16000.00,
+        "regular_price": 18400.00,
         "sales_price": 1840.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1232,7 +1232,7 @@
         "sno": 118,
         "name": "120 SHOT (M.C)JOKER",
         "tamilName": "120சாட் மல்டிகலர் ஜோக்கர்",
-        "regular_price": 20000.00,
+        "regular_price": 22400.00,
         "sales_price": 2240.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1241,7 +1241,7 @@
         "sno": 119,
         "name": "120 SHOT (M.C)WOW STAR",
         "tamilName": "120சாட் மல்டிகலர் வாவ்ஸ்டார்",
-        "regular_price": 22000.00,
+        "regular_price": 36800.00,
         "sales_price": 3680.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1250,7 +1250,7 @@
         "sno": 120,
         "name": "240 SHOT (M.C)JOKER",
         "tamilName": "240 சாட் மல்டிகலர் ஜோக்கர்",
-        "regular_price": 35000.00,
+        "regular_price": 44800.00,
         "sales_price": 4480.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1259,7 +1259,7 @@
         "sno": 121,
         "name": "240 SHOT (M.C)WOW STAR",
         "tamilName": "240சாட் மல்டிகலர் வாவ் ஸ்டார்",
-        "regular_price": 40000.00,
+        "regular_price": 73600.00,
         "sales_price": 7360.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1268,7 +1268,7 @@
         "sno": 122,
         "name": "504 SHOT (M.C)WOW STAR",
         "tamilName": "504சாட் மல்டிகலர் வாவ்ஸ்டார்",
-        "regular_price": 85000.00,
+        "regular_price": 15220.00,
         "sales_price": 15220.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1285,7 +1285,7 @@
         "sno": 123,
         "name": "10 X 10 CARNIVAL NIGHT",
         "tamilName": "கர்னிவல் நைட்ஸ்",
-        "regular_price": 38000.00,
+        "regular_price": 45000.00,
         "sales_price": 4500.00,
         "box": "1 Box",
         "image": "assets/products/pro123.jpg"
@@ -1294,7 +1294,7 @@
         "sno": 124,
         "name": "2/ SET OUT 30 SHOTS",
         "tamilName": "2 சேட்அவுட் சாட்",
-        "regular_price": 35000.00,
+        "regular_price": 45000.00,
         "sales_price": 4500.00,
         "box": "1 Box",
         "image": "assets/products/pro124.jpg"
@@ -1303,7 +1303,7 @@
         "sno": 125,
         "name": "2 1/2/ GWEN TEN 25 SHOTS",
         "tamilName": "2 1/2/ குவன் டென் 12 சாட்",
-        "regular_price": 45000.00,
+        "regular_price": 65000.00,
         "sales_price": 6500.00,
         "box": "1 Box",
         "image": "assets/products/pro125.webp"
@@ -1312,7 +1312,7 @@
         "sno": 126,
         "name": "3/ BEN TEN 20 SHOTS",
         "tamilName": "3 பென்டன் 20சாட்",
-        "regular_price": 60000.00,
+        "regular_price": 75000.00,
         "sales_price": 7500.00,
         "box": "1 Box",
         "image": "assets/products/pro126.webp"
@@ -1328,7 +1328,7 @@
         "sno": 127,
         "name": "BUTTERFLY",
         "tamilName": "பட்டர்பிளை",
-        "regular_price": 1500.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/products/pro127.jpg"
@@ -1337,7 +1337,7 @@
         "sno": 128,
         "name": "BAMBARAM",
         "tamilName": "பம்பரம்",
-        "regular_price": 1000.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro128.jpg"
@@ -1346,7 +1346,7 @@
         "sno": 129,
         "name": "DRONE",
         "tamilName": "ட்ரோன்",
-        "regular_price": 1500.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/products/pro129.jpg"
@@ -1355,7 +1355,7 @@
         "sno": 130,
         "name": "HELICOPTER",
         "tamilName": "கெளிகப்பிட்டர்",
-        "regular_price": 1500.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "1 Box",
         "image": "assets/products/pro130.jpg"
@@ -1364,7 +1364,7 @@
         "sno": 131,
         "name": "PHOTO FLASH",
         "tamilName": "போட்டோ பிலாஸ்",
-        "regular_price": 1000.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
         "image": "assets/products/pro131.webp"
@@ -1380,7 +1380,7 @@
         "sno": 132,
         "name": "MONEY MONEY",
         "tamilName": "மணி மணி",
-        "regular_price": 4000.00,
+        "regular_price": 4750.00,
         "sales_price": 475.00,
         "box": "1 Box",
         "image": "assets/products/pro132.jpg"
@@ -1389,7 +1389,7 @@
         "sno": 133,
         "name": "ROSE PEDAL",
         "tamilName": "ரோஜா இதழ்",
-        "regular_price": 4000.00,
+        "regular_price": 4750.00,
         "sales_price": 475.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1398,7 +1398,7 @@
         "sno": 134,
         "name": "ANOR BOMB 1 Pce",
         "tamilName": "அனார் பாம் (1 பீஸ்)",
-        "regular_price": 1500.00,
+        "regular_price": 2200.00,
         "sales_price": 220.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1407,7 +1407,7 @@
         "sno": 135,
         "name": "MONEY IN THE BANK",
         "tamilName": "மணி இன்த பேங்க்",
-        "regular_price": 1800.00,
+        "regular_price": 2400.00,
         "sales_price": 240.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1423,7 +1423,7 @@
         "sno": 136,
         "name": "ANNAM (10 IN 1)",
         "tamilName": "அன்னம் (10 இன்1)",
-        "regular_price": 1200.00,
+        "regular_price": 1400.00,
         "sales_price": 140.00,
         "box": "1 Box",
         "image": "assets/products/pro136.webp"
@@ -1432,7 +1432,7 @@
         "sno": 137,
         "name": "HERO (10 IN 1)",
         "tamilName": "ஹீரோ (10 இன்1)",
-        "regular_price": 1600.00,
+        "regular_price": 1900.00,
         "sales_price": 190.00,
         "box": "1 Box",
         "image": "assets/products/pro137.webp"
@@ -1441,7 +1441,7 @@
         "sno": 138,
         "name": "MEJESTIC (10 IN 1)",
         "tamilName": "மெஜஸ்டி (10இன்1)",
-        "regular_price": 2800.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/products/pro138.webp"
@@ -1457,7 +1457,7 @@
         "sno": 139,
         "name": "7 CM ELECTRIC",
         "tamilName": "7 செமீ எலக்ட்ரிக்",
-        "regular_price": 1300.00,
+        "regular_price": 1400.00,
         "sales_price": 140.00,
         "box": "10 Box",
         "image": "assets/products/pro139.jpg"
@@ -1466,7 +1466,7 @@
         "sno": 140,
         "name": "7 CM COLOUR",
         "tamilName": "7 செமீ கலர்",
-        "regular_price": 1500.00,
+        "regular_price": 1550.00,
         "sales_price": 155.00,
         "box": "10 Box",
         "image": "assets/products/pro140.jpg"
@@ -1475,7 +1475,7 @@
         "sno": 141,
         "name": "7 CM GREEN",
         "tamilName": "7 செமீ கிரீன்",
-        "regular_price": 1700.00,
+        "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "10 Box",
         "image": "assets/products/pro141.webp"
@@ -1484,7 +1484,7 @@
         "sno": 142,
         "name": "7 CM RED",
         "tamilName": "7 செமீரெட்",
-        "regular_price": 1900.00,
+        "regular_price": 1950.00,
         "sales_price": 195.00,
         "box": "10 Box",
         "image": "assets/products/pro142.webp"
@@ -1493,7 +1493,7 @@
         "sno": 143,
         "name": "10 CM ELECTRIC",
         "tamilName": "10 செமீ எலக்ட்ரிக்",
-        "regular_price": 1250.00,
+        "regular_price": 1450.00,
         "sales_price": 145.00,
         "box": "5 Box",
         "image": "assets/products/pro143.webp"
@@ -1502,7 +1502,7 @@
         "sno": 144,
         "name": "10 CM COLOUR",
         "tamilName": "10 செமீ கலர்",
-        "regular_price": 1400.00,
+        "regular_price": 1650.00,
         "sales_price": 165.00,
         "box": "5 Box",
         "image": "assets/products/pro144.webp"
@@ -1511,7 +1511,7 @@
         "sno": 145,
         "name": "10 CM GREEN",
         "tamilName": "10 செமீ கிரீன்",
-        "regular_price": 1500.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "5 Box",
         "image": "assets/products/pro145.webp"
@@ -1520,7 +1520,7 @@
         "sno": 146,
         "name": "10 CM RED",
         "tamilName": "10 செமீ ரெட்",
-        "regular_price": 1650.00,
+        "regular_price": 1850.00,
         "sales_price": 185.00,
         "box": "5 Box",
         "image": "assets/products/pro146.webp"
@@ -1529,7 +1529,7 @@
         "sno": 147,
         "name": "10 CM VIOLET",
         "tamilName": "10 செமீ வயலட்",
-        "regular_price": 1500.00,
+        "regular_price": 1950.00,
         "sales_price": 195.00,
         "box": "5 Box",
         "image": "assets/images/logo.png"
@@ -1538,7 +1538,7 @@
         "sno": 148,
         "name": "10 CM BLUE",
         "tamilName": "10 செமீ புளு",
-        "regular_price": 1500.00,
+        "regular_price": 1950.00,
         "sales_price": 195.00,
         "box": "5 Box",
         "image": "assets/images/logo.png"
@@ -1547,7 +1547,7 @@
         "sno": 149,
         "name": "10 CM PINK",
         "tamilName": "10 செமீ பிங்க்",
-        "regular_price": 1500.00,
+        "regular_price": 1950.00,
         "sales_price": 195.00,
         "box": "5 Box",
         "image": "assets/images/logo.png"
@@ -1556,7 +1556,7 @@
         "sno": 150,
         "name": "12 CM ELECTRIC",
         "tamilName": "12 செமீ எலக்ட்ரிக்",
-        "regular_price": 1450.00,
+        "regular_price": 1650.00,
         "sales_price": 165.00,
         "box": "5 Box",
         "image": "assets/products/pro150.webp"
@@ -1565,7 +1565,7 @@
         "sno": 151,
         "name": "12 CM COLOUR",
         "tamilName": "12 செமீ கலர்",
-        "regular_price": 1550.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "5 Box",
         "image": "assets/products/pro151.webp"
@@ -1574,7 +1574,7 @@
         "sno": 152,
         "name": "12 CM GREEN",
         "tamilName": "12 செமீ கிரீன்",
-        "regular_price": 1650.00,
+        "regular_price": 1850.00,
         "sales_price": 185.00,
         "box": "5 Box",
         "image": "assets/products/pro152.webp"
@@ -1583,7 +1583,7 @@
         "sno": 153,
         "name": "12 CM RED",
         "tamilName": "12 செமீ ரெட்",
-        "regular_price": 1750.00,
+        "regular_price": 1950.00,
         "sales_price": 195.00,
         "box": "5 Box",
         "image": "assets/images/logo.png"
@@ -1592,7 +1592,7 @@
         "sno": 154,
         "name": "15 CM ELECTRIC",
         "tamilName": "15 செமீ எலக்ட்ரிக்",
-        "regular_price": 1000.00,
+        "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "2 Box",
         "image": "assets/images/logo.png"
@@ -1601,7 +1601,7 @@
         "sno": 155,
         "name": "15 CM COLOUR",
         "tamilName": "15 செமீ கலர்",
-        "regular_price": 1100.00,
+        "regular_price": 1300.00,
         "sales_price": 130.00,
         "box": "2 Box",
         "image": "assets/images/logo.png"
@@ -1610,7 +1610,7 @@
         "sno": 156,
         "name": "15 CM GREEN",
         "tamilName": "15 செமீ கிரீன்",
-        "regular_price": 1200.00,
+        "regular_price": 1400.00,
         "sales_price": 140.00,
         "box": "2 Box",
         "image": "assets/images/logo.png"
@@ -1619,7 +1619,7 @@
         "sno": 157,
         "name": "15 CM RED",
         "tamilName": "15 செமீ ரெட்",
-        "regular_price": 1250.00,
+        "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "2 Box",
         "image": "assets/products/pro157.jpg"
@@ -1628,7 +1628,7 @@
         "sno": 158,
         "name": "15 CM PINK",
         "tamilName": "15 செமீ பிங்க்",
-        "regular_price": 1350.00,
+        "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "2 Box",
         "image": "assets/products/pro158.jpg"
@@ -1637,7 +1637,7 @@
         "sno": 159,
         "name": "30 CM ELECTRIC",
         "tamilName": "30 செமீ எலக்ட்ரிக்",
-        "regular_price": 1000.00,
+        "regular_price": 1350.00,
         "sales_price": 135.00,
         "box": "2 Box",
         "image": "assets/products/pro159.jpg"
@@ -1646,7 +1646,7 @@
         "sno": 160,
         "name": "30 CM COLOUR",
         "tamilName": "30 செமீ கலர்",
-        "regular_price": 1100.00,
+        "regular_price": 1550.00,
         "sales_price": 155.00,
         "box": "2 Box",
         "image": "assets/products/pro160.jpg"
@@ -1655,7 +1655,7 @@
         "sno": 161,
         "name": "30 CM GREEN",
         "tamilName": "30 செமீ கிரீன்",
-        "regular_price": 1200.00,
+        "regular_price": 1600.00,
         "sales_price": 160.00,
         "box": "2 Box",
         "image": "assets/images/logo.png"
@@ -1664,7 +1664,7 @@
         "sno": 162,
         "name": "30 CM RED",
         "tamilName": "30 செமீ ரெட்",
-        "regular_price": 1250.00,
+        "regular_price": 1550.00,
         "sales_price": 155.00,
         "box": "2 Box",
         "image": "assets/products/pro162.jpg"
@@ -1673,7 +1673,7 @@
         "sno": 163,
         "name": "50 CM ELECTRIC",
         "tamilName": "50 செமீ எலக்ட்ரிக்",
-        "regular_price": 1800.00,
+        "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1682,7 +1682,7 @@
         "sno": 164,
         "name": "50 CM COLOUR",
         "tamilName": "50 செமீ கலர்",
-        "regular_price": 2000.00,
+        "regular_price": 2800.00,
         "sales_price": 280.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1691,7 +1691,7 @@
         "sno": 164,
         "name": "50 CM GREEN",
         "tamilName": "50 செமீ கிரீன்",
-        "regular_price": 2200.00,
+        "regular_price": 3200.00,
         "sales_price": 320.00,
         "box": "1 Box",
         "image": "assets/images/logo.png"
@@ -1700,7 +1700,7 @@
         "sno": 165,
         "name": "UMBERLLA SPARKLER",
         "tamilName": "7 அம்பர்லா ஸ்பார்க்லர்",
-        "regular_price": 2500.00,
+        "regular_price": 3400.00,
         "sales_price": 340.00,
         "box": "1 Box",
         "image": "assets/products/pro165.jpg"
@@ -1716,7 +1716,7 @@
         "sno": 166,
         "name": "28 GIANT",
         "tamilName": "28 ஜெய்ன்ட்",
-        "regular_price": 250.00,
+        "regular_price": 420.00,
         "sales_price": 42.00,
         "box": "1 Box",
         "image": "assets/products/pro166.webp"
@@ -1725,7 +1725,7 @@
         "sno": 167,
         "name": "100 WALA",
         "tamilName": "100 வாலா",
-        "regular_price": 900.00,
+        "regular_price": 1100.00,
         "sales_price": 110.00,
         "box": "1 Box",
         "image": "assets/products/pro167.jpg"
@@ -1734,7 +1734,7 @@
         "sno": 168,
         "name": "300 WALA",
         "tamilName": "300 வாலா",
-        "regular_price": 2000.00,
+        "regular_price": 3300.00,
         "sales_price": 330.00,
         "box": "1 Box",
         "image": "assets/products/pro168.jpeg"
@@ -1743,7 +1743,7 @@
         "sno": 169,
         "name": "1000 WALA HALF",
         "tamilName": "1000வாலா காப்",
-        "regular_price": 2500.00,
+        "regular_price": 2600.00,
         "sales_price": 260.00,
         "box": "1 Box",
         "image": "assets/products/pro169.webp"
@@ -1752,7 +1752,7 @@
         "sno": 170,
         "name": "1000 WALA FULL",
         "tamilName": "1000வாலா",
-        "regular_price": 3800.00,
+        "regular_price": 4200.00,
         "sales_price": 420.00,
         "box": "1 Box",
         "image": "assets/products/pro170.jpg"
@@ -1761,7 +1761,7 @@
         "sno": 171,
         "name": "2000 WALA FULL",
         "tamilName": "2000 வாலா",
-        "regular_price": 7600.00,
+        "regular_price": 8400.00,
         "sales_price": 840.00,
         "box": "1 Box",
         "image": "assets/products/pro171.jpg"
@@ -1770,7 +1770,7 @@
         "sno": 172,
         "name": "5000 WALA FULL",
         "tamilName": "5000 வாலா",
-        "regular_price": 19000.00,
+        "regular_price": 21000.00,
         "sales_price": 2100.00,
         "box": "1 Box",
         "image": "assets/products/pro172.jpg"
@@ -1779,7 +1779,7 @@
         "sno": 173,
         "name": "10000 WALA FULL",
         "tamilName": "10000 வாலா",
-        "regular_price": 38000.00,
+        "regular_price": 42000.00,
         "sales_price": 4200.00,
         "box": "1 Box",
         "image": "assets/products/pro173.webp"
@@ -1795,7 +1795,7 @@
         "sno": 174,
         "name": "ATIYAL 1/4 KG",
         "tamilName": "அட்டியள் 1/4 KG",
-        "regular_price": 550.00,
+        "regular_price": 750.00,
         "sales_price": 75.00,
         "box": "1 Box",
         "image": "assets/products/pro174.webp"
@@ -1804,7 +1804,7 @@
         "sno": 175,
         "name": "ATIYAL 1/4 KG COLOUR PAPER",
         "tamilName": "அட்டியள் 1/4 KG கலர் பேப்பர்",
-        "regular_price": 650.00,
+        "regular_price": 850.00,
         "sales_price": 85.00,
         "box": "1 Box",
         "image": "assets/products/pro175.jpg"
@@ -1813,7 +1813,7 @@
         "sno": 176,
         "name": "ATIYAL 1/2 KG",
         "tamilName": "அட்டியள் 1/2 KG",
-        "regular_price": 1100.00,
+        "regular_price": 1700.00,
         "sales_price": 170.00,
         "box": "1 Box",
         "image": "assets/products/pro176.jpeg"
@@ -1822,7 +1822,7 @@
         "sno": 177,
         "name": "ATIYAL 1 KG",
         "tamilName": "அட்டியள் 1 KG",
-        "regular_price": 2200.00,
+        "regular_price": 3400.00,
         "sales_price": 340.00,
         "box": "1 Box",
         "image": "assets/products/pro177.jpeg"
