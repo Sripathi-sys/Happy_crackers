@@ -248,7 +248,7 @@ function orderViaWhatsApp() {
     }
 
     // Check for minimum purchase amount
-    if (grandTotal < 4000) {
+    if (grandTotal < 2000) {
         showAlert('Minimum order amount is ₹4000. Please add more items to your cart.', 'warning');
         return;
     }

@@ -1840,7 +1840,7 @@
         
         "regular_price": 4000.00,
         "sales_price": 400.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/products/pro178.png"
       },
       {
@@ -1849,7 +1849,7 @@
         
         "regular_price": 5000.00,
         "sales_price": 500.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1858,7 +1858,7 @@
         
         "regular_price": 6000.00,
         "sales_price": 600.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1867,7 +1867,7 @@
         
         "regular_price": 7000.00,
         "sales_price": 700.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1876,7 +1876,7 @@
         
         "regular_price": 9000.00,
         "sales_price": 900.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1885,7 +1885,7 @@
         
         "regular_price": 11000.00,
         "sales_price": 1100.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1894,7 +1894,7 @@
         
         "regular_price": 12000.00,
         "sales_price": 1200.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1903,7 +1903,7 @@
         
         "regular_price": 15000.00,
         "sales_price": 1500.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       },
       {
@@ -1912,7 +1912,7 @@
         
         "regular_price": 17000.00,
         "sales_price": 1700.00,
-        "box": "1 Box",
+        "box": "Gift Box",
         "image": "assets/images/logo.png"
       }
     ]
