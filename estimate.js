@@ -241,46 +241,91 @@ function updateCartSummary() {
     }
 }
 
+
 function orderViaWhatsApp() {
     if (cart.length === 0) {
         showAlert('Please add some items to your cart first!', 'warning');
         return;
     }
 
-    // Check for minimum purchase amount
     if (grandTotal < 2000) {
         showAlert('Minimum order amount is ₹2000. Please add more items to your cart.', 'warning');
         return;
     }
 
-    let orderMessage = `🎆 *New Order - Happy Enjoy Crackers* 🎆\n\n`;
-    orderMessage += `📅 *Order Date:* ${new Date().toLocaleDateString()}\n`;
-    orderMessage += `⏰ *Order Time:* ${new Date().toLocaleTimeString()}\n\n`;
-    orderMessage += `📋 *Order Details:*\n`;
-    orderMessage += `${'='.repeat(40)}\n`;
+    // Step 1: Show form popup
+    Swal.fire({
+        title: 'Enter Your Details',
+        html: `
+            <input type="text" id="custName" class="swal2-input" placeholder="Full Name">
+            <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number">
+            <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address"></textarea>
+            <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode">
+        `,
+        confirmButtonText: 'Send Order via WhatsApp',
+        showCancelButton: true,
+        cancelButtonText: 'Cancel',
+        preConfirm: () => {
+            const name = document.getElementById('custName').value.trim();
+            const number = document.getElementById('custNumber').value.trim();
+            const address = document.getElementById('custAddress').value.trim();
+            const pincode = document.getElementById('custPincode').value.trim();
 
-    // Loop through cart items
-    cart.forEach((item, index) => {
-        orderMessage += `${index + 1}. *${item.name}*`;
-        if(item.box) {
-            orderMessage += ` (${item.box})`; // Add box count here
+            if (!name || !number || !address || !pincode) {
+                Swal.showValidationMessage('Please fill all the fields');
+                return false;
+            }
+            return { name, number, address, pincode };
         }
-        orderMessage += `\n`;
-        orderMessage += `    ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const { name, number, address, pincode } = result.value;
+
+            // Step 2: Build the order message
+            let orderMessage = `🎆 *New Order - Happy Enjoy Crackers* 🎆\n\n`;
+            orderMessage += `📅 *Order Date:* ${new Date().toLocaleDateString()}\n`;
+            orderMessage += `⏰ *Order Time:* ${new Date().toLocaleTimeString()}\n\n`;
+            orderMessage += `👤 *Customer Name:* ${name}\n📞 *Phone:* ${number}\n🏠 *Address:* ${address}\n📮 *Pincode:* ${pincode}\n\n`;
+            orderMessage += `📋 *Order Details:*\n${'='.repeat(40)}\n`;
+
+            cart.forEach((item, index) => {
+                orderMessage += `${index + 1}. *${item.name}*`;
+                if(item.box) orderMessage += ` (${item.box})`;
+                orderMessage += `\n    ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
+            });
+
+            const deliveryCharge = Math.round(grandTotal * 0.03);
+            const totalWithDelivery = grandTotal + deliveryCharge;
+
+            orderMessage += `${'='.repeat(40)}\n`;
+            orderMessage += `Total Amount          = ₹${grandTotal.toFixed(2)}\n`;
+            orderMessage += `Packing Charge (3%)   = ₹${deliveryCharge.toFixed(2)}\n`;
+            orderMessage += `Grand Total           = ₹${totalWithDelivery.toFixed(2)}\n\n`;
+            orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
+
+            // Step 3: Send to WhatsApp
+            sendWhatsAppMessage(orderMessage);
+            Swal.fire('Success!', 'Order sent via WhatsApp! We will contact you soon.', 'success');
+        }
     });
-
-    const deliveryCharge = Math.round(grandTotal * 0.03);
-    const totalWithDelivery = grandTotal + deliveryCharge;
-
-    orderMessage += `${'='.repeat(40)}\n`;
-    orderMessage += `Total Amount    = ₹${grandTotal.toString().padStart(6)}\n`;
-    orderMessage += `Packing Charge (3%)  = ₹${deliveryCharge.toString().padStart(6)}\n`;
-    orderMessage += `Grand Total     = ₹${totalWithDelivery.toString().padStart(6)}\n\n`;
-    orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
-
-    sendWhatsAppMessage(orderMessage);
-    showAlert('Order sent via WhatsApp! We will contact you soon.', 'success');
 }
+
+function sendWhatsAppMessage(message) {
+    const phoneNumber = "91XXXXXXXXXX"; // Replace with your WhatsApp number
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, "_blank");
+}
+
+function showAlert(message, type = 'info') {
+    Swal.fire({
+        icon: type,
+        text: message,
+        confirmButtonText: 'OK'
+    });
+}
+
+
 
 
 
