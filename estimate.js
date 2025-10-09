@@ -248,8 +248,8 @@ function orderViaWhatsApp() {
         return;
     }
 
-    if (grandTotal < 2000) {
-        showAlert('Minimum order amount is ₹2000. Please add more items to your cart.', 'warning');
+    if (grandTotal < 3000) {
+        showAlert('Minimum order amount is ₹3000. Please add more items to your cart.', 'warning');
         return;
     }
 
