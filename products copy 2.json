@@ -84,7 +84,7 @@
         "regular_price": 600.00,
         "sales_price": 60.00,
         "box": "1 Pkt",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 10,
@@ -93,7 +93,7 @@
         "regular_price": 700.00,
         "sales_price": 70.00,
         "box": "1 Pkt",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 11,
@@ -102,7 +102,7 @@
         "regular_price": 800.00,
         "sales_price": 80.00,
         "box": "1 Pkt",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     ]
   },
@@ -387,7 +387,7 @@
         "regular_price": 220.00,
         "sales_price": 22.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 39,
@@ -644,7 +644,7 @@
         "regular_price": 2300.00,
         "sales_price": 230.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 66,
@@ -705,7 +705,7 @@
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 72,
@@ -714,7 +714,7 @@
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 73,
@@ -723,7 +723,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 71,
@@ -777,7 +777,7 @@
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 75,
@@ -814,7 +814,7 @@
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     ]
   },
@@ -873,7 +873,7 @@
         "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 84,
@@ -891,7 +891,7 @@
         "regular_price": 3500.00,
         "sales_price": 350.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     ]
   },
@@ -1013,7 +1013,7 @@
         "regular_price": 3800.00,
         "sales_price": 380.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 97,
@@ -1031,7 +1031,7 @@
         "regular_price": 3800.00,
         "sales_price": 380.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 99,
@@ -1049,7 +1049,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     
     ]
@@ -1100,7 +1100,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 110,
@@ -1109,7 +1109,7 @@
         "regular_price": 2500.00,
         "sales_price": 250.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 105,
@@ -1172,7 +1172,7 @@
         "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 112,
@@ -1181,7 +1181,7 @@
         "regular_price": 5500.00,
         "sales_price": 550.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 113,
@@ -1190,7 +1190,7 @@
         "regular_price": 6500.00,
         "sales_price": 650.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 114,
@@ -1199,7 +1199,7 @@
         "regular_price": 8000.00,
         "sales_price": 800.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 115,
@@ -1208,7 +1208,7 @@
         "regular_price": 10000.00,
         "sales_price": 1000.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 116,
@@ -1217,7 +1217,7 @@
         "regular_price": 11000.00,
         "sales_price": 1100.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 117,
@@ -1226,7 +1226,7 @@
         "regular_price": 16000.00,
         "sales_price": 1600.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 118,
@@ -1235,7 +1235,7 @@
         "regular_price": 20000.00,
         "sales_price": 2000.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 119,
@@ -1244,7 +1244,7 @@
         "regular_price": 22000.00,
         "sales_price": 2200.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 120,
@@ -1253,7 +1253,7 @@
         "regular_price": 35000.00,
         "sales_price": 3500.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 121,
@@ -1262,7 +1262,7 @@
         "regular_price": 40000.00,
         "sales_price": 4000.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 122,
@@ -1271,7 +1271,7 @@
         "regular_price": 85000.00,
         "sales_price": 8500.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
       
     ]
@@ -1392,7 +1392,7 @@
         "regular_price": 4000.00,
         "sales_price": 400.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 134,
@@ -1401,7 +1401,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 135,
@@ -1410,7 +1410,7 @@
         "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     ]
   },
@@ -1532,7 +1532,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "5 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 148,
@@ -1541,7 +1541,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "5 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 149,
@@ -1550,7 +1550,7 @@
         "regular_price": 1500.00,
         "sales_price": 150.00,
         "box": "5 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 150,
@@ -1586,7 +1586,7 @@
         "regular_price": 1750.00,
         "sales_price": 175.00,
         "box": "5 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 154,
@@ -1595,7 +1595,7 @@
         "regular_price": 1000.00,
         "sales_price": 100.00,
         "box": "2 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 155,
@@ -1604,7 +1604,7 @@
         "regular_price": 1100.00,
         "sales_price": 110.00,
         "box": "2 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 156,
@@ -1613,7 +1613,7 @@
         "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "2 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 157,
@@ -1658,7 +1658,7 @@
         "regular_price": 1200.00,
         "sales_price": 120.00,
         "box": "2 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 162,
@@ -1676,7 +1676,7 @@
         "regular_price": 1800.00,
         "sales_price": 180.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 164,
@@ -1685,7 +1685,7 @@
         "regular_price": 2000.00,
         "sales_price": 200.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 164,
@@ -1694,7 +1694,7 @@
         "regular_price": 2200.00,
         "sales_price": 220.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 165,
@@ -1850,7 +1850,7 @@
         "regular_price": 5000.00,
         "sales_price": 500.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 180,
@@ -1859,7 +1859,7 @@
         "regular_price": 6000.00,
         "sales_price": 600.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 181,
@@ -1868,7 +1868,7 @@
         "regular_price": 7000.00,
         "sales_price": 700.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 182,
@@ -1877,7 +1877,7 @@
         "regular_price": 9000.00,
         "sales_price": 900.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 183,
@@ -1886,7 +1886,7 @@
         "regular_price": 11000.00,
         "sales_price": 1100.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 184,
@@ -1895,7 +1895,7 @@
         "regular_price": 12000.00,
         "sales_price": 1200.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 185,
@@ -1904,7 +1904,7 @@
         "regular_price": 15000.00,
         "sales_price": 1500.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       },
       {
         "sno": 186,
@@ -1913,7 +1913,7 @@
         "regular_price": 17000.00,
         "sales_price": 1700.00,
         "box": "1 Box",
-        "image": "assets/images/logo.png"
+        "image": "assets/images/star-logo.png"
       }
     ]
   }
