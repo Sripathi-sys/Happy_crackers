@@ -12,6 +12,7 @@
                 "sales_price": 3000,
                 "box": "47 Items",
                 "image": "assets/images/category1.jpg",
+                "pdfPage": 1,
                 "itemsList": [
                     {"name": "Flowerpot Big", "qty": "1 Box"},
                     {"name": "Tricolour Fountain", "qty": "1 Box"},
@@ -53,6 +54,7 @@
                 "sales_price": 3000,
                 "box": "50 Items",
                 "image": "assets/images/category2.jpg",
+                "pdfPage": 3,
                 "itemsList": [
                     {"name": "Flowerpot Small", "qty": "1 box"},
                     {"name": "Flowerpot Special", "qty": "1 box"},
@@ -94,6 +96,7 @@
                 "sales_price": 5000,
                 "box": "38 Items",
                 "image": "assets/images/category3.jpg",
+                "pdfPage": 2,
                 "itemsList": [
                     {"name": "Flowerpot Big", "qty": "1 box"},
                     {"name": "Color Koti", "qty": "1 box"},
@@ -134,6 +137,7 @@
                 "sales_price": 5000,
                 "box": "51 Items",
                 "image": "assets/images/category4.jpg",
+                "pdfPage": 4,
                 "itemsList": [
                     {"name": "Flowerpot Big", "qty": "1 box"},
                     {"name": "Colorkoti", "qty": "1 box"},
@@ -179,6 +183,7 @@
                 "sales_price": 10000,
                 "box": "93 Items",
                 "image": "assets/images/banner5.jpg",
+                "pdfPage": 5,
                 "itemsList": [
                     {"name": "3.5\" 8am 10", "qty": "10 PKTS"},
                     {"name": "4\" Gold Lakshmi", "qty": "5 PKTS"},

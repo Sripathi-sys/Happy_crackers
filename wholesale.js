@@ -3,11 +3,11 @@
 // 185 wholesale products data verified from the PDF Price List
 const wholesaleProducts = [
   // FAMILY COMBO PACKS (at the top)
-  { sno: 187, name: "KUTTY CHELLAM COMBO PACK (3K)", tamilName: "குட்டிசெல்லம் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "47 Items", image: "assets/images/category1.jpg" },
-  { sno: 188, name: "SWEET MASS COMBO PACK (3K)", tamilName: "ஸ்வீட் மாஸ் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "50 Items", image: "assets/images/category2.jpg" },
-  { sno: 189, name: "GOLDEN COMBO (5K)", tamilName: "கோல்டன் இரவு காம்போ பேக் (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "38 Items", image: "assets/images/category3.jpg" },
-  { sno: 190, name: "GOLD THALA DIWALI COMBO PACK (5K)", tamilName: "GOLD தல தீபாவளி காம்போ (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "51 Items", image: "assets/images/category4.jpg" },
-  { sno: 191, name: "LOVE JODI COMBO PACK (10K)", tamilName: "LOVE ஜோடி காம்போ பேக் (10K)", regularPrice: 15000, discountedPrice: 10000, unit: "93 Items", image: "assets/images/banner5.jpg" },
+  { sno: 187, name: "KUTTY CHELLAM COMBO PACK (3K)", tamilName: "குட்டிசெல்லம் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "47 Items", image: "assets/images/category1.jpg", pdfPage: 1 },
+  { sno: 188, name: "SWEET MASS COMBO PACK (3K)", tamilName: "ஸ்வீட் மாஸ் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "50 Items", image: "assets/images/category2.jpg", pdfPage: 3 },
+  { sno: 189, name: "GOLDEN COMBO (5K)", tamilName: "கோல்டன் இரவு காம்போ பேக் (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "38 Items", image: "assets/images/category3.jpg", pdfPage: 2 },
+  { sno: 190, name: "GOLD THALA DIWALI COMBO PACK (5K)", tamilName: "GOLD தல தீபாவளி காம்போ (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "51 Items", image: "assets/images/category4.jpg", pdfPage: 4 },
+  { sno: 191, name: "LOVE JODI COMBO PACK (10K)", tamilName: "LOVE ஜோடி காம்போ பேக் (10K)", regularPrice: 15000, discountedPrice: 10000, unit: "93 Items", image: "assets/images/banner5.jpg", pdfPage: 5 },
 
   // Page 2: ONE SOUND CRACKERS
   { sno: 1, name: "2 3/4 KURUVI", tamilName: "2 3/4 குருவி", regularPrice: 80, discountedPrice: 8, unit: "1 Pkt", image: "assets/products/pro1.jpg" },
@@ -227,6 +227,10 @@ const wholesaleProducts = [
   { sno: 177, name: "ATIYAL 1 KG", tamilName: "அட்டியள் 1 KG", regularPrice: 2200, discountedPrice: 220, unit: "1 Box", image: "assets/products/pro177.jpeg" }
 ];
 
+// Global variables for wholesale cart
+let cart = [];
+let grandTotal = 0;
+
 // Initialize the wholesale page logic when DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
   renderWholesaleProducts(wholesaleProducts);
@@ -248,14 +252,16 @@ function renderWholesaleProducts(products) {
   products.forEach(product => {
     // Determine Wholesale Quantity & Price programmatically based on the rule
     let wholesaleQty = 10;
-    if (product.discountedPrice > 100) {
+    if (product.sno >= 187 && product.sno <= 191) {
+      wholesaleQty = 1; // Family combo packs are priced individually (wholesale qty = 1)
+    } else if (product.discountedPrice > 100) {
       wholesaleQty = 5;
     }
     const wholesalePrice = product.discountedPrice * wholesaleQty;
 
     const cardHtml = `
       <div class="col-lg-6 col-md-6 mb-3 product-card-wrapper" data-name="${product.name.toLowerCase()}">
-        <div class="product-card">
+        <div class="product-card" data-sno="${product.sno}" data-name="${product.name}" data-price="${wholesalePrice}" data-unit="${product.unit}">
           <div class="row g-0">
             <div class="col-4">
               <div class="product-image">
@@ -269,6 +275,11 @@ function renderWholesaleProducts(products) {
                     <span class="serial-number me-1">#${product.sno}.</span> ${product.name}
                     ${product.tamilName ? `<br><small class="text-secondary fw-normal fs-6">${product.tamilName}</small>` : ""}
                   </h6>
+                  ${product.pdfPage ? `
+                    <button class="btn btn-sm btn-outline-warning mt-1 mb-2 py-0 px-2 fw-medium text-dark" style="font-size: 11px; border-color: #ffc107;" onclick="showComboItems('${product.name}', ${product.pdfPage})">
+                        <i class="fas fa-list me-1"></i>View Items
+                    </button>
+                  ` : ""}
                   <div class="product-unit" style="font-size: 13px; color: #6c757d; margin-bottom: 4px;">Unit: <strong>${product.unit}</strong></div>
                   <div class="product-prices" style="font-size: 13px; margin-bottom: 8px;">
                     <span class="original-price-label text-decoration-line-through text-muted">Original: ₹${product.regularPrice}</span>
@@ -276,8 +287,16 @@ function renderWholesaleProducts(products) {
                   </div>
                 </div>
                 <div class="wholesale-section" style="background-color: #fff9e6; border-radius: 8px; padding: 6px 10px; border: 1px solid #ffeeba;">
-                  <div class="wholesale-qty" style="font-size: 12px; font-weight: bold; color: #856404; margin-bottom: 2px;">Wholesale Qty: <strong>${wholesaleQty} Units</strong></div>
-                  <div class="wholesale-price" style="font-size: 15px; font-weight: 800; color: #28a745;">Wholesale Price: <strong>₹${wholesalePrice}</strong></div>
+                  <div class="wholesale-qty" style="font-size: 12px; font-weight: bold; color: #856404; margin-bottom: 2px;">Wholesale Qty: <strong>${wholesaleQty} Unit${wholesaleQty > 1 ? 's' : ''}</strong></div>
+                  <div class="wholesale-price" style="font-size: 15px; font-weight: 800; color: #28a745; margin-bottom: 6px;">Wholesale Price: <strong>₹${wholesalePrice}</strong></div>
+                  <div class="quantity-section d-flex align-items-center justify-content-between pt-2 border-top border-secondary-subtle">
+                    <div class="quantity-controls d-flex align-items-center">
+                      <button class="qty-btn minus btn btn-sm btn-outline-secondary py-0 px-2 fw-bold text-dark" style="background: white;" onclick="decreaseQuantity(this)">-</button>
+                      <span class="quantity-display mx-2 fw-bold text-dark" style="font-size: 15px;">0</span>
+                      <button class="qty-btn plus btn btn-sm btn-outline-secondary py-0 px-2 fw-bold text-dark" style="background: white;" onclick="increaseQuantity(this)">+</button>
+                    </div>
+                    <div class="total-price fw-bold text-secondary" style="font-size: 15px;">₹0.00</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -289,23 +308,195 @@ function renderWholesaleProducts(products) {
   });
 }
 
-// Search functionality
+// Search functionality (show/hide DOM wrappers to preserve quantity inputs)
 function initializeSearch() {
   const searchInput = document.getElementById("global-search");
   if (searchInput) {
     searchInput.addEventListener("input", function () {
       const searchTerm = this.value.toLowerCase().trim();
+      const wrappers = document.querySelectorAll(".product-card-wrapper");
       
-      // Filter the global array and re-render
-      const filtered = wholesaleProducts.filter(product => {
-        const matchesName = product.name.toLowerCase().includes(searchTerm);
-        const matchesTamil = product.tamilName && product.tamilName.toLowerCase().includes(searchTerm);
-        return matchesName || matchesTamil;
+      wrappers.forEach(wrapper => {
+        const name = wrapper.getAttribute("data-name");
+        const matches = name.includes(searchTerm);
+        wrapper.style.display = matches ? "" : "none";
       });
-
-      renderWholesaleProducts(filtered);
     });
   }
+}
+
+// Quantity control functions
+function increaseQuantity(button) {
+  const card = button.closest('.product-card');
+  const quantityDisplay = card.querySelector('.quantity-display');
+  const currentQuantity = parseInt(quantityDisplay.textContent);
+  const newQuantity = currentQuantity + 1;
+  
+  quantityDisplay.textContent = newQuantity;
+  updateCardTotal(card);
+  updateCartSummary();
+}
+
+function decreaseQuantity(button) {
+  const card = button.closest('.product-card');
+  const quantityDisplay = card.querySelector('.quantity-display');
+  const currentQuantity = parseInt(quantityDisplay.textContent);
+  
+  if (currentQuantity > 0) {
+    const newQuantity = currentQuantity - 1;
+    quantityDisplay.textContent = newQuantity;
+    updateCardTotal(card);
+    updateCartSummary();
+  }
+}
+
+function updateCardTotal(card) {
+  const price = parseFloat(card.getAttribute('data-price'));
+  const quantityDisplay = card.querySelector('.quantity-display');
+  const totalElement = card.querySelector('.total-price');
+  
+  const quantity = parseInt(quantityDisplay.textContent);
+  const total = price * quantity;
+  
+  totalElement.textContent = `₹${total.toFixed(2)}`;
+  
+  if (quantity > 0) {
+    totalElement.style.color = '#28a745';
+    totalElement.style.fontWeight = 'bold';
+  } else {
+    totalElement.style.color = '#6c757d';
+    totalElement.style.fontWeight = 'bold';
+  }
+}
+
+function updateCartSummary() {
+  const allCards = document.querySelectorAll('.product-card');
+  let totalItems = 0;
+  let totalAmount = 0;
+  const cartItems = [];
+  
+  allCards.forEach(card => {
+    const quantityDisplay = card.querySelector('.quantity-display');
+    if (!quantityDisplay) return;
+    const quantity = parseInt(quantityDisplay.textContent);
+    
+    if (quantity > 0) {
+      const sno = card.getAttribute('data-sno');
+      const productName = card.getAttribute('data-name');
+      const price = parseFloat(card.getAttribute('data-price'));
+      const unit = card.getAttribute('data-unit');
+      const total = price * quantity;
+      
+      totalItems += quantity;
+      totalAmount += total;
+      
+      cartItems.push({
+        sno: sno,
+        name: productName,
+        price: price,
+        quantity: quantity,
+        total: total,
+        unit: unit
+      });
+    }
+  });
+  
+  cart = cartItems;
+  grandTotal = totalAmount;
+  
+  const cartSummary = document.getElementById('cartSummary');
+  const itemsCount = document.querySelector('.cart-items-count');
+  const totalAmountElement = document.querySelector('.cart-total-amount');
+  
+  if (totalItems > 0) {
+    cartSummary.style.display = 'block';
+    itemsCount.textContent = `${totalItems} pack${totalItems > 1 ? 's' : ''}`;
+    totalAmountElement.textContent = `₹${totalAmount.toFixed(2)}`;
+    document.body.style.paddingBottom = '100px';
+  } else {
+    cartSummary.style.display = 'none';
+    document.body.style.paddingBottom = '0';
+  }
+}
+
+// WhatsApp Wholesale order submission
+function orderViaWhatsApp() {
+  if (cart.length === 0) {
+    Swal.fire('Please add some items to your cart first!', '', 'warning');
+    return;
+  }
+
+  if (grandTotal < 4000) {
+    Swal.fire('Minimum wholesale order amount is ₹4000. Please add more items to your cart.', '', 'warning');
+    return;
+  }
+
+  Swal.fire({
+    title: 'Enter Wholesale Order Details',
+    html: `
+      <input type="text" id="custName" class="swal2-input" placeholder="Shop / Contact Name">
+      <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address"></textarea>
+      <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode">
+      <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number">
+    `,
+    confirmButtonText: 'Send Order via WhatsApp',
+    showCancelButton: true,
+    cancelButtonText: 'Cancel',
+    preConfirm: () => {
+      const name = document.getElementById('custName').value.trim();
+      const address = document.getElementById('custAddress').value.trim();
+      const pincode = document.getElementById('custPincode').value.trim();
+      const number = document.getElementById('custNumber').value.trim();
+
+      if (!name || !number || !address || !pincode) {
+        Swal.showValidationMessage('Please fill all fields');
+        return false;
+      }
+      return { name, number, address, pincode };
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      const { name, number, address, pincode } = result.value;
+
+      let orderMessage = `🎆 *New Wholesale Order - Happy Enjoy Crackers* 🎆\n\n`;
+      orderMessage += `📅 *Order Date:* ${new Date().toLocaleDateString()}\n\n`;
+      orderMessage += `👤 *Wholesale Customer:* ${name}\n🏠 *Address:* ${address}\n📮 *Pincode:* ${pincode}\n📞 *Phone:* ${number}\n\n`;
+      orderMessage += `📋 *Wholesale Order Details:*\n${'='.repeat(40)}\n`;
+
+      cart.forEach((item, index) => {
+        orderMessage += `${index + 1}. *${item.name}*\n`;
+        orderMessage += `    Wholesale Pack Price: ₹${item.price.toFixed(2)} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
+      });
+
+      orderMessage += `${'='.repeat(40)}\n`;
+      orderMessage += `Total Wholesale Amount = ₹${grandTotal.toFixed(2)}\n\n`;
+      orderMessage += `Thank you for your Wholesale Order! 🙏`;
+
+      const phoneNumber = "9962314877";
+      const encodedMessage = encodeURIComponent(orderMessage);
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      window.open(whatsappURL, "_blank");
+      Swal.fire('Success!', 'Wholesale order sent via WhatsApp!', 'success');
+    }
+  });
+}
+
+// PDF Page popup viewer function
+function showComboItems(comboName, pdfPage) {
+  const pdfUrl = 'Happy_Enjoy_Crackers_Family_Combo_List.pdf';
+  const iframeHtml = `
+    <div style="width: 100%; height: 650px; overflow: hidden; border-radius: 8px;">
+      <iframe src="${pdfUrl}#page=${pdfPage}&toolbar=0&navpanes=0" width="100%" height="100%" style="border: none;"></iframe>
+    </div>
+  `;
+  
+  Swal.fire({
+    title: `<strong class="text-primary" style="font-size: 20px;">${comboName}</strong>`,
+    html: iframeHtml,
+    confirmButtonText: 'Close',
+    confirmButtonColor: '#0d6efd',
+    width: '750px'
+  });
 }
 
 // Image modal pop-up function (matches standard website modal)

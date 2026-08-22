@@ -157,8 +157,8 @@
                                                     <span class="serial-number me-1">#${globalIndex++}.</span> ${product.name}
                                                     ${product.tamilName ? `<br>${product.tamilName}` : ''}
                                                 </h6>
-                                                ${product.itemsList ? `
-                                                    <button class="btn btn-sm btn-outline-warning mt-1 mb-2 py-0 px-2 fw-medium text-dark" style="font-size: 11px; border-color: #ffc107;" onclick="showComboItems('${product.name}', ${JSON.stringify(product.itemsList).replace(/"/g, '&quot;')})">
+                                                ${product.pdfPage ? `
+                                                    <button class="btn btn-sm btn-outline-warning mt-1 mb-2 py-0 px-2 fw-medium text-dark" style="font-size: 11px; border-color: #ffc107;" onclick="showComboItems('${product.name}', ${product.pdfPage})">
                                                         <i class="fas fa-list me-1"></i>View Items
                                                     </button>
                                                 ` : ''}
@@ -188,21 +188,20 @@
             });
         }
 
-        function showComboItems(comboName, items) {
-            let itemsHtml = '<div class="text-start" style="max-height: 350px; overflow-y: auto;"><table class="table table-striped table-sm">';
-            itemsHtml += '<thead><tr><th>S.No.</th><th>Item Name</th><th class="text-end">Qty</th></tr></thead><tbody>';
-            items.forEach((item, index) => {
-                itemsHtml += `<tr><td>${index + 1}</td><td>${item.name}</td><td class="text-end fw-bold">${item.qty}</td></tr>`;
-            });
-            itemsHtml += '</tbody></table></div>';
+        function showComboItems(comboName, pdfPage) {
+            const pdfUrl = 'Happy_Enjoy_Crackers_Family_Combo_List.pdf';
+            const iframeHtml = `
+                <div style="width: 100%; height: 650px; overflow: hidden; border-radius: 8px;">
+                    <iframe src="${pdfUrl}#page=${pdfPage}&toolbar=0&navpanes=0" width="100%" height="100%" style="border: none;"></iframe>
+                </div>
+            `;
             
             Swal.fire({
                 title: `<strong class="text-primary" style="font-size: 20px;">${comboName}</strong>`,
-                html: itemsHtml,
-                icon: 'info',
+                html: iframeHtml,
                 confirmButtonText: 'Close',
                 confirmButtonColor: '#0d6efd',
-                width: '500px'
+                width: '750px'
             });
         }
     </script>
