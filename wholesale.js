@@ -252,8 +252,10 @@ function renderWholesaleProducts(products) {
   products.forEach(product => {
     // Determine Wholesale Quantity & Price programmatically based on the rule
     let wholesaleQty = 10;
+    let displaySno = product.sno;
     if (product.sno >= 187 && product.sno <= 191) {
       wholesaleQty = 1; // Family combo packs are priced individually (wholesale qty = 1)
+      displaySno = product.sno - 186; // Display S.No will show 1, 2, 3, 4, 5
     } else if (product.discountedPrice > 100) {
       wholesaleQty = 5;
     }
@@ -272,7 +274,7 @@ function renderWholesaleProducts(products) {
               <div class="product-details d-flex flex-column justify-content-between">
                 <div>
                   <h6 class="product-name">
-                    <span class="serial-number me-1">#${product.sno}.</span> ${product.name}
+                    <span class="serial-number me-1">#${displaySno}.</span> ${product.name}
                     ${product.tamilName ? `<br><small class="text-secondary fw-normal fs-6">${product.tamilName}</small>` : ""}
                   </h6>
                   ${product.pdfPage ? `

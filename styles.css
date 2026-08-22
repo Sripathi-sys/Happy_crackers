@@ -140,25 +140,49 @@ body {
 }
 
 
-/* Order Now Button Style */
-.order-now-btn {
-    display: inline-block;
-    padding: 12px 28px;
-    background: linear-gradient(135deg, #ff6f00, #ff9800);
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 50px;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: pulse 2s infinite;
-    margin-left: 45%;
+/* Order Now Button Styles */
+.order-now-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 10px;
+    flex-wrap: wrap;
+    margin: 20px auto;
 }
 
-.order-now-btn:hover {
+.order-now-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    min-width: 280px;
+    box-sizing: border-box;
+    animation: pulse 2.5s infinite;
+}
+
+.order-retail-btn {
+    background: linear-gradient(135deg, #ff4b1f, #ff9068);
+    box-shadow: 0 4px 15px rgba(255, 75, 31, 0.4);
+}
+
+.order-retail-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(255, 111, 0, 0.6);
+    box-shadow: 0 6px 22px rgba(255, 75, 31, 0.6);
+}
+
+.order-wholesale-btn {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    box-shadow: 0 4px 15px rgba(17, 153, 142, 0.4);
+}
+
+.order-wholesale-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 22px rgba(17, 153, 142, 0.6);
 }
 
 /* Pulse animation */
@@ -836,10 +860,6 @@ body {
         padding: 1rem;
     }
 
-    .order-now-btn {
-        margin-left: 30%;
-    }
-    
     .table-responsive {
         font-size: 0.9rem;
     }
