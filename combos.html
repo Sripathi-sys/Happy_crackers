@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Combos - Happy Enjoy Crackers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="wholesale.css" rel="stylesheet"> <!-- reuse card/layout styles -->
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/star-logo.png" type="image/png">
+    
+    <style>
+        .combo-card {
+            border: 2px solid #ffdfb3;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        .combo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 152, 0, 0.15);
+            border-color: #ff9800;
+        }
+        .combo-card.selected {
+            border-color: #ff9800;
+            background-color: #fffaf0;
+            box-shadow: 0 10px 25px rgba(255, 152, 0, 0.2);
+        }
+        .combo-img-container {
+            position: relative;
+            background: #fff;
+            padding: 10px;
+        }
+        .combo-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .combo-img:hover {
+            transform: scale(1.02);
+        }
+        .pdf-cut-page {
+            width: 100%;
+            border-top: 1px dashed #ffa726;
+            background-color: #fcfcfc;
+            padding: 15px;
+        }
+        .pdf-cut-page img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .combo-banner-top {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        .select-btn {
+            width: 100%;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-color" href="index.html">
+                <img src="assets/images/star-logo.png" alt="Happy Enjoy Crackers Logo" style="height: 40px; margin-right: 10px;">
+                Happy Enjoy Crackers
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="estimate.html">Estimate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="wholesale.html">Wholesale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-medium" href="combos.html">Family Combos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="payment-info.html">Payment Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Section -->
+    <section class="products-section py-5">
+        <div class="container">
+            <!-- Ganesha Hero Banner -->
+            <div class="ganesha-banner py-4 mb-4 bg-warning bg-opacity-10 rounded shadow-sm">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-center mb-3 mb-md-0">
+                            <img src="assets/images/bust1.jpg" alt="Lord Ganesha" class="img-fluid rounded-3 shadow-lg" style="max-height: 180px; border: 3px solid #ffc107;">
+                        </div>
+                        <div class="col-md-9 text-center text-md-start">
+                            <h2 class="fw-bold text-color">Happy Enjoy Crackers</h2>
+                            <p class="lead text-muted mb-0">Celebrate your festivals with the blessings of Lord Vinayagar! Safe, colorful, and premium quality fireworks at unbeatable prices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Generated Premium Banner -->
+            <div class="text-center">
+                <img src="assets/images/combo_banner.jpg" alt="Premium Family Combo Packs" class="combo-banner-top img-fluid">
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold text-color mb-0">Family Combo Packs</h2>
+                <a href="Happy_Enjoy_Crackers_Family_Combo_List.pdf" class="btn btn-warning fw-bold shadow-sm" download>
+                    <i class="fas fa-file-pdf me-2"></i>Download Full Combo PDF
+                </a>
+            </div>
+
+            <div class="offer-banner mb-4">
+                <div class="offer-text">🎉 Exclusive Discounts on Family Combo Packs! 🎆</div>
+            </div>
+
+            <!-- Combos Grid -->
+            <div class="row g-4" id="combos-container">
+                <!-- Combo 1 -->
+                <div class="col-12 col-md-6 col-lg-6 mb-4 combo-card-wrapper" data-sno="187">
+                    <div class="combo-card p-3 d-flex flex-column h-100" id="combo-187">
+                        <div class="row g-0 flex-grow-1">
+                            <div class="col-4">
+                                <div class="combo-img-container">
+                                    <img src="assets/images/category1.jpg" alt="KUTTY CHELLAM COMBO PACK (3K)" class="combo-img" onclick="openImageModal(this)">
+                                </div>
+                            </div>
+                            <div class="col-8 ps-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4 class="fw-bold text-color">KUTTY CHELLAM COMBO (3K)</h4>
+                                    <p class="text-muted mb-2">குட்டிசெல்லம் காம்போ பேக் (3K)</p>
+                                    <div class="mb-2">Unit: <strong>47 Items</strong></div>
+                                    <div class="mb-3">
+                                        <span class="text-decoration-line-through text-muted fs-6">Original: ₹5000</span>
+                                        <span class="text-danger fw-bold fs-5 ms-2">Discount: ₹3000</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-warning select-btn" onclick="toggleCombo(187, 3000, 'KUTTY CHELLAM COMBO (3K)', '47 Items')">Select Pack</button>
+                            </div>
+                        </div>
+                        <div class="pdf-cut-page mt-3">
+                            <h6 class="fw-bold text-warning mb-2"><i class="fas fa-list me-2"></i>Included Items (PDF page 1):</h6>
+                            <img src="assets/images/category1.jpg" alt="Kutty Chellam PDF list" onclick="openImageModal(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 2 -->
+                <div class="col-12 col-md-6 col-lg-6 mb-4 combo-card-wrapper" data-sno="188">
+                    <div class="combo-card p-3 d-flex flex-column h-100" id="combo-188">
+                        <div class="row g-0 flex-grow-1">
+                            <div class="col-4">
+                                <div class="combo-img-container">
+                                    <img src="assets/images/category2.jpg" alt="SWEET MASS COMBO PACK (3K)" class="combo-img" onclick="openImageModal(this)">
+                                </div>
+                            </div>
+                            <div class="col-8 ps-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4 class="fw-bold text-color">SWEET MASS COMBO (3K)</h4>
+                                    <p class="text-muted mb-2">ஸ்வீட் மாஸ் காம்போ பேக் (3K)</p>
+                                    <div class="mb-2">Unit: <strong>50 Items</strong></div>
+                                    <div class="mb-3">
+                                        <span class="text-decoration-line-through text-muted fs-6">Original: ₹5000</span>
+                                        <span class="text-danger fw-bold fs-5 ms-2">Discount: ₹3000</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-warning select-btn" onclick="toggleCombo(188, 3000, 'SWEET MASS COMBO (3K)', '50 Items')">Select Pack</button>
+                            </div>
+                        </div>
+                        <div class="pdf-cut-page mt-3">
+                            <h6 class="fw-bold text-warning mb-2"><i class="fas fa-list me-2"></i>Included Items (PDF page 3):</h6>
+                            <img src="assets/images/category2.jpg" alt="Sweet Mass PDF list" onclick="openImageModal(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 3 -->
+                <div class="col-12 col-md-6 col-lg-6 mb-4 combo-card-wrapper" data-sno="189">
+                    <div class="combo-card p-3 d-flex flex-column h-100" id="combo-189">
+                        <div class="row g-0 flex-grow-1">
+                            <div class="col-4">
+                                <div class="combo-img-container">
+                                    <img src="assets/images/category3.jpg" alt="GOLDEN COMBO (5K)" class="combo-img" onclick="openImageModal(this)">
+                                </div>
+                            </div>
+                            <div class="col-8 ps-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4 class="fw-bold text-color">GOLDEN COMBO (5K)</h4>
+                                    <p class="text-muted mb-2">கோல்டன் இரவு காம்போ பேக் (5K)</p>
+                                    <div class="mb-2">Unit: <strong>38 Items</strong></div>
+                                    <div class="mb-3">
+                                        <span class="text-decoration-line-through text-muted fs-6">Original: ₹8000</span>
+                                        <span class="text-danger fw-bold fs-5 ms-2">Discount: ₹5000</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-warning select-btn" onclick="toggleCombo(189, 5000, 'GOLDEN COMBO (5K)', '38 Items')">Select Pack</button>
+                            </div>
+                        </div>
+                        <div class="pdf-cut-page mt-3">
+                            <h6 class="fw-bold text-warning mb-2"><i class="fas fa-list me-2"></i>Included Items (PDF page 2):</h6>
+                            <img src="assets/images/category3.jpg" alt="Golden Combo PDF list" onclick="openImageModal(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 4 -->
+                <div class="col-12 col-md-6 col-lg-6 mb-4 combo-card-wrapper" data-sno="190">
+                    <div class="combo-card p-3 d-flex flex-column h-100" id="combo-190">
+                        <div class="row g-0 flex-grow-1">
+                            <div class="col-4">
+                                <div class="combo-img-container">
+                                    <img src="assets/images/category4.jpg" alt="GOLD THALA DIWALI COMBO PACK (5K)" class="combo-img" onclick="openImageModal(this)">
+                                </div>
+                            </div>
+                            <div class="col-8 ps-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4 class="fw-bold text-color">GOLD THALA COMBO (5K)</h4>
+                                    <p class="text-muted mb-2">GOLD தல தீபாவளி காம்போ (5K)</p>
+                                    <div class="mb-2">Unit: <strong>51 Items</strong></div>
+                                    <div class="mb-3">
+                                        <span class="text-decoration-line-through text-muted fs-6">Original: ₹8000</span>
+                                        <span class="text-danger fw-bold fs-5 ms-2">Discount: ₹5000</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-warning select-btn" onclick="toggleCombo(190, 5000, 'GOLD THALA COMBO (5K)', '51 Items')">Select Pack</button>
+                            </div>
+                        </div>
+                        <div class="pdf-cut-page mt-3">
+                            <h6 class="fw-bold text-warning mb-2"><i class="fas fa-list me-2"></i>Included Items (PDF page 4):</h6>
+                            <img src="assets/images/category4.jpg" alt="Gold Thala PDF list" onclick="openImageModal(this)">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo 5 -->
+                <div class="col-12 col-md-6 col-lg-6 mb-4 combo-card-wrapper" data-sno="191">
+                    <div class="combo-card p-3 d-flex flex-column h-100" id="combo-191">
+                        <div class="row g-0 flex-grow-1">
+                            <div class="col-4">
+                                <div class="combo-img-container">
+                                    <img src="assets/images/banner5.jpg" alt="LOVE JODI COMBO PACK (10K)" class="combo-img" onclick="openImageModal(this)">
+                                </div>
+                            </div>
+                            <div class="col-8 ps-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h4 class="fw-bold text-color">LOVE JODI COMBO (10K)</h4>
+                                    <p class="text-muted mb-2">LOVE ஜோடி காம்போ பேக் (10K)</p>
+                                    <div class="mb-2">Unit: <strong>93 Items</strong></div>
+                                    <div class="mb-3">
+                                        <span class="text-decoration-line-through text-muted fs-6">Original: ₹15000</span>
+                                        <span class="text-danger fw-bold fs-5 ms-2">Discount: ₹10000</span>
+                                    </div>
+                                </div>
+                                <button class="btn btn-outline-warning select-btn" onclick="toggleCombo(191, 10000, 'LOVE JODI COMBO (10K)', '93 Items')">Select Pack</button>
+                            </div>
+                        </div>
+                        <div class="pdf-cut-page mt-3">
+                            <h6 class="fw-bold text-warning mb-2"><i class="fas fa-list me-2"></i>Included Items (PDF page 5):</h6>
+                            <img src="assets/images/banner5.jpg" alt="Love Jodi PDF list" onclick="openImageModal(this)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Cart Summary for Combos -->
+    <div id="cartSummary" class="cart-summary" style="display: none;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="cart-info">
+                <span class="cart-items-count fw-bold">0 packs</span> selected
+                <span class="mx-2">|</span>
+                Total: <span class="cart-total-amount fw-bold">₹0.00</span>
+            </div>
+            <button class="btn btn-warning fw-bold text-dark px-4" onclick="orderCombos()">
+                <i class="fab fa-whatsapp me-2"></i>Order via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Combo Image</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Combo Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white">
+        <div class="container py-5 text-center">
+            <h3 class="fw-bold text-warning mb-3"><i class="fas fa-fire me-2"></i>Happy Enjoy Crackers</h3>
+            <p class="text-light mb-3">Premium quality fireworks for all your celebrations. Special Family Combos to light up your Diwali!</p>
+            <div class="social-links mb-3">
+                <a href="https://www.instagram.com/happy_enjoy_crackers/" target="_blank" class="social-link me-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/919962314877" class="social-link text-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="mb-0 text-secondary">&copy; 2026 Happy Enjoy Crackers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="combos.js"></script>
+</body>
+</html>

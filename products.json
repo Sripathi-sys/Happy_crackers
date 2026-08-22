@@ -1,2065 +1,1905 @@
 [
     {
-        "category": "family-combos",
-        "categoryName": "FAMILY COMBO PACKS",
-        "iconClass": "fas fa-gift",
+        "category": "one-sound-crackers",
+        "categoryName": "ONE SOUND CRACKERS",
+        "iconClass": "fas fa-bolt",
         "products": [
             {
-                "sno": 187,
-                "name": "KUTTY CHELLAM COMBO PACK (3K)",
-                "tamilName": "குட்டிசெல்லம் காம்போ பேக் (3K)",
-                "regular_price": 5000,
-                "sales_price": 3000,
-                "box": "47 Items",
-                "image": "assets/images/category1.jpg",
-                "pdfPage": 1,
-                "itemsList": [
-                    {"name": "Flowerpot Big", "qty": "1 Box"},
-                    {"name": "Tricolour Fountain", "qty": "1 Box"},
-                    {"name": "Greund Chakkar Special", "qty": "1 Box"},
-                    {"name": "Disco Wheel", "qty": "1 Box"},
-                    {"name": "Starpass Shower", "qty": "1 Box"},
-                    {"name": "4 X 4 Wheel", "qty": "1 Box"},
-                    {"name": "Kitkat Small", "qty": "2 Box"},
-                    {"name": "Asarted Cartoon", "qty": "1 Box"},
-                    {"name": "Peacock Feather", "qty": "1 Box"},
-                    {"name": "Lollipop", "qty": "1 Box"},
-                    {"name": "Small Peacock", "qty": "1 Box"},
-                    {"name": "Ninety Watts", "qty": "1 Box"},
-                    {"name": "Photoflash", "qty": "1 Box"},
-                    {"name": "Helicopter", "qty": "1 Box"},
-                    {"name": "Butterfly", "qty": "1 Box"},
-                    {"name": "Drone", "qty": "1 Box"},
-                    {"name": "Multi color Smoke (3pcs)", "qty": "1 Box"},
-                    {"name": "Amazing Pamparam", "qty": "1 Box"},
-                    {"name": "Money bank Small (3pcs)", "qty": "1 Box"},
-                    {"name": "Tin Fountain", "qty": "2 Pcs"},
-                    {"name": "Old is Gold (25pcs)", "qty": "1 Box"},
-                    {"name": "Aero Bus (10pcs)", "qty": "1 Box"},
-                    {"name": "RK 47 Gun", "qty": "1 Box"},
-                    {"name": "Amazing Candle (3pcs)", "qty": "1 Box"},
-                    {"name": "1.5\" Twinkling star", "qty": "2 Box"},
-                    {"name": "4\" Twinkling star", "qty": "1 Box"},
-                    {"name": "7cm SparklAr", "qty": "10 Box"},
-                    {"name": "10cm SparklAr", "qty": "5 Box"},
-                    {"name": "30cm SparklAr", "qty": "2 Box"},
-                    {"name": "TipTop Matches (10pcs)", "qty": "1 Box"}
-                ]
+                "sno": 1,
+                "name": "2 3/4 KURUVI",
+                "tamilName": "23/4 குருவி",
+                "regular_price": 100,
+                "sales_price": 10,
+                "box": "1 Pkt",
+                "image": "assets/products/pro1.jpg"
             },
             {
-                "sno": 188,
-                "name": "SWEET MASS COMBO PACK (3K)",
-                "tamilName": "ஸ்வீட் மாஸ் காம்போ பேக் (3K)",
-                "regular_price": 5000,
-                "sales_price": 3000,
-                "box": "50 Items",
-                "image": "assets/images/category2.jpg",
-                "pdfPage": 3,
-                "itemsList": [
-                    {"name": "Flowerpot Small", "qty": "1 box"},
-                    {"name": "Flowerpot Special", "qty": "1 box"},
-                    {"name": "Ground chakkar Big", "qty": "1 box"},
-                    {"name": "Plastic Pinner Special", "qty": "1 box"},
-                    {"name": "King of King Bomb", "qty": "1 box"},
-                    {"name": "StarPots Shower", "qty": "1 box"},
-                    {"name": "KitKat Small", "qty": "2 box"},
-                    {"name": "Ninety Ones", "qty": "1 box"},
-                    {"name": "Tri color Fountain", "qty": "1 box"},
-                    {"name": "Lollipop", "qty": "1 box"},
-                    {"name": "Tin Fountain", "qty": "2 box"},
-                    {"name": "Photo Flash", "qty": "1 box"},
-                    {"name": "Helicopter", "qty": "1 box"},
-                    {"name": "Butterfly", "qty": "1 box"},
-                    {"name": "Amazing Pampaaram", "qty": "1 box"},
-                    {"name": "Pocket Bomb", "qty": "1 box"},
-                    {"name": "1 by 4 Kg Paper Bomb", "qty": "2 box"},
-                    {"name": "Chakkars (3 in 1) Matches", "qty": "2 box"},
-                    {"name": "1.5\" Twinkling star", "qty": "2 box"},
-                    {"name": "7cm Sparkler", "qty": "2 box"},
-                    {"name": "10cm Sparkler", "qty": "2 box"},
-                    {"name": "30cm Sparkler", "qty": "2 box"},
-                    {"name": "Hundred Pieces Bijill", "qty": "1 pkt"},
-                    {"name": "3.5\" Ben 10 (1 BDL)", "qty": "15 pkts"},
-                    {"name": "Chotta Fancy", "qty": "1 box"},
-                    {"name": "2\" Fancy", "qty": "1 box"},
-                    {"name": "3.5\" Fancy Pipe", "qty": "1 box"},
-                    {"name": "1K Blaster", "qty": "1 box"},
-                    {"name": "25 Shot Raider", "qty": "1 box"},
-                    {"name": "30 Shot Multicolor", "qty": "1 box"}
-                ]
+                "sno": 2,
+                "name": "2 3/4 KURUVI (Machine Fuse)",
+                "tamilName": "23/4 குருவி (மெஷின் திரி)",
+                "regular_price": 200,
+                "sales_price": 20,
+                "box": "1 Pkt",
+                "image": "assets/products/pro2.jpg"
             },
             {
-                "sno": 189,
-                "name": "GOLDEN COMBO (5K)",
-                "tamilName": "கோல்டன் இரவு காம்போ பேக் (5K)",
-                "regular_price": 8000,
-                "sales_price": 5000,
-                "box": "38 Items",
-                "image": "assets/images/category3.jpg",
-                "pdfPage": 2,
-                "itemsList": [
-                    {"name": "Flowerpot Big", "qty": "1 box"},
-                    {"name": "Color Koti", "qty": "1 box"},
-                    {"name": "Ground Chakkar Big", "qty": "1 box"},
-                    {"name": "4 x 4 Wheel", "qty": "1 box"},
-                    {"name": "Disco Wheel", "qty": "1 box"},
-                    {"name": "Tri Colour Fountain", "qty": "1 box"},
-                    {"name": "Crackling Fountain", "qty": "1 box"},
-                    {"name": "Star Pot Shower", "qty": "1 box"},
-                    {"name": "KitKat Small", "qty": "2 box"},
-                    {"name": "Peacock Feather", "qty": "1 box"},
-                    {"name": "90 Watts", "qty": "1 box"},
-                    {"name": "Lollipop", "qty": "1 box"},
-                    {"name": "4\" Twinkling Star", "qty": "1 box"},
-                    {"name": "10 cm Sparkler", "qty": "5 box"},
-                    {"name": "30 cm Sparkler", "qty": "2 box"},
-                    {"name": "Mega Fountain SIREN (3 Pcs)", "qty": "1 box"},
-                    {"name": "Photo Flash", "qty": "1 box"},
-                    {"name": "Helicopter", "qty": "1 box"},
-                    {"name": "Multi Color Smoke (3 Pcs)", "qty": "1 box"},
-                    {"name": "Amazing Pamparam", "qty": "1 box"},
-                    {"name": "Small Peacock", "qty": "1 box"},
-                    {"name": "Butterfly", "qty": "1 box"},
-                    {"name": "Chota Fancy", "qty": "2 box"},
-                    {"name": "2\" Fancy", "qty": "2 box"},
-                    {"name": "3.5\" Fancy Pipe", "qty": "2 box"},
-                    {"name": "4\" 2 Pcs Fancy Pipe", "qty": "1 box"},
-                    {"name": "7 Shot", "qty": "1 box"},
-                    {"name": "12 Shot Rider", "qty": "1 box"},
-                    {"name": "60 Shot Multicolor", "qty": "1 box"}
-                ]
+                "sno": 3,
+                "name": "3 1/4 LAKSHMI",
+                "tamilName": "லட்சுமி",
+                "regular_price": 190,
+                "sales_price": 19,
+                "box": "1 Pkt",
+                "image": "assets/products/pro3.webp"
             },
             {
-                "sno": 190,
-                "name": "GOLD THALA DIWALI COMBO PACK (5K)",
-                "tamilName": "GOLD தல தீபாவளி காம்போ (5K)",
-                "regular_price": 8000,
-                "sales_price": 5000,
-                "box": "51 Items",
-                "image": "assets/images/category4.jpg",
-                "pdfPage": 4,
-                "itemsList": [
-                    {"name": "Flowerpot Big", "qty": "1 box"},
-                    {"name": "Colorkoti", "qty": "1 box"},
-                    {"name": "Ground chakkar Special", "qty": "1 box"},
-                    {"name": "Plastic Spinner Deluxe", "qty": "1 box"},
-                    {"name": "King of King Bomb", "qty": "1 box"},
-                    {"name": "Star Pots Shower", "qty": "1 box"},
-                    {"name": "Dinosaur Bomb", "qty": "1 box"},
-                    {"name": "90 Watts", "qty": "1 box"},
-                    {"name": "Lollipop", "qty": "1 box"},
-                    {"name": "Disco Wheel", "qty": "1 box"},
-                    {"name": "Mega Fountains Siren (3pcs)", "qty": "1 box"},
-                    {"name": "Photo Flash", "qty": "1 box"},
-                    {"name": "Helicopter", "qty": "1 box"},
-                    {"name": "Multicolor Smoke (3pcs)", "qty": "1 box"},
-                    {"name": "Amazing Pamparam", "qty": "1 box"},
-                    {"name": "Small Peacock", "qty": "1 box"},
-                    {"name": "Rocket Bomb", "qty": "1 box"},
-                    {"name": "Crackling Lunik Rocket", "qty": "1 box"},
-                    {"name": "1/2 KG Paper Bomb", "qty": "2 box"},
-                    {"name": "Indian Challengers (10 in 1) Matches", "qty": "1 box"},
-                    {"name": "1.5\" Twinkling star", "qty": "2 box"},
-                    {"name": "10cm Sparklers", "qty": "5 box"},
-                    {"name": "30cm Sparklers", "qty": "2 box"},
-                    {"name": "4\" Gold Lakshmi (1 BDL)", "qty": "10 pks"},
-                    {"name": "100 pieces Bijili", "qty": "1 PKT"},
-                    {"name": "100 Blast", "qty": "2 pcs"},
-                    {"name": "1K Blast", "qty": "1 box"},
-                    {"name": "2k Blast", "qty": "1 box"},
-                    {"name": "Chotta Skyshot (5pcs)", "qty": "1 box"},
-                    {"name": "2\" (3 pieces) Falsi", "qty": "1 box"},
-                    {"name": "3.5\" Fancy Pipe", "qty": "1 box"},
-                    {"name": "4\" Fancy Pipe", "qty": "1 box"},
-                    {"name": "12 Shot Raider", "qty": "1 box"},
-                    {"name": "60 shot, multi-color", "qty": "1 box"}
-                ]
+                "sno": 4,
+                "name": "4/ LAKSHMI",
+                "tamilName": "4/ லட்சுமி",
+                "regular_price": 250,
+                "sales_price": 25,
+                "box": "1 Pkt",
+                "image": "assets/products/pro4.jpg"
             },
             {
-                "sno": 191,
-                "name": "LOVE JODI COMBO PACK (10K)",
-                "tamilName": "LOVE ஜோடி காம்போ பேக் (10K)",
-                "regular_price": 15000,
-                "sales_price": 10000,
-                "box": "93 Items",
-                "image": "assets/images/banner5.jpg",
-                "pdfPage": 5,
-                "itemsList": [
-                    {"name": "3.5\" 8am 10", "qty": "10 PKTS"},
-                    {"name": "4\" Gold Lakshmi", "qty": "5 PKTS"},
-                    {"name": "5\" DELUXE", "qty": "5 PKTS"},
-                    {"name": "6\" DELUXE", "qty": "5 PKTS"},
-                    {"name": "Flower Pot Ashoka", "qty": "1 Box"},
-                    {"name": "Colour Koti", "qty": "1 Box"},
-                    {"name": "Ground Chakkar Special", "qty": "1 Box"},
-                    {"name": "Plastic Spinner Deluxe", "qty": "1 Box"},
-                    {"name": "Disco Wheel", "qty": "1 Box"},
-                    {"name": "4 x 4 Wheel", "qty": "1 Box"},
-                    {"name": "2K Blast", "qty": "1 Box"},
-                    {"name": "5K Blast", "qty": "1 Box"},
-                    {"name": "1/2 kg P Bomb", "qty": "2 Box"},
-                    {"name": "1 kg P Bomb", "qty": "1 Box"},
-                    {"name": "Crackling Lunik Rocket", "qty": "1 Box"},
-                    {"name": "Digital Bomb", "qty": "1 Box"},
-                    {"name": "Cling Rider Bomb", "qty": "1 Box"},
-                    {"name": "100 Pieces Dizzily", "qty": "1 PKT"},
-                    {"name": "Star Pops Shower", "qty": "1 Box"},
-                    {"name": "Lollipop", "qty": "1 Box"},
-                    {"name": "KitKat Small", "qty": "2 Box"},
-                    {"name": "Photo Flash", "qty": "1 Box"},
-                    {"name": "Helicopter", "qty": "1 Box"},
-                    {"name": "Multicolor Smoke (3 pcs)", "qty": "1 Box"},
-                    {"name": "Amazing Pombaram", "qty": "1 Box"},
-                    {"name": "Butterfly", "qty": "1 Box"},
-                    {"name": "Mega Fountain Siren (3 pcs)", "qty": "1 Box"},
-                    {"name": "Money Bank Small (3 pcs)", "qty": "1 Box"},
-                    {"name": "Tri-Color Fountain", "qty": "1 Box"},
-                    {"name": "Small Peacock", "qty": "1 Box"},
-                    {"name": "Bada Peacock", "qty": "1 Box"},
-                    {"name": "Tin Fountain", "qty": "2 Box"},
-                    {"name": "1.5\" Twinkling Star", "qty": "2 Box"},
-                    {"name": "4\" Twinkling Star", "qty": "1 Box"},
-                    {"name": "7 cm Sparkler", "qty": "10 Box"},
-                    {"name": "10 cm Sparkler", "qty": "5 Box"},
-                    {"name": "30 cm Sparkler", "qty": "4 Box"},
-                    {"name": "Indian Challengers (10 in 1) Matches", "qty": "1 Box"},
-                    {"name": "Chotta Sky Shot (5 pcs)", "qty": "1 Box"},
-                    {"name": "Chotta Fancy", "qty": "3 Box"},
-                    {"name": "7 Shot (5 pcs)", "qty": "1 Box"},
-                    {"name": "2\" 3 pcs Fancy", "qty": "1 Box"},
-                    {"name": "3.5\" Fancy Pipe", "qty": "2 Box"},
-                    {"name": "4\" Fancy Pipe", "qty": "1 Box"},
-                    {"name": "7 Step Fancy", "qty": "1 Box"},
-                    {"name": "4\" 2 pcs Fancy Pipe", "qty": "1 Box"},
-                    {"name": "12 Shot Rider", "qty": "1 Box"},
-                    {"name": "25 Shot Rider", "qty": "1 Box"},
-                    {"name": "60 Shot Multicolor", "qty": "1 Box"}
-                ]
+                "sno": 5,
+                "name": "4/ DLX LAKSHMI",
+                "tamilName": "4/ டீலக்ஸ் லட்சுமி",
+                "regular_price": 400,
+                "sales_price": 40,
+                "box": "1 Pkt",
+                "image": "assets/products/pro5.jpg"
+            },
+            {
+                "sno": 6,
+                "name": "4/  GOLD LAKSHMI",
+                "tamilName": "4 கோல்டு லட்சுமி",
+                "regular_price": 410,
+                "sales_price": 41,
+                "box": "1 Pkt",
+                "image": "assets/products/pro6.jpg"
+            },
+            {
+                "sno": 7,
+                "name": "2 SOUND CRACKERS",
+                "tamilName": "2 சவுண்ட்வெடி",
+                "regular_price": 470,
+                "sales_price": 47,
+                "box": "1 Pkt",
+                "image": "assets/products/pro7.jpg"
+            },
+            {
+                "sno": 8,
+                "name": "KUMKI 4ML 12 PLUS",
+                "tamilName": "கும்கி 4 எம்மல் 12 பிலஸ்",
+                "regular_price": 660,
+                "sales_price": 66,
+                "box": "1 Pkt",
+                "image": "assets/products/pro8.jpg"
+            },
+            {
+                "sno": 9,
+                "name": "4.5 INCH BAHUBALI PLUS",
+                "tamilName": "4.5 இன்ச்பகுபலி பிலஸ்",
+                "regular_price": 670,
+                "sales_price": 67,
+                "box": "1 Pkt",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 10,
+                "name": "5 INCH 20 PLUS",
+                "tamilName": "5 இன்ச் 20 பிலஸ்",
+                "regular_price": 790,
+                "sales_price": 79,
+                "box": "1 Pkt",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 11,
+                "name": "LION 6 INCH 24 PLUS",
+                "tamilName": "லயன் 6 இன்ச் 24 பிலஸ்",
+                "regular_price": 900,
+                "sales_price": 90,
+                "box": "1 Pkt",
+                "image": "assets/images/logo.png"
             }
         ]
     },
     {
-        "category":  "one-sound-crackers",
-        "categoryName":  "ONE SOUND CRACKERS",
-        "iconClass":  "fas fa-bolt",
-        "products":  [
-                         {
-                             "sno":  1,
-                             "name":  "2 3/4 KURUVI",
-                             "tamilName":  "23/4 குருவி",
-                             "regular_price":  80,
-                             "sales_price":  8,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro1.jpg"
-                         },
-                         {
-                             "sno":  2,
-                             "name":  "2 3/4 KURUVI (Machine Fuse)",
-                             "tamilName":  "23/4 குருவி (மெஷின் திரி)",
-                             "regular_price":  150,
-                             "sales_price":  15,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro2.jpg"
-                         },
-                         {
-                             "sno":  3,
-                             "name":  "3 1/4 LAKSHMI",
-                             "tamilName":  "லட்சுமி",
-                             "regular_price":  150,
-                             "sales_price":  15,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro3.webp"
-                         },
-                         {
-                             "sno":  4,
-                             "name":  "4\" LAKSHMI",
-                             "tamilName":  "4 லட்சுமி",
-                             "regular_price":  200,
-                             "sales_price":  20,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro4.jpg"
-                         },
-                         {
-                             "sno":  5,
-                             "name":  "4\"DLX LAKSHMI",
-                             "tamilName":  "4 டீலக்ஸ் லட்சுமி",
-                             "regular_price":  340,
-                             "sales_price":  34,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro5.jpg"
-                         },
-                         {
-                             "sno":  6,
-                             "name":  "4\" GOLD LAKSHMI",
-                             "tamilName":  "4 கோல்டு லட்சுமி",
-                             "regular_price":  360,
-                             "sales_price":  36,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro6.jpg"
-                         },
-                         {
-                             "sno":  7,
-                             "name":  "2 SOUND CRACKERS",
-                             "tamilName":  "2 சவுண்ட்வெடி",
-                             "regular_price":  410,
-                             "sales_price":  41,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro7.jpg"
-                         },
-                         {
-                             "sno":  8,
-                             "name":  "KUMKI 4ML 12 PLUS",
-                             "tamilName":  "கும்கி 4 எம்மல் 12 பிலஸ்",
-                             "regular_price":  500,
-                             "sales_price":  50,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro8.jpg"
-                         },
-                         {
-                             "sno":  9,
-                             "name":  "4.5 INCH BAHUBALI PLUS",
-                             "tamilName":  "4.5 இன்ச்பகுபலி பிலஸ்",
-                             "regular_price":  600,
-                             "sales_price":  60,
-                             "box":  "1 Pkt",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  10,
-                             "name":  "5 INCH 20 PLUS",
-                             "tamilName":  "5 இன்ச் 20 பிலஸ்",
-                             "regular_price":  700,
-                             "sales_price":  70,
-                             "box":  "1 Pkt",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  11,
-                             "name":  "LION 6 INCH 24 PLUS",
-                             "tamilName":  "லயன் 6 இன்ச் 24 பிலஸ்",
-                             "regular_price":  800,
-                             "sales_price":  80,
-                             "box":  "1 Pkt",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "ground-chukkar",
+        "categoryName": "GROUND CHUKKAR",
+        "iconClass": "fas fa-circle-notch",
+        "products": [
+            {
+                "sno": 12,
+                "name": "G.C.BIG",
+                "tamilName": "சக்கரம் பிக்",
+                "regular_price": 470,
+                "sales_price": 47,
+                "box": "1 Box",
+                "image": "assets/products/pro12.jpg"
+            },
+            {
+                "sno": 13,
+                "name": "G.C.BIG (25 PIC)",
+                "tamilName": "சக்கரம் பிக் (25 பீஸ்)",
+                "regular_price": 1200,
+                "sales_price": 120,
+                "box": "1 Box",
+                "image": "assets/products/pro13.jpg"
+            },
+            {
+                "sno": 14,
+                "name": "G.C.SPL",
+                "tamilName": "சக்கரம்ஸ்பெஷல்",
+                "regular_price": 800,
+                "sales_price": 80,
+                "box": "1 Box",
+                "image": "assets/products/pro14.jpg"
+            },
+            {
+                "sno": 15,
+                "name": "G.C.DLX",
+                "tamilName": "சக்கரம் டீலக்ஸ்",
+                "regular_price": 1600,
+                "sales_price": 160,
+                "box": "1 Box",
+                "image": "assets/products/pro15.jpg"
+            },
+            {
+                "sno": 16,
+                "name": "G.C.SPL (PLASTIC BASE)",
+                "tamilName": "சக்கரம்ஸ்பெஷல்",
+                "regular_price": 1700,
+                "sales_price": 170,
+                "box": "1 Box",
+                "image": "assets/products/pro16.jpg"
+            },
+            {
+                "sno": 17,
+                "name": "G.C.DLX (PLASTIC BASE)",
+                "tamilName": "சக்கரம் டீலக்ஸ்",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/products/pro17.jpg"
+            },
+            {
+                "sno": 18,
+                "name": "WIRE CHAKKAR",
+                "tamilName": "வயர்சக்கரம்",
+                "regular_price": 2750,
+                "sales_price": 275,
+                "box": "1 Box",
+                "image": "assets/products/pro18.jpg"
+            }
+        ]
     },
     {
-        "category":  "ground-chukkar",
-        "categoryName":  "GROUND CHUKKAR",
-        "iconClass":  "fas fa-circle-notch",
-        "products":  [
-                         {
-                             "sno":  12,
-                             "name":  "G.C.BIG",
-                             "tamilName":  "சக்கரம் பிக்",
-                             "regular_price":  400,
-                             "sales_price":  40,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro12.jpg"
-                         },
-                         {
-                             "sno":  13,
-                             "name":  "G.C.BIG (25 PIC)",
-                             "tamilName":  "சக்கரம் பிக் (25 பீஸ்)",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro13.jpg"
-                         },
-                         {
-                             "sno":  14,
-                             "name":  "G.C.SPL",
-                             "tamilName":  "சக்கரம்ஸ்பெஷல்",
-                             "regular_price":  750,
-                             "sales_price":  75,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro14.jpg"
-                         },
-                         {
-                             "sno":  15,
-                             "name":  "G.C.DLX",
-                             "tamilName":  "சக்கரம் டீலக்ஸ்",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro15.jpg"
-                         },
-                         {
-                             "sno":  16,
-                             "name":  "G.C.SPL (PLASTIC BASE)",
-                             "tamilName":  "சக்கரம்ஸ்பெஷல்",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro16.jpg"
-                         },
-                         {
-                             "sno":  17,
-                             "name":  "G.C.DLX (PLASTIC BASE)",
-                             "tamilName":  "சக்கரம் டீலக்ஸ்",
-                             "regular_price":  1350,
-                             "sales_price":  135,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro17.jpg"
-                         },
-                         {
-                             "sno":  18,
-                             "name":  "WIRE CHAKKAR",
-                             "tamilName":  "வயர்சக்கரம்",
-                             "regular_price":  2100,
-                             "sales_price":  210,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro18.jpg"
-                         }
-                     ]
+        "category": "flower-pots",
+        "categoryName": "FLOWER POTS",
+        "iconClass": "fas fa-seedling",
+        "products": [
+            {
+                "sno": 19,
+                "name": "F.P.BIG",
+                "tamilName": "பூச்சட்டி பெரியது",
+                "regular_price": 800,
+                "sales_price": 80,
+                "box": "1 Box",
+                "image": "assets/products/pro19.jpg"
+            },
+            {
+                "sno": 20,
+                "name": "F.P.SPL",
+                "tamilName": "பூச்சட்டி ஸ்பெசல்",
+                "regular_price": 1000,
+                "sales_price": 100,
+                "box": "1 Box",
+                "image": "assets/products/pro20.jpg"
+            },
+            {
+                "sno": 21,
+                "name": "F.P.ASHOKA",
+                "tamilName": "பூச்சட்டி அசோகா",
+                "regular_price": 1400,
+                "sales_price": 140,
+                "box": "1 Box",
+                "image": "assets/products/pro21.jpg"
+            },
+            {
+                "sno": 22,
+                "name": "F.P.COLOURKOTI",
+                "tamilName": "பூச்சட்டி கலர் கோட்டி",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/products/pro22.jpg"
+            },
+            {
+                "sno": 23,
+                "name": "F.P.DLX (5 PCS)",
+                "tamilName": "பூச்சட்டி டீலக்ஸ் (5 பீஸ்)",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/products/pro23.jpg"
+            },
+            {
+                "sno": 24,
+                "name": "F.P. DLX (10 PCS)",
+                "tamilName": "பூச்சட்டி டீலக்ஸ்(10 பீஸ்)",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro24.jpg"
+            },
+            {
+                "sno": 25,
+                "name": "F.P.SUPER DLX",
+                "tamilName": "பூச்சட்டி சூப்பர் டீலக்ஸ்",
+                "regular_price": 5000,
+                "sales_price": 500,
+                "box": "1 Box",
+                "image": "assets/products/pro25.jpg"
+            }
+        ]
     },
     {
-        "category":  "flower-pots",
-        "categoryName":  "FLOWER POTS",
-        "iconClass":  "fas fa-seedling",
-        "products":  [
-                         {
-                             "sno":  19,
-                             "name":  "F.P.BIG",
-                             "tamilName":  "பூச்சட்டி பெரியது",
-                             "regular_price":  700,
-                             "sales_price":  70,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro19.jpg"
-                         },
-                         {
-                             "sno":  20,
-                             "name":  "F.P.SPL",
-                             "tamilName":  "பூச்சட்டி ஸ்பெசல்",
-                             "regular_price":  900,
-                             "sales_price":  90,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro20.jpg"
-                         },
-                         {
-                             "sno":  21,
-                             "name":  "F.P.ASHOKA",
-                             "tamilName":  "பூச்சட்டி அசோகா",
-                             "regular_price":  1200,
-                             "sales_price":  120,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro21.jpg"
-                         },
-                         {
-                             "sno":  22,
-                             "name":  "F.P.COLOURKOTI",
-                             "tamilName":  "பூச்சட்டி கலர் கோட்டி",
-                             "regular_price":  1900,
-                             "sales_price":  190,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro22.jpg"
-                         },
-                         {
-                             "sno":  23,
-                             "name":  "F.P.DLX (5 PCS)",
-                             "tamilName":  "பூச்சட்டி டீலக்ஸ் (5 பீஸ்)",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro23.jpg"
-                         },
-                         {
-                             "sno":  24,
-                             "name":  "F.P. DLX (10 PCS)",
-                             "tamilName":  "பூச்சட்டி டீலக்ஸ்(10 பீஸ்)",
-                             "regular_price":  3900,
-                             "sales_price":  390,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro24.jpg"
-                         },
-                         {
-                             "sno":  25,
-                             "name":  "F.P.SUPER DLX",
-                             "tamilName":  "பூச்சட்டி சூப்பர் டீலக்ஸ்",
-                             "regular_price":  1800,
-                             "sales_price":  180,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro25.jpg"
-                         }
-                     ]
+        "category": "bomb",
+        "categoryName": "BOMB",
+        "iconClass": "fas fa-bomb",
+        "products": [
+            {
+                "sno": 26,
+                "name": "BULLET BOMB",
+                "tamilName": "புல்லட்பாம்",
+                "regular_price": 450,
+                "sales_price": 45,
+                "box": "1 Box",
+                "image": "assets/products/pro26.jpg"
+            },
+            {
+                "sno": 27,
+                "name": "HYDRO BOMB",
+                "tamilName": "ஹைட்ரோ பாம்",
+                "regular_price": 700,
+                "sales_price": 70,
+                "box": "1 Box",
+                "image": "assets/products/pro27.jpg"
+            },
+            {
+                "sno": 28,
+                "name": "CLASSIC BOMB",
+                "tamilName": "கிளாசிக் பாம்",
+                "regular_price": 1650,
+                "sales_price": 165,
+                "box": "1 Box",
+                "image": "assets/products/pro28.jpg"
+            },
+            {
+                "sno": 29,
+                "name": "AGNI BOMB 7",
+                "tamilName": "அக்னி பாம் 7",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/products/pro29.jpg"
+            },
+            {
+                "sno": 30,
+                "name": "MIGHTY BOMB",
+                "tamilName": "மைட்டிபாம்",
+                "regular_price": 3500,
+                "sales_price": 350,
+                "box": "1 Box",
+                "image": "assets/products/pro30.jpg"
+            },
+            {
+                "sno": 31,
+                "name": "FLOWER BOMB",
+                "tamilName": "ப்ளவர்பாம்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro31.jpg"
+            }
+        ]
     },
     {
-        "category":  "bomb",
-        "categoryName":  "BOMB",
-        "iconClass":  "fas fa-bomb",
-        "products":  [
-                         {
-                             "sno":  26,
-                             "name":  "BULLET BOMB",
-                             "tamilName":  "புல்லட்பாம்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro26.jpg"
-                         },
-                         {
-                             "sno":  27,
-                             "name":  "HYDRO BOMB",
-                             "tamilName":  "ஹைட்ரோ பாம்",
-                             "regular_price":  650,
-                             "sales_price":  65,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro27.jpg"
-                         },
-                         {
-                             "sno":  28,
-                             "name":  "CLASSIC BOMB",
-                             "tamilName":  "கிளாசிக் பாம்",
-                             "regular_price":  1350,
-                             "sales_price":  135,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro28.jpg"
-                         },
-                         {
-                             "sno":  29,
-                             "name":  "AGNI BOMB 7",
-                             "tamilName":  "அக்னி பாம் 7",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro29.jpg"
-                         },
-                         {
-                             "sno":  30,
-                             "name":  "MIGHTY BOMB",
-                             "tamilName":  "மைட்டிபாம்",
-                             "regular_price":  3000,
-                             "sales_price":  300,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro30.jpg"
-                         },
-                         {
-                             "sno":  31,
-                             "name":  "FLOWER BOMB",
-                             "tamilName":  "ப்ளவர்பாம்",
-                             "regular_price":  1000,
-                             "sales_price":  100,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro31.jpg"
-                         }
-                     ]
+        "category": "bijili-crackers",
+        "categoryName": "BIJILI CRACKERS",
+        "iconClass": "fas fa-flash",
+        "products": [
+            {
+                "sno": 32,
+                "name": "RED BIJILI 100 Pcs",
+                "tamilName": "சிவப்பு பிஜிலி 100 பீஸ்",
+                "regular_price": 750,
+                "sales_price": 75,
+                "box": "1 Pkt",
+                "image": "assets/products/pro32.jpg"
+            },
+            {
+                "sno": 33,
+                "name": "STRIPPED BIJILI 100 Pcs",
+                "tamilName": "கோடு பிஜிலி 100 பீஸ்",
+                "regular_price": 800,
+                "sales_price": 80,
+                "box": "1 Pkt",
+                "image": "assets/products/pro33.jpg"
+            }
+        ]
     },
     {
-        "category":  "bijili-crackers",
-        "categoryName":  "BIJILI CRACKERS",
-        "iconClass":  "fas fa-flash",
-        "products":  [
-                         {
-                             "sno":  32,
-                             "name":  "RED BIJILI 100 Pcs",
-                             "tamilName":  "சிவப்பு பிஜிலி 100 பீஸ்",
-                             "regular_price":  400,
-                             "sales_price":  40,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro32.jpg"
-                         },
-                         {
-                             "sno":  33,
-                             "name":  "STRIPPED BIJILI 100 Pcs",
-                             "tamilName":  "கோடு பிஜிலி 100 பீஸ்",
-                             "regular_price":  450,
-                             "sales_price":  45,
-                             "box":  "1 Pkt",
-                             "image":  "assets/products/pro33.jpg"
-                         }
-                     ]
+        "category": "twinkling-stars",
+        "categoryName": "TWINKLING STARS",
+        "iconClass": "fas fa-star",
+        "products": [
+            {
+                "sno": 34,
+                "name": "1 1/2 TWINKLING STAR",
+                "tamilName": "11/2 அடி சாட்டை",
+                "regular_price": 400,
+                "sales_price": 40,
+                "box": "1 Box",
+                "image": "assets/products/pro34.jpg"
+            },
+            {
+                "sno": 35,
+                "name": "4 TWINKLING STAR",
+                "tamilName": "4 அடிசாட்டை",
+                "regular_price": 750,
+                "sales_price": 75,
+                "box": "1 Box",
+                "image": "assets/products/pro35.jpg"
+            },
+            {
+                "sno": 36,
+                "name": "JIL JIL",
+                "tamilName": "ஜில் ஜில்",
+                "regular_price": 640,
+                "sales_price": 64,
+                "box": "1 Box",
+                "image": "assets/products/pro36.jpg"
+            },
+            {
+                "sno": 37,
+                "name": "Colour String Red & Green",
+                "tamilName": "கலர்ஸ்டிரிங்ரெட் & கிரீன்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro37.jpg"
+            }
+        ]
     },
     {
-        "category":  "twinkling-stars",
-        "categoryName":  "TWINKLING STARS",
-        "iconClass":  "fas fa-star",
-        "products":  [
-                         {
-                             "sno":  34,
-                             "name":  "1 1/2 TWINKLING STAR",
-                             "tamilName":  "11/2 அடி சாட்டை",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro34.jpg"
-                         },
-                         {
-                             "sno":  35,
-                             "name":  "4 TWINKLING STAR",
-                             "tamilName":  "4 அடிசாட்டை",
-                             "regular_price":  650,
-                             "sales_price":  65,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro35.jpg"
-                         },
-                         {
-                             "sno":  36,
-                             "name":  "JIL JIL",
-                             "tamilName":  "ஜில் ஜில்",
-                             "regular_price":  430,
-                             "sales_price":  43,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro36.jpg"
-                         },
-                         {
-                             "sno":  37,
-                             "name":  "Colour String Red \u0026 Green",
-                             "tamilName":  "கலர்ஸ்டிரிங்ரெட் \u0026 கிரீன்",
-                             "regular_price":  950,
-                             "sales_price":  95,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro37.jpg"
-                         }
-                     ]
+        "category": "childrens-attraction",
+        "categoryName": "CHILDRENS ATTRACTION",
+        "iconClass": "fas fa-child",
+        "products": [
+            {
+                "sno": 38,
+                "name": "STONE",
+                "tamilName": "ஸ்டோன்",
+                "regular_price": 250,
+                "sales_price": 25,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 39,
+                "name": "KIT KAT",
+                "tamilName": "கிட் காட்",
+                "regular_price": 350,
+                "sales_price": 35,
+                "box": "1 Box",
+                "image": "assets/products/pro39.jpg"
+            },
+            {
+                "sno": 40,
+                "name": "MAGIC POP",
+                "tamilName": "மேஜிக் பாப்",
+                "regular_price": 250,
+                "sales_price": 25,
+                "box": "1 Box",
+                "image": "assets/products/pro40.jpg"
+            },
+            {
+                "sno": 41,
+                "name": "SERPENT EGG",
+                "tamilName": "சர்பண்ட் எக்",
+                "regular_price": 350,
+                "sales_price": 35,
+                "box": "1 Box",
+                "image": "assets/products/pro41.jpg"
+            },
+            {
+                "sno": 42,
+                "name": "ANACONDA",
+                "tamilName": "அனகோண்டா",
+                "regular_price": 1050,
+                "sales_price": 105,
+                "box": "1 Box",
+                "image": "assets/products/pro42.jpg"
+            }
+        ]
     },
     {
-        "category":  "childrens-attraction",
-        "categoryName":  "CHILDRENS ATTRACTION",
-        "iconClass":  "fas fa-child",
-        "products":  [
-                         {
-                             "sno":  38,
-                             "name":  "STONE",
-                             "tamilName":  "ஸ்டோன்",
-                             "regular_price":  220,
-                             "sales_price":  22,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  39,
-                             "name":  "KIT KAT",
-                             "tamilName":  "கிட் காட்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro39.jpg"
-                         },
-                         {
-                             "sno":  40,
-                             "name":  "MAGIC POP",
-                             "tamilName":  "மேஜிக் பாப்",
-                             "regular_price":  200,
-                             "sales_price":  20,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro40.jpg"
-                         },
-                         {
-                             "sno":  41,
-                             "name":  "SERPENT EGG",
-                             "tamilName":  "சர்பண்ட் எக்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro41.jpg"
-                         },
-                         {
-                             "sno":  42,
-                             "name":  "ANACONDA",
-                             "tamilName":  "அனகோண்டா",
-                             "regular_price":  850,
-                             "sales_price":  85,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro42.jpg"
-                         }
-                     ]
+        "category": "in-the-air",
+        "categoryName": "IN THE AIR",
+        "iconClass": "fas fa-rocket",
+        "products": [
+            {
+                "sno": 43,
+                "name": "ROCKET BOMB",
+                "tamilName": "ராக்கெட் பாம்",
+                "regular_price": 1200,
+                "sales_price": 120,
+                "box": "1 Box",
+                "image": "assets/products/pro43.jpg"
+            },
+            {
+                "sno": 44,
+                "name": "2 SOUND ROCKET",
+                "tamilName": "2 சவுண்ட் ராக்கெட்",
+                "regular_price": 1600,
+                "sales_price": 160,
+                "box": "1 Box",
+                "image": "assets/products/pro144.webp"
+            },
+            {
+                "sno": 45,
+                "name": "WHISTLING ROCKET",
+                "tamilName": "விசிலிங்ராக்கெட்",
+                "regular_price": 2600,
+                "sales_price": 260,
+                "box": "1 Box",
+                "image": "assets/products/pro45.jpg"
+            },
+            {
+                "sno": 46,
+                "name": "MULTI COLOUR ROCKET",
+                "tamilName": "மல்டிகலர் ராக்கெட்",
+                "regular_price": 4200,
+                "sales_price": 420,
+                "box": "1 Box",
+                "image": "assets/products/pro46.jpg"
+            }
+        ]
     },
     {
-        "category":  "in-the-air",
-        "categoryName":  "IN THE AIR",
-        "iconClass":  "fas fa-rocket",
-        "products":  [
-                         {
-                             "sno":  43,
-                             "name":  "ROCKET BOMB",
-                             "tamilName":  "ராக்கெட் பாம்",
-                             "regular_price":  1000,
-                             "sales_price":  100,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro43.jpg"
-                         },
-                         {
-                             "sno":  44,
-                             "name":  "2 SOUND ROCKET",
-                             "tamilName":  "2 சவுண்ட் ராக்கெட்",
-                             "regular_price":  1300,
-                             "sales_price":  130,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro144.webp"
-                         },
-                         {
-                             "sno":  45,
-                             "name":  "WHISTLING ROCKET",
-                             "tamilName":  "விசிலிங்ராக்கெட்",
-                             "regular_price":  2100,
-                             "sales_price":  210,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro45.jpg"
-                         },
-                         {
-                             "sno":  46,
-                             "name":  "MULTI COLOUR ROCKET",
-                             "tamilName":  "மல்டிகலர் ராக்கெட்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro46.jpg"
-                         }
-                     ]
+        "category": "fancy-fountain",
+        "categoryName": "FANCY FOUNTAIN",
+        "iconClass": "fas fa-fountain",
+        "products": [
+            {
+                "sno": 47,
+                "name": "PEACOCK FEATHER",
+                "tamilName": "மயில் தோகை",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro47.jpg"
+            },
+            {
+                "sno": 48,
+                "name": "DISCO SHOWER",
+                "tamilName": "டிஸ்கோ ஷவர்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro48.jpg"
+            },
+            {
+                "sno": 49,
+                "name": "TRI COLOUR FOUNTAIN",
+                "tamilName": "5 கலர் பவுன்டைன்",
+                "regular_price": 3100,
+                "sales_price": 310,
+                "box": "1 Box",
+                "image": "assets/products/pro49.jpg"
+            },
+            {
+                "sno": 50,
+                "name": "TIP TOP",
+                "tamilName": "டிப்டாப்",
+                "regular_price": 900,
+                "sales_price": 90,
+                "box": "1 Box",
+                "image": "assets/products/pro50.jpg"
+            },
+            {
+                "sno": 51,
+                "name": "RAAVAN 3 COLOUR",
+                "tamilName": "ராவண்3 கலர்",
+                "regular_price": 3100,
+                "sales_price": 310,
+                "box": "1 Box",
+                "image": "assets/products/pro51.jpg"
+            },
+            {
+                "sno": 52,
+                "name": "LAUGHING MONKEY RED",
+                "tamilName": "லாஃபிங்மங்கி ரெட்",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/products/pro52.jpg"
+            },
+            {
+                "sno": 53,
+                "name": "STRAWBERRY PINK",
+                "tamilName": "ஸ்ட்ராபெரி பிங்க்",
+                "regular_price": 3300,
+                "sales_price": 330,
+                "box": "1 Box",
+                "image": "assets/products/pro53.jpg"
+            },
+            {
+                "sno": 54,
+                "name": "CHELSE MEGA FLOWER POT",
+                "tamilName": "செல்சி",
+                "regular_price": 3900,
+                "sales_price": 390,
+                "box": "1 Box",
+                "image": "assets/products/pro54.jpg"
+            },
+            {
+                "sno": 55,
+                "name": "CRACKLING FOUNTAIN",
+                "tamilName": "கிராக்ளிங் பவுண்டைன்",
+                "regular_price": 3600,
+                "sales_price": 360,
+                "box": "1 Box",
+                "image": "assets/products/pro55.jpg"
+            },
+            {
+                "sno": 56,
+                "name": "COCKTAIL",
+                "tamilName": "காக் டெயில்",
+                "regular_price": 3700,
+                "sales_price": 370,
+                "box": "1 Box",
+                "image": "assets/products/pro56.jpg"
+            },
+            {
+                "sno": 57,
+                "name": "WOWSTAR KURKURE5Pcs",
+                "tamilName": "வாவ்ஸ்டார் குர்குரே",
+                "regular_price": 3400,
+                "sales_price": 340,
+                "box": "1 Box",
+                "image": "assets/products/pro57.jpg"
+            },
+            {
+                "sno": 58,
+                "name": "SIREN DLX",
+                "tamilName": "சைரன் டீலக்ஸ்",
+                "regular_price": 2650,
+                "sales_price": 265,
+                "box": "1 Box",
+                "image": "assets/products/pro58.jpg"
+            },
+            {
+                "sno": 59,
+                "name": "TIN SHOWER MIX 4 1/2 INCH",
+                "tamilName": "41/2 இன்ச்டின் ஷவர்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/products/pro59.jpg"
+            },
+            {
+                "sno": 60,
+                "name": "SHIN CHAN",
+                "tamilName": "சின் சான்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/products/pro60.jpg"
+            },
+            {
+                "sno": 61,
+                "name": "FIRE EGG",
+                "tamilName": "பயர் எஃக்",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/products/pro61.jpg"
+            },
+            {
+                "sno": 62,
+                "name": "8 TRIPLE MONKEY 3 IN-1",
+                "tamilName": "8 டிரிப்பில் மங்க்கி",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/products/pro62.webp"
+            },
+            {
+                "sno": 63,
+                "name": "6 DOUBLE DECHEN 2 IN-1",
+                "tamilName": "6 டபுல்டெக்கன்",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/products/pro63.jpg"
+            },
+            {
+                "sno": 64,
+                "name": "POWER RANGER",
+                "tamilName": "பவர் ரேஞ்சர்",
+                "regular_price": 1700,
+                "sales_price": 170,
+                "box": "1 Box",
+                "image": "assets/products/pro64.jpg"
+            },
+            {
+                "sno": 65,
+                "name": "MANNY",
+                "tamilName": "மெனி",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 66,
+                "name": "SIMBA",
+                "tamilName": "சிம்பா",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/products/pro66.jpg"
+            },
+            {
+                "sno": 67,
+                "name": "BUJI",
+                "tamilName": "புஜ்ஜி",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/products/pro67.jpg"
+            },
+            {
+                "sno": 68,
+                "name": "DRAGONS CRACKLING",
+                "tamilName": "டிராகன்ஸ்",
+                "regular_price": 3100,
+                "sales_price": 310,
+                "box": "1 Box",
+                "image": "assets/products/pro68.jpg"
+            },
+            {
+                "sno": 69,
+                "name": "KIT KAT MIX (5 Pcs)",
+                "tamilName": "கிட் கேட் 5 பீசஸ்",
+                "regular_price": 2250,
+                "sales_price": 225,
+                "box": "1 Box",
+                "image": "assets/products/pro69.jpg"
+            },
+            {
+                "sno": 70,
+                "name": "5 STAR (1IN5)5 COLOR",
+                "tamilName": "5ஸ்டார் (1 இன் 5) 5 கலர்",
+                "regular_price": 3500,
+                "sales_price": 350,
+                "box": "1 Box",
+                "image": "assets/products/pro70.jpg"
+            }
+        ]
     },
     {
-        "category":  "fancy-fountain",
-        "categoryName":  "FANCY FOUNTAIN",
-        "iconClass":  "fas fa-fountain",
-        "products":  [
-                         {
-                             "sno":  47,
-                             "name":  "PEACOCK FEATHER",
-                             "tamilName":  "மயில் தோகை",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro47.jpg"
-                         },
-                         {
-                             "sno":  48,
-                             "name":  "DISCO SHOWER",
-                             "tamilName":  "டிஸ்கோ ஷவர்",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro48.jpg"
-                         },
-                         {
-                             "sno":  49,
-                             "name":  "TRI COLOUR FOUNTAIN",
-                             "tamilName":  "5 கலர் பவுன்டைன்",
-                             "regular_price":  2800,
-                             "sales_price":  280,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro49.jpg"
-                         },
-                         {
-                             "sno":  50,
-                             "name":  "TIP TOP",
-                             "tamilName":  "டிப்டாப்",
-                             "regular_price":  600,
-                             "sales_price":  60,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro50.jpg"
-                         },
-                         {
-                             "sno":  51,
-                             "name":  "RAAVAN 3 COLOUR",
-                             "tamilName":  "ராவண்3 கலர்",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro51.jpg"
-                         },
-                         {
-                             "sno":  52,
-                             "name":  "LAUGHING MONKEY RED",
-                             "tamilName":  "லாஃபிங்மங்கி ரெட்",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro52.jpg"
-                         },
-                         {
-                             "sno":  53,
-                             "name":  "STRAWBERRY PINK",
-                             "tamilName":  "ஸ்ட்ராபெரி பிங்க்",
-                             "regular_price":  1350,
-                             "sales_price":  135,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro53.jpg"
-                         },
-                         {
-                             "sno":  54,
-                             "name":  "CHELSE MEGA FLOWER POT",
-                             "tamilName":  "செல்சி",
-                             "regular_price":  3900,
-                             "sales_price":  390,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro54.jpg"
-                         },
-                         {
-                             "sno":  55,
-                             "name":  "CRACKLING FOUNTAIN",
-                             "tamilName":  "கிராக்ளிங் பவுண்டைன்",
-                             "regular_price":  3300,
-                             "sales_price":  330,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro55.jpg"
-                         },
-                         {
-                             "sno":  56,
-                             "name":  "COCKTAIL",
-                             "tamilName":  "காக் டெயில்",
-                             "regular_price":  3300,
-                             "sales_price":  330,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro56.jpg"
-                         },
-                         {
-                             "sno":  57,
-                             "name":  "WOWSTAR KURKURE5Pcs",
-                             "tamilName":  "வாவ்ஸ்டார் குர்குரே",
-                             "regular_price":  2800,
-                             "sales_price":  280,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro57.jpg"
-                         },
-                         {
-                             "sno":  58,
-                             "name":  "SIREN DLX",
-                             "tamilName":  "சைரன் டீலக்ஸ்",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro58.jpg"
-                         },
-                         {
-                             "sno":  59,
-                             "name":  "TIN SHOWER MIX 4 1/2 INCH",
-                             "tamilName":  "41/2 இன்ச்டின் ஷவர்",
-                             "regular_price":  1000.00,
-                             "sales_price":  100.00,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro59.jpg"
-                         },
-                         {
-                             "sno":  60,
-                             "name":  "SHIN CHAN",
-                             "tamilName":  "சின் சான்",
-                             "regular_price":  1000,
-                             "sales_price":  100,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro60.jpg"
-                         },
-                         {
-                             "sno":  61,
-                             "name":  "FIRE EGG",
-                             "tamilName":  "பயர் எஃக்",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro61.jpg"
-                         },
-                         {
-                             "sno":  62,
-                             "name":  "8 TRIPLE MONKEY 3 IN-1",
-                             "tamilName":  "8 டிரிப்பில் மங்க்கி",
-                             "regular_price":  2500,
-                             "sales_price":  250,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro62.webp"
-                         },
-                         {
-                             "sno":  63,
-                             "name":  "6 DOUBLE DECHEN 2 IN-1",
-                             "tamilName":  "6 டபுல்டெக்கன்",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro63.jpg"
-                         },
-                         {
-                             "sno":  64,
-                             "name":  "POWER RANGER",
-                             "tamilName":  "பவர் ரேஞ்சர்",
-                             "regular_price":  1300,
-                             "sales_price":  130,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro64.jpg"
-                         },
-                         {
-                             "sno":  65,
-                             "name":  "MANNY",
-                             "tamilName":  "மெனி",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  66,
-                             "name":  "SIMBA",
-                             "tamilName":  "சிம்பா",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro66.jpg"
-                         },
-                         {
-                             "sno":  67,
-                             "name":  "BUJI",
-                             "tamilName":  "புஜ்ஜி",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro67.jpg"
-                         },
-                         {
-                             "sno":  68,
-                             "name":  "DRAGONS CRACKLING",
-                             "tamilName":  "டிராகன்ஸ்",
-                             "regular_price":  2300,
-                             "sales_price":  230,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro68.jpg"
-                         },
-                         {
-                             "sno":  69,
-                             "name":  "KIT KAT MIX (5 Pcs)",
-                             "tamilName":  "கிட் கேட் 5 பீசஸ்",
-                             "regular_price":  1700,
-                             "sales_price":  170,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro69.jpg"
-                         },
-                         {
-                             "sno":  70,
-                             "name":  "5 STAR (1IN5)5 COLOR",
-                             "tamilName":  "5ஸ்டார் (1 இன் 5) 5 கலர்",
-                             "regular_price":  3000,
-                             "sales_price":  300,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro70.jpg"
-                         }
-                     ]
+        "category": "fancy-chakkar",
+        "categoryName": "FANCY CHAKKAR",
+        "iconClass": "fas fa-circle",
+        "products": [
+            {
+                "sno": 71,
+                "name": "RACING CAR (2 PCS)",
+                "tamilName": "ரேசிங்கார் 2 பீசஸ்",
+                "regular_price": 3500,
+                "sales_price": 350,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 72,
+                "name": "GITOR WATER QUEEN",
+                "tamilName": "கித்தார்வாட்டர் குயின்",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 73,
+                "name": "ALERT LAR",
+                "tamilName": "அலர்ட் லார்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 71,
+                "name": "4X4 WHEEL",
+                "tamilName": "4 x 4 வீல்",
+                "regular_price": 1900,
+                "sales_price": 190,
+                "box": "1 Box",
+                "image": "assets/products/pro71.jpg"
+            },
+            {
+                "sno": 72,
+                "name": "AVENGER WHEEL",
+                "tamilName": "அவென்சர் வீல்",
+                "regular_price": 1900,
+                "sales_price": 190,
+                "box": "1 Box",
+                "image": "assets/products/pro72.jpg"
+            },
+            {
+                "sno": 73,
+                "name": "WHISTLING DIXIE",
+                "tamilName": "விசிலிங் திஷி",
+                "regular_price": 2000,
+                "sales_price": 200,
+                "box": "1 Box",
+                "image": "assets/products/pro73.jpg"
+            },
+            {
+                "sno": 74,
+                "name": "PLANET WHEELING (pop corn)",
+                "tamilName": "ப்ளானட்வீல்",
+                "regular_price": 2400,
+                "sales_price": 240,
+                "box": "1 Box",
+                "image": "assets/products/pro74.jpg"
+            }
+        ]
     },
     {
-        "category":  "fancy-chakkar",
-        "categoryName":  "FANCY CHAKKAR",
-        "iconClass":  "fas fa-circle",
-        "products":  [
-                         {
-                             "sno":  71,
-                             "name":  "RACING CAR (2 PCS)",
-                             "tamilName":  "ரேசிங்கார் 2 பீசஸ்",
-                             "regular_price":  2500.00,
-                             "sales_price":  250.00,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  72,
-                             "name":  "GITOR WATER QUEEN",
-                             "tamilName":  "கித்தார்வாட்டர் குயின்",
-                             "regular_price":  2500.00,
-                             "sales_price":  250.00,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  73,
-                             "name":  "ALERT LAR",
-                             "tamilName":  "அலர்ட் லார்",
-                             "regular_price":  1500.00,
-                             "sales_price":  150.00,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  71,
-                             "name":  "4X4 WHEEL",
-                             "tamilName":  "4 x 4 வீல்",
-                             "regular_price":  1600,
-                             "sales_price":  160,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro71.jpg"
-                         },
-                         {
-                             "sno":  72,
-                             "name":  "AVENGER WHEEL",
-                             "tamilName":  "அவென்சர் வீல்",
-                             "regular_price":  1300,
-                             "sales_price":  130,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro72.jpg"
-                         },
-                         {
-                             "sno":  73,
-                             "name":  "WHISTLING DIXIE",
-                             "tamilName":  "விசிலிங் திஷி",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro73.jpg"
-                         },
-                         {
-                             "sno":  74,
-                             "name":  "PLANET WHEELING (pop corn)",
-                             "tamilName":  "ப்ளானட்வீல்",
-                             "regular_price":  1800,
-                             "sales_price":  180,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro74.jpg"
-                         }
-                     ]
+        "category": "fancy-pencil",
+        "categoryName": "FANCY PENCIL",
+        "iconClass": "fas fa-pencil-alt",
+        "products": [
+            {
+                "sno": 78,
+                "name": "CIRCUS",
+                "tamilName": "சர்க்கஸ்",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 75,
+                "name": "MIAMI RED 2 PCS",
+                "tamilName": "மியாமி ரெட்",
+                "regular_price": 1900,
+                "sales_price": 190,
+                "box": "1 Box",
+                "image": "assets/products/pro75.jpg"
+            },
+            {
+                "sno": 76,
+                "name": "RAINBOW SMOKE 3 PCS",
+                "tamilName": "ரெயின்போ ஸ்மோக் 3 பீசஸ்",
+                "regular_price": 3500,
+                "sales_price": 350,
+                "box": "1 Box",
+                "image": "assets/products/pro76.jpg"
+            },
+            {
+                "sno": 77,
+                "name": "LOLLY POP CRACKLING",
+                "tamilName": "லாலி பாப் கிராக்ளிங்",
+                "regular_price": 2400,
+                "sales_price": 240,
+                "box": "1 Box",
+                "image": "assets/products/pro77.jpg"
+            },
+            {
+                "sno": 82,
+                "name": "FUJI CANDLE WATER QUEEN",
+                "tamilName": "வாட்டர் குயின்",
+                "regular_price": 2400,
+                "sales_price": 240,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     },
     {
-        "category":  "fancy-pencil",
-        "categoryName":  "FANCY PENCIL",
-        "iconClass":  "fas fa-pencil-alt",
-        "products":  [
-                         {
-                             "sno":  78,
-                             "name":  "CIRCUS",
-                             "tamilName":  "சர்க்கஸ்",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  75,
-                             "name":  "MIAMI RED 2 PCS",
-                             "tamilName":  "மியாமி ரெட்",
-                             "regular_price":  1300,
-                             "sales_price":  130,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro75.jpg"
-                         },
-                         {
-                             "sno":  76,
-                             "name":  "RAINBOW SMOKE 3 PCS",
-                             "tamilName":  "ரெயின்போ ஸ்மோக் 3 பீசஸ்",
-                             "regular_price":  3000,
-                             "sales_price":  300,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro76.jpg"
-                         },
-                         {
-                             "sno":  77,
-                             "name":  "LOLLY POP CRACKLING",
-                             "tamilName":  "லாலி பாப் கிராக்ளிங்",
-                             "regular_price":  1900,
-                             "sales_price":  190,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro77.jpg"
-                         },
-                         {
-                             "sno":  82,
-                             "name":  "FUJI CANDLE WATER QUEEN",
-                             "tamilName":  "வாட்டர் குயின்",
-                             "regular_price":  400,
-                             "sales_price":  40,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "peacock-fountain",
+        "categoryName": "PEACOCK FOUNTAIN",
+        "iconClass": "fas fa-feather-alt",
+        "products": [
+            {
+                "sno": 79,
+                "name": "PEACOCK 5 WINGS",
+                "tamilName": "பீகாக் 5 விங்ஸ்",
+                "regular_price": 2700,
+                "sales_price": 270,
+                "box": "1 Box",
+                "image": "assets/products/pro79.jpg"
+            },
+            {
+                "sno": 80,
+                "name": "PEACOCK 3 WINGS",
+                "tamilName": "பீகாக் 3 விங்க்ஸ்",
+                "regular_price": 2700,
+                "sales_price": 270,
+                "box": "1 Box",
+                "image": "assets/products/pro80.jpg"
+            },
+            {
+                "sno": 81,
+                "name": "BADA PEACOCK (2 in 1)",
+                "tamilName": "படா பீகாக்",
+                "regular_price": 4200,
+                "sales_price": 420,
+                "box": "1 Box",
+                "image": "assets/products/pro81.jpg"
+            }
+        ]
     },
     {
-        "category":  "peacock-fountain",
-        "categoryName":  "PEACOCK FOUNTAIN",
-        "iconClass":  "fas fa-feather-alt",
-        "products":  [
-                         {
-                             "sno":  79,
-                             "name":  "PEACOCK 5 WINGS",
-                             "tamilName":  "பீகாக் 5 விங்ஸ்",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro79.jpg"
-                         },
-                         {
-                             "sno":  80,
-                             "name":  "PEACOCK 3 WINGS",
-                             "tamilName":  "பீகாக் 3 விங்க்ஸ்",
-                             "regular_price":  2100,
-                             "sales_price":  210,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro80.jpg"
-                         },
-                         {
-                             "sno":  81,
-                             "name":  "BADA PEACOCK (2 in 1)",
-                             "tamilName":  "படா பீகாக்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro81.jpg"
-                         }
-                     ]
+        "category": "mini-fancy",
+        "categoryName": "MINI FANCY",
+        "iconClass": "fas fa-sparkles",
+        "products": [
+            {
+                "sno": 82,
+                "name": "CHOTTA FANCY",
+                "tamilName": "சோட்டா பேன்சி",
+                "regular_price": 600,
+                "sales_price": 60,
+                "box": "1 Box",
+                "image": "assets/products/pro82.jpg"
+            },
+            {
+                "sno": 83,
+                "name": "7 SHOTS",
+                "tamilName": "7 ஷாட்ஸ்",
+                "regular_price": 1400,
+                "sales_price": 140,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 84,
+                "name": "PENTA",
+                "tamilName": "பென்டா",
+                "regular_price": 2100,
+                "sales_price": 210,
+                "box": "1 Box",
+                "image": "assets/products/pro84.jpg"
+            },
+            {
+                "sno": 85,
+                "name": "STAR WAR",
+                "tamilName": "ஸ்டார்வார்",
+                "regular_price": 4300,
+                "sales_price": 430,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     },
     {
-        "category":  "mini-fancy",
-        "categoryName":  "MINI FANCY",
-        "iconClass":  "fas fa-sparkles",
-        "products":  [
-                         {
-                             "sno":  82,
-                             "name":  "CHOTTA FANCY",
-                             "tamilName":  "சோட்டா பேன்சி",
-                             "regular_price":  400,
-                             "sales_price":  40,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro82.jpg"
-                         },
-                         {
-                             "sno":  83,
-                             "name":  "7 SHOTS",
-                             "tamilName":  "7 ஷாட்ஸ்",
-                             "regular_price":  1200,
-                             "sales_price":  120,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  84,
-                             "name":  "PENTA",
-                             "tamilName":  "பென்டா",
-                             "regular_price":  1850,
-                             "sales_price":  185,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro84.jpg"
-                         },
-                         {
-                             "sno":  85,
-                             "name":  "STAR WAR",
-                             "tamilName":  "ஸ்டார்வார்",
-                             "regular_price":  3500,
-                             "sales_price":  350,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "mega-fancy",
+        "categoryName": "MEGA FANCY",
+        "iconClass": "fas fa-fire",
+        "products": [
+            {
+                "sno": 86,
+                "name": "2 1/2  3 IDIOTS (3 STEP)",
+                "tamilName": "2/ ஏரியல் அவுட் சிங்கிள்",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/products/pro86.jpg"
+            },
+            {
+                "sno": 87,
+                "name": "2/ FANCY (3 PCS)",
+                "tamilName": "2/ பேன்ஸி (3 PCS)",
+                "regular_price": 5200,
+                "sales_price": 520,
+                "box": "1 Box",
+                "image": "assets/products/pro87.webp"
+            },
+            {
+                "sno": 88,
+                "name": "3 1/2 AERIAL OUT 2PCS",
+                "tamilName": "31/2 ஏரியல் அவுட் 2பீசஸ்",
+                "regular_price": 8000,
+                "sales_price": 800,
+                "box": "1 Box",
+                "image": "assets/products/pro88.jpg"
+            },
+            {
+                "sno": 89,
+                "name": "3 1/2 AERIAL TIN (1 PCE)",
+                "tamilName": "31/2 ஏரியல் அவுட்டின்1 பீஸ்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro89.webp"
+            },
+            {
+                "sno": 90,
+                "name": "4/ DOUBLE BALL",
+                "tamilName": "4/ ஏரியல் டபுள் பால்",
+                "regular_price": 6000,
+                "sales_price": 600,
+                "box": "1 Box",
+                "image": "assets/products/pro90.jpg"
+            },
+            {
+                "sno": 91,
+                "name": "4 1/2 AERIAL FANCY 2 PCS",
+                "tamilName": "41/2 ஏரியல் அவுட் 2பீசஸ்",
+                "regular_price": 11000,
+                "sales_price": 1100,
+                "box": "1 Box",
+                "image": "assets/products/pro91.jpg"
+            },
+            {
+                "sno": 92,
+                "name": "5/ AERIAL OUT 1 PCS",
+                "tamilName": "5 / ஏரியல் அவுட் 1 பீசஸ்",
+                "regular_price": 8500,
+                "sales_price": 850,
+                "box": "1 Box",
+                "image": "assets/products/pro92.jpg"
+            }
+        ]
     },
     {
-        "category":  "mega-fancy",
-        "categoryName":  "MEGA FANCY",
-        "iconClass":  "fas fa-fire",
-        "products":  [
-                         {
-                             "sno":  86,
-                             "name":  "2 1/2  3 IDIOTS (3 STEP)",
-                             "tamilName":  "2\" ஏரியல் அவுட் சிங்கிள்",
-                             "regular_price":  2500,
-                             "sales_price":  250,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro86.jpg"
-                         },
-                         {
-                             "sno":  87,
-                             "name":  "2 FANCY (3 PCS)",
-                             "tamilName":  "2 பேன்ஸி (3 PCS)",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro87.webp"
-                         },
-                         {
-                             "sno":  88,
-                             "name":  "3 1/2 AERIAL OUT 2PCS",
-                             "tamilName":  "31/2\" ஏரியல் அவுட் 2பீசஸ்",
-                             "regular_price":  6000,
-                             "sales_price":  600,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro88.jpg"
-                         },
-                         {
-                             "sno":  89,
-                             "name":  "3 1/2 AERIAL TIN (1 PCE)",
-                             "tamilName":  "31/2 ஏரியல் அவுட்டின்1 பீஸ்",
-                             "regular_price":  3300,
-                             "sales_price":  330,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro89.webp"
-                         },
-                         {
-                             "sno":  90,
-                             "name":  "4 DOUBLE BALL",
-                             "tamilName":  "4\" ஏரியல் டபுள் பால்",
-                             "regular_price":  5000,
-                             "sales_price":  500,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro90.jpg"
-                         },
-                         {
-                             "sno":  91,
-                             "name":  "4 AERIAL FANCY 2 PCS",
-                             "tamilName":  "41/2\" ஏரியல் அவுட் 2பீசஸ்",
-                             "regular_price":  8000,
-                             "sales_price":  800,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro91.jpg"
-                         },
-                         {
-                             "sno":  92,
-                             "name":  "5 AERIAL OUT 1 PCS",
-                             "tamilName":  "5\"ஏரியல் அவுட் 1 பீசஸ்",
-                             "regular_price":  10000,
-                             "sales_price":  1000,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro92.jpg"
-                         }
-                     ]
+        "category": "mega-fancy-colour",
+        "categoryName": "MEGA FANCY COLOUR",
+        "iconClass": "fas fa-palette",
+        "products": [
+            {
+                "sno": 93,
+                "name": "WOW PINK",
+                "tamilName": "வாவ் பின்க்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro93.jpg"
+            },
+            {
+                "sno": 94,
+                "name": "WOW PURPLE",
+                "tamilName": "வாவ் பர்புள்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro94.jpg"
+            },
+            {
+                "sno": 95,
+                "name": "WOW BLUE",
+                "tamilName": "வாவ் ப்ளூ",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro95.jpg"
+            },
+            {
+                "sno": 96,
+                "name": "WOW ORANGE",
+                "tamilName": "வாவ் ஆரஞ்ச்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro96.jpg"
+            },
+            {
+                "sno": 101,
+                "name": "WOW COLOUR",
+                "tamilName": "வாவ் கலர்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 97,
+                "name": "GOLDEN EYES",
+                "tamilName": "கோல்டன் ஐஸ்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/products/pro97.jpg"
+            },
+            {
+                "sno": 98,
+                "name": "TEXAS DELIGHT(CRACKLING SHOT)",
+                "tamilName": "டிலக்ஸ் டிலைட்",
+                "regular_price": 4500,
+                "sales_price": 450,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 99,
+                "name": "7 WONDERS (7 STEPS)",
+                "tamilName": "7 ஒன்டர்ஸ்",
+                "regular_price": 5000,
+                "sales_price": 500,
+                "box": "1 Box",
+                "image": "assets/products/pro99.jpg"
+            },
+            {
+                "sno": 100,
+                "name": "GUN SHOOTER (9 SHOT)",
+                "tamilName": "கன் சூட்டர்",
+                "regular_price": 5000,
+                "sales_price": 500,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     },
     {
-        "category":  "mega-fancy-colour",
-        "categoryName":  "MEGA FANCY COLOUR",
-        "iconClass":  "fas fa-palette",
-        "products":  [
-                         {
-                             "sno":  93,
-                             "name":  "WOW PINK",
-                             "tamilName":  "வாவ் பின்க்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro93.jpg"
-                         },
-                         {
-                             "sno":  94,
-                             "name":  "WOW PURPLE",
-                             "tamilName":  "வாவ் பர்புள்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro94.jpg"
-                         },
-                         {
-                             "sno":  95,
-                             "name":  "WOW BLUE",
-                             "tamilName":  "வாவ் ப்ளூ",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro95.jpg"
-                         },
-                         {
-                             "sno":  96,
-                             "name":  "WOW ORANGE",
-                             "tamilName":  "வாவ் ஆரஞ்ச்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro96.jpg"
-                         },
-                         {
-                             "sno":  101,
-                             "name":  "WOW COLOUR",
-                             "tamilName":  "வாவ் கலர்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  97,
-                             "name":  "GOLDEN EYES",
-                             "tamilName":  "கோல்டன் ஐஸ்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro97.jpg"
-                         },
-                         {
-                             "sno":  98,
-                             "name":  "TEXAS DELIGHT(CRACKLING SHOT)",
-                             "tamilName":  "டிலக்ஸ் டிலைட்",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  99,
-                             "name":  "7 WONDERS (7 STEPS)",
-                             "tamilName":  "7 ஒன்டர்ஸ்",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro99.jpg"
-                         },
-                         {
-                             "sno":  100,
-                             "name":  "GUN SHOOTER (9 SHOT)",
-                             "tamilName":  "கன் சூட்டர்",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "crackling-shot-rider",
+        "categoryName": "CRACKLING SHOT RIDER",
+        "iconClass": "fas fa-motorcycle",
+        "products": [
+            {
+                "sno": 101,
+                "name": "12 SHOTS RIDER",
+                "tamilName": "12 சாட் ரைடர்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro101.png"
+            },
+            {
+                "sno": 102,
+                "name": "25 SHOTS RIDER",
+                "tamilName": "25 சாட் ரைடர்",
+                "regular_price": 3600,
+                "sales_price": 360,
+                "box": "1 Box",
+                "image": "assets/products/pro102.jpg"
+            },
+            {
+                "sno": 103,
+                "name": "50 SHOTS RIDER",
+                "tamilName": "50 சாட் ரைடர்",
+                "regular_price": 7200,
+                "sales_price": 720,
+                "box": "1 Box",
+                "image": "assets/products/pro103.webp"
+            }
+        ]
     },
     {
-        "category":  "crackling-shot-rider",
-        "categoryName":  "CRACKLING SHOT RIDER",
-        "iconClass":  "fas fa-motorcycle",
-        "products":  [
-                         {
-                             "sno":  101,
-                             "name":  "12 SHOTS RIDER",
-                             "tamilName":  "12 சாட் ரைடர்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro101.png"
-                         },
-                         {
-                             "sno":  102,
-                             "name":  "25 SHOTS RIDER",
-                             "tamilName":  "25 சாட் ரைடர்",
-                             "regular_price":  2800,
-                             "sales_price":  280,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro102.jpg"
-                         },
-                         {
-                             "sno":  103,
-                             "name":  "50 SHOTS RIDER",
-                             "tamilName":  "50 சாட் ரைடர்",
-                             "regular_price":  5500,
-                             "sales_price":  550,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro103.webp"
-                         }
-                     ]
+        "category": "multi-colour-shots",
+        "categoryName": "MULTI COLOUR SHOTS",
+        "iconClass": "fas fa-rainbow",
+        "products": [
+            {
+                "sno": 104,
+                "name": "LOVE DOSE",
+                "tamilName": "லவ் டோஸ்",
+                "regular_price": 2000,
+                "sales_price": 200,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 110,
+                "name": "SINGING DOLLS",
+                "tamilName": "சிங்கிங் டால்ஸ்",
+                "regular_price": 3400,
+                "sales_price": 340,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 105,
+                "name": "12 SHOT RED & GREEN",
+                "tamilName": "12 சாட் ரெட்",
+                "regular_price": 2400,
+                "sales_price": 240,
+                "box": "1 Box",
+                "image": "assets/products/pro105.png"
+            },
+            {
+                "sno": 106,
+                "name": "RANG CHAKKAR(10 SHOT)",
+                "tamilName": "ரங்சக்கரம்",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/products/pro106.webp"
+            },
+            {
+                "sno": 107,
+                "name": "CANDY CRUSH",
+                "tamilName": "கேன்டி கிரஸ்",
+                "regular_price": 5000,
+                "sales_price": 500,
+                "box": "1 Box",
+                "image": "assets/products/pro107.jpg"
+            },
+            {
+                "sno": 108,
+                "name": "15 SHOT MULTI COLOR",
+                "tamilName": "15 சாட் மல்டிகலர்",
+                "regular_price": 3000,
+                "sales_price": 300,
+                "box": "1 Box",
+                "image": "assets/products/pro108.png"
+            },
+            {
+                "sno": 109,
+                "name": "WHISTLING ZIP (25 SHOT)",
+                "tamilName": "விஸ்ளிங்சிப்",
+                "regular_price": 8500,
+                "sales_price": 850,
+                "box": "1 Box",
+                "image": "assets/products/pro109.webp"
+            },
+            {
+                "sno": 110,
+                "name": "30 SHOT (M.C) SRI DURGA",
+                "tamilName": "30 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
+                "regular_price": 4600,
+                "sales_price": 460,
+                "box": "1 Box",
+                "image": "assets/products/pro110.webp"
+            },
+            {
+                "sno": 111,
+                "name": "30 SHOT (M.C) JOKER",
+                "tamilName": "30 சாட் மல்டிகலர் ஜோக்கர்",
+                "regular_price": 5600,
+                "sales_price": 560,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 112,
+                "name": "30 SHOT (M.C) WOW STAR",
+                "tamilName": "30சாட் மல்டிகலர்வாவ்ஸ்டார்",
+                "regular_price": 5900,
+                "sales_price": 590,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 113,
+                "name": "30 SHOT (M.C) VADIVEL",
+                "tamilName": "30 சாட் மல்டிகலர் வடிவேல்",
+                "regular_price": 7100,
+                "sales_price": 710,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 114,
+                "name": "60 SHOT (M.C) SRI DURGA",
+                "tamilName": "60 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
+                "regular_price": 9200,
+                "sales_price": 920,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 115,
+                "name": "60 SHOT (M.C) JOKER",
+                "tamilName": "60சாட் மல்டிகலர் ஜோக்கர்",
+                "regular_price": 11200,
+                "sales_price": 1120,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 116,
+                "name": "60 SHOT (M.C)WOW STAR",
+                "tamilName": "60சாட் மல்டிகலர் வாவ்ஸ்டார்",
+                "regular_price": 11800,
+                "sales_price": 1180,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 117,
+                "name": "120 SHOT (M.C) SRI DURGA",
+                "tamilName": "120 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
+                "regular_price": 18400,
+                "sales_price": 1840,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 118,
+                "name": "120 SHOT (M.C)JOKER",
+                "tamilName": "120சாட் மல்டிகலர் ஜோக்கர்",
+                "regular_price": 22400,
+                "sales_price": 2240,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 119,
+                "name": "120 SHOT (M.C)WOW STAR",
+                "tamilName": "120சாட் மல்டிகலர் வாவ்ஸ்டார்",
+                "regular_price": 36800,
+                "sales_price": 3680,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 120,
+                "name": "240 SHOT (M.C)JOKER",
+                "tamilName": "240 சாட் மல்டிகலர் ஜோக்கர்",
+                "regular_price": 44800,
+                "sales_price": 4480,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 121,
+                "name": "240 SHOT (M.C)WOW STAR",
+                "tamilName": "240சாட் மல்டிகலர் வாவ் ஸ்டார்",
+                "regular_price": 73600,
+                "sales_price": 7360,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 122,
+                "name": "504 SHOT (M.C)WOW STAR",
+                "tamilName": "504சாட் மல்டிகலர் வாவ்ஸ்டார்",
+                "regular_price": 15220,
+                "sales_price": 15220,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     },
     {
-        "category":  "multi-colour-shots",
-        "categoryName":  "MULTI COLOUR SHOTS",
-        "iconClass":  "fas fa-rainbow",
-        "products":  [
-                         {
-                             "sno":  104,
-                             "name":  "LOVE DOSE",
-                             "tamilName":  "லவ் டோஸ்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  110,
-                             "name":  "SINGING DOLLS",
-                             "tamilName":  "சிங்கிங் டால்ஸ்",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  105,
-                             "name":  "12 SHOT RED \u0026 GREEN",
-                             "tamilName":  "12 சாட் ரெட்",
-                             "regular_price":  1800,
-                             "sales_price":  180,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro105.png"
-                         },
-                         {
-                             "sno":  106,
-                             "name":  "RANG CHAKKAR(10 SHOT)",
-                             "tamilName":  "ரங்சக்கரம்",
-                             "regular_price":  2200,
-                             "sales_price":  220,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro106.webp"
-                         },
-                         {
-                             "sno":  107,
-                             "name":  "CANDY CRUSH",
-                             "tamilName":  "கேன்டி கிரஸ்",
-                             "regular_price":  4500,
-                             "sales_price":  450,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro107.jpg"
-                         },
-                         {
-                             "sno":  108,
-                             "name":  "15 SHOT MULTI COLOR",
-                             "tamilName":  "15 சாட் மல்டிகலர்",
-                             "regular_price":  2800,
-                             "sales_price":  280,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro108.png"
-                         },
-                         {
-                             "sno":  109,
-                             "name":  "WHISTLING ZIP (25 SHOT)",
-                             "tamilName":  "விஸ்ளிங்சிப்",
-                             "regular_price":  7000,
-                             "sales_price":  700,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro109.webp"
-                         },
-                         {
-                             "sno":  110,
-                             "name":  "30 SHOT (M.C) SRI DURGA",
-                             "tamilName":  "30 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro110.webp"
-                         },
-                         {
-                             "sno":  111,
-                             "name":  "30 SHOT (M.C) JOKER",
-                             "tamilName":  "30 சாட் மல்டிகலர் ஜோக்கர்",
-                             "regular_price":  5000,
-                             "sales_price":  500,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  112,
-                             "name":  "30 SHOT (M.C) WOW STAR",
-                             "tamilName":  "30சாட் மல்டிகலர்வாவ்ஸ்டார்",
-                             "regular_price":  5500,
-                             "sales_price":  550,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  113,
-                             "name":  "30 SHOT (M.C) VADIVEL",
-                             "tamilName":  "30 சாட் மல்டிகலர் வடிவேல்",
-                             "regular_price":  6500,
-                             "sales_price":  650,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  114,
-                             "name":  "60 SHOT (M.C) SRI DURGA",
-                             "tamilName":  "60 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-                             "regular_price":  8000,
-                             "sales_price":  800,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  115,
-                             "name":  "60 SHOT (M.C) JOKER",
-                             "tamilName":  "60சாட் மல்டிகலர் ஜோக்கர்",
-                             "regular_price":  10000,
-                             "sales_price":  1000,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  116,
-                             "name":  "60 SHOT (M.C)WOW STAR",
-                             "tamilName":  "60சாட் மல்டிகலர் வாவ்ஸ்டார்",
-                             "regular_price":  11000,
-                             "sales_price":  1100,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  117,
-                             "name":  "120 SHOT (M.C) SRI DURGA",
-                             "tamilName":  "120 சாட் மல்டிகலர் ஸ்ரீ துர்கா",
-                             "regular_price":  16000,
-                             "sales_price":  1600,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  118,
-                             "name":  "120 SHOT (M.C)JOKER",
-                             "tamilName":  "120சாட் மல்டிகலர் ஜோக்கர்",
-                             "regular_price":  20000,
-                             "sales_price":  2000,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  119,
-                             "name":  "120 SHOT (M.C)WOW STAR",
-                             "tamilName":  "120சாட் மல்டிகலர் வாவ்ஸ்டார்",
-                             "regular_price":  22000,
-                             "sales_price":  2200,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  120,
-                             "name":  "240 SHOT (M.C)JOKER",
-                             "tamilName":  "240 சாட் மல்டிகலர் ஜோக்கர்",
-                             "regular_price":  35000,
-                             "sales_price":  3500,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  121,
-                             "name":  "240 SHOT (M.C)WOW STAR",
-                             "tamilName":  "240சாட் மல்டிகலர் வாவ் ஸ்டார்",
-                             "regular_price":  40000,
-                             "sales_price":  4000,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  122,
-                             "name":  "504 SHOT (M.C)WOW STAR",
-                             "tamilName":  "504சாட் மல்டிகலர் வாவ்ஸ்டார்",
-                             "regular_price":  85000,
-                             "sales_price":  8500,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "multi-colour-mega-set-out",
+        "categoryName": "MULTI COLOUR MEGA SET OUT",
+        "iconClass": "fas fa-magic",
+        "products": [
+            {
+                "sno": 123,
+                "name": "10 X 10 CARNIVAL NIGHT",
+                "tamilName": "கர்னிவல் நைட்ஸ்",
+                "regular_price": 45000,
+                "sales_price": 4500,
+                "box": "1 Box",
+                "image": "assets/products/pro123.jpg"
+            },
+            {
+                "sno": 124,
+                "name": "2/ SET OUT 30 SHOTS",
+                "tamilName": "2 சேட்அவுட் சாட்",
+                "regular_price": 45000,
+                "sales_price": 4500,
+                "box": "1 Box",
+                "image": "assets/products/pro124.jpg"
+            },
+            {
+                "sno": 125,
+                "name": "2 1/2/ GWEN TEN 25 SHOTS",
+                "tamilName": "2 1/2/ குவன் டென் 12 சாட்",
+                "regular_price": 65000,
+                "sales_price": 6500,
+                "box": "1 Box",
+                "image": "assets/products/pro125.webp"
+            },
+            {
+                "sno": 126,
+                "name": "3/ BEN TEN 20 SHOTS",
+                "tamilName": "3 பென்டன் 20சாட்",
+                "regular_price": 75000,
+                "sales_price": 7500,
+                "box": "1 Box",
+                "image": "assets/products/pro126.webp"
+            }
+        ]
     },
     {
-        "category":  "multi-colour-mega-set-out",
-        "categoryName":  "MULTI COLOUR MEGA SET OUT",
-        "iconClass":  "fas fa-magic",
-        "products":  [
-                         {
-                             "sno":  123,
-                             "name":  "10 X 10 CARNIVAL NIGHT",
-                             "tamilName":  "கர்னிவல் நைட்ஸ்",
-                             "regular_price":  38000,
-                             "sales_price":  3800,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro123.jpg"
-                         },
-                         {
-                             "sno":  124,
-                             "name":  "2\" SET OUT 30 SHOTS",
-                             "tamilName":  "2 சேட்அவுட் சாட்",
-                             "regular_price":  35000,
-                             "sales_price":  3500,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro124.jpg"
-                         },
-                         {
-                             "sno":  125,
-                             "name":  "2 1/2\" GWEN TEN 25 SHOTS",
-                             "tamilName":  "2 1/2\"குவன் டென் 12 சாட்",
-                             "regular_price":  45000,
-                             "sales_price":  4500,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro125.webp"
-                         },
-                         {
-                             "sno":  126,
-                             "name":  "3\" BEN TEN 20 SHOTS",
-                             "tamilName":  "3 பென்டன் 20சாட்",
-                             "regular_price":  60000,
-                             "sales_price":  6000,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro126.webp"
-                         }
-                     ]
+        "category": "kids-special",
+        "categoryName": "KIDS SPECIAL",
+        "iconClass": "fas fa-child",
+        "products": [
+            {
+                "sno": 127,
+                "name": "BUTTERFLY",
+                "tamilName": "பட்டர்பிளை",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/products/pro127.jpg"
+            },
+            {
+                "sno": 128,
+                "name": "BAMBARAM",
+                "tamilName": "பம்பரம்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro128.jpg"
+            },
+            {
+                "sno": 129,
+                "name": "DRONE",
+                "tamilName": "ட்ரோன்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/products/pro129.jpg"
+            },
+            {
+                "sno": 130,
+                "name": "HELICOPTER",
+                "tamilName": "கெளிகப்பிட்டர்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "1 Box",
+                "image": "assets/products/pro130.jpg"
+            },
+            {
+                "sno": 131,
+                "name": "PHOTO FLASH",
+                "tamilName": "போட்டோ பிலாஸ்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "1 Box",
+                "image": "assets/products/pro131.webp"
+            }
+        ]
     },
     {
-        "category":  "kids-special",
-        "categoryName":  "KIDS SPECIAL",
-        "iconClass":  "fas fa-child",
-        "products":  [
-                         {
-                             "sno":  127,
-                             "name":  "BUTTERFLY",
-                             "tamilName":  "பட்டர்பிளை",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro127.jpg"
-                         },
-                         {
-                             "sno":  128,
-                             "name":  "BAMBARAM",
-                             "tamilName":  "பம்பரம்",
-                             "regular_price":  1000,
-                             "sales_price":  100,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro128.jpg"
-                         },
-                         {
-                             "sno":  129,
-                             "name":  "DRONE",
-                             "tamilName":  "ட்ரோன்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro129.jpg"
-                         },
-                         {
-                             "sno":  130,
-                             "name":  "HELICOPTER",
-                             "tamilName":  "கெளிகப்பிட்டர்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro130.jpg"
-                         },
-                         {
-                             "sno":  131,
-                             "name":  "PHOTO FLASH",
-                             "tamilName":  "போட்டோ பிலாஸ்",
-                             "regular_price":  1000,
-                             "sales_price":  100,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro131.webp"
-                         }
-                     ]
+        "category": "kushi-black-money",
+        "categoryName": "KUSHI BLACK MONEY",
+        "iconClass": "fas fa-money-bill",
+        "products": [
+            {
+                "sno": 132,
+                "name": "MONEY MONEY",
+                "tamilName": "மணி மணி",
+                "regular_price": 4750,
+                "sales_price": 475,
+                "box": "1 Box",
+                "image": "assets/products/pro132.jpg"
+            },
+            {
+                "sno": 133,
+                "name": "ROSE PEDAL",
+                "tamilName": "ரோஜா இதழ்",
+                "regular_price": 4750,
+                "sales_price": 475,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 134,
+                "name": "ANOR BOMB 1 Pce",
+                "tamilName": "அனார் பாம் (1 பீஸ்)",
+                "regular_price": 2200,
+                "sales_price": 220,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 135,
+                "name": "MONEY IN THE BANK",
+                "tamilName": "மணி இன்த பேங்க்",
+                "regular_price": 2400,
+                "sales_price": 240,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     },
     {
-        "category":  "kushi-black-money",
-        "categoryName":  "KUSHI BLACK MONEY",
-        "iconClass":  "fas fa-money-bill",
-        "products":  [
-                         {
-                             "sno":  132,
-                             "name":  "MONEY MONEY",
-                             "tamilName":  "மணி மணி",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro132.jpg"
-                         },
-                         {
-                             "sno":  133,
-                             "name":  "ROSE PEDAL",
-                             "tamilName":  "ரோஜா இதழ்",
-                             "regular_price":  4000,
-                             "sales_price":  400,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  134,
-                             "name":  "ANOR BOMB 1 Pce",
-                             "tamilName":  "அனார் பாம் (1 பீஸ்)",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  135,
-                             "name":  "MONEY IN THE BANK",
-                             "tamilName":  "மணி இன்த பேங்க்",
-                             "regular_price":  1800,
-                             "sales_price":  180,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         }
-                     ]
+        "category": "colour-matches",
+        "categoryName": "COLOUR MATCHES",
+        "iconClass": "fas fa-palette",
+        "products": [
+            {
+                "sno": 136,
+                "name": "ANNAM (10 IN 1)",
+                "tamilName": "அன்னம் (10 இன்1)",
+                "regular_price": 1400,
+                "sales_price": 140,
+                "box": "1 Box",
+                "image": "assets/products/pro136.webp"
+            },
+            {
+                "sno": 137,
+                "name": "HERO (10 IN 1)",
+                "tamilName": "ஹீரோ (10 இன்1)",
+                "regular_price": 1900,
+                "sales_price": 190,
+                "box": "1 Box",
+                "image": "assets/products/pro137.webp"
+            },
+            {
+                "sno": 138,
+                "name": "MEJESTIC (10 IN 1)",
+                "tamilName": "மெஜஸ்டி (10இன்1)",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/products/pro138.webp"
+            }
+        ]
     },
     {
-        "category":  "colour-matches",
-        "categoryName":  "COLOUR MATCHES",
-        "iconClass":  "fas fa-palette",
-        "products":  [
-                         {
-                             "sno":  136,
-                             "name":  "ANNAM (10 IN 1)",
-                             "tamilName":  "அன்னம் (10 இன்1)",
-                             "regular_price":  1200,
-                             "sales_price":  120,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro136.webp"
-                         },
-                         {
-                             "sno":  137,
-                             "name":  "HERO (10 IN 1)",
-                             "tamilName":  "ஹீரோ (10 இன்1)",
-                             "regular_price":  1600,
-                             "sales_price":  160,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro137.webp"
-                         },
-                         {
-                             "sno":  138,
-                             "name":  "MEJESTIC (10 IN 1)",
-                             "tamilName":  "மெஜஸ்டி (10இன்1)",
-                             "regular_price":  2800,
-                             "sales_price":  280,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro138.webp"
-                         }
-                     ]
+        "category": "sparklers",
+        "categoryName": "SPARKLERS",
+        "iconClass": "fas fa-sparkles",
+        "products": [
+            {
+                "sno": 139,
+                "name": "7 CM ELECTRIC",
+                "tamilName": "7 செமீ எலக்ட்ரிக்",
+                "regular_price": 1400,
+                "sales_price": 140,
+                "box": "10 Box",
+                "image": "assets/products/pro139.jpg"
+            },
+            {
+                "sno": 140,
+                "name": "7 CM COLOUR",
+                "tamilName": "7 செமீ கலர்",
+                "regular_price": 1550,
+                "sales_price": 155,
+                "box": "10 Box",
+                "image": "assets/products/pro140.jpg"
+            },
+            {
+                "sno": 141,
+                "name": "7 CM GREEN",
+                "tamilName": "7 செமீ கிரீன்",
+                "regular_price": 1800,
+                "sales_price": 180,
+                "box": "10 Box",
+                "image": "assets/products/pro141.webp"
+            },
+            {
+                "sno": 142,
+                "name": "7 CM RED",
+                "tamilName": "7 செமீரெட்",
+                "regular_price": 1950,
+                "sales_price": 195,
+                "box": "10 Box",
+                "image": "assets/products/pro142.webp"
+            },
+            {
+                "sno": 143,
+                "name": "10 CM ELECTRIC",
+                "tamilName": "10 செமீ எலக்ட்ரிக்",
+                "regular_price": 1450,
+                "sales_price": 145,
+                "box": "5 Box",
+                "image": "assets/products/pro143.webp"
+            },
+            {
+                "sno": 144,
+                "name": "10 CM COLOUR",
+                "tamilName": "10 செமீ கலர்",
+                "regular_price": 1650,
+                "sales_price": 165,
+                "box": "5 Box",
+                "image": "assets/products/pro144.webp"
+            },
+            {
+                "sno": 145,
+                "name": "10 CM GREEN",
+                "tamilName": "10 செமீ கிரீன்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "5 Box",
+                "image": "assets/products/pro145.webp"
+            },
+            {
+                "sno": 146,
+                "name": "10 CM RED",
+                "tamilName": "10 செமீ ரெட்",
+                "regular_price": 1850,
+                "sales_price": 185,
+                "box": "5 Box",
+                "image": "assets/products/pro146.webp"
+            },
+            {
+                "sno": 147,
+                "name": "10 CM VIOLET",
+                "tamilName": "10 செமீ வயலட்",
+                "regular_price": 1950,
+                "sales_price": 195,
+                "box": "5 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 148,
+                "name": "10 CM BLUE",
+                "tamilName": "10 செமீ புளு",
+                "regular_price": 1950,
+                "sales_price": 195,
+                "box": "5 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 149,
+                "name": "10 CM PINK",
+                "tamilName": "10 செமீ பிங்க்",
+                "regular_price": 1950,
+                "sales_price": 195,
+                "box": "5 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 150,
+                "name": "12 CM ELECTRIC",
+                "tamilName": "12 செமீ எலக்ட்ரிக்",
+                "regular_price": 1650,
+                "sales_price": 165,
+                "box": "5 Box",
+                "image": "assets/products/pro150.webp"
+            },
+            {
+                "sno": 151,
+                "name": "12 CM COLOUR",
+                "tamilName": "12 செமீ கலர்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "5 Box",
+                "image": "assets/products/pro151.webp"
+            },
+            {
+                "sno": 152,
+                "name": "12 CM GREEN",
+                "tamilName": "12 செமீ கிரீன்",
+                "regular_price": 1850,
+                "sales_price": 185,
+                "box": "5 Box",
+                "image": "assets/products/pro152.webp"
+            },
+            {
+                "sno": 153,
+                "name": "12 CM RED",
+                "tamilName": "12 செமீ ரெட்",
+                "regular_price": 1950,
+                "sales_price": 195,
+                "box": "5 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 154,
+                "name": "15 CM ELECTRIC",
+                "tamilName": "15 செமீ எலக்ட்ரிக்",
+                "regular_price": 1200,
+                "sales_price": 120,
+                "box": "2 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 155,
+                "name": "15 CM COLOUR",
+                "tamilName": "15 செமீ கலர்",
+                "regular_price": 1300,
+                "sales_price": 130,
+                "box": "2 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 156,
+                "name": "15 CM GREEN",
+                "tamilName": "15 செமீ கிரீன்",
+                "regular_price": 1400,
+                "sales_price": 140,
+                "box": "2 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 157,
+                "name": "15 CM RED",
+                "tamilName": "15 செமீ ரெட்",
+                "regular_price": 1500,
+                "sales_price": 150,
+                "box": "2 Box",
+                "image": "assets/products/pro157.jpg"
+            },
+            {
+                "sno": 158,
+                "name": "15 CM PINK",
+                "tamilName": "15 செமீ பிங்க்",
+                "regular_price": 1750,
+                "sales_price": 175,
+                "box": "2 Box",
+                "image": "assets/products/pro158.jpg"
+            },
+            {
+                "sno": 159,
+                "name": "30 CM ELECTRIC",
+                "tamilName": "30 செமீ எலக்ட்ரிக்",
+                "regular_price": 1350,
+                "sales_price": 135,
+                "box": "2 Box",
+                "image": "assets/products/pro159.jpg"
+            },
+            {
+                "sno": 160,
+                "name": "30 CM COLOUR",
+                "tamilName": "30 செமீ கலர்",
+                "regular_price": 1550,
+                "sales_price": 155,
+                "box": "2 Box",
+                "image": "assets/products/pro160.jpg"
+            },
+            {
+                "sno": 161,
+                "name": "30 CM GREEN",
+                "tamilName": "30 செமீ கிரீன்",
+                "regular_price": 1600,
+                "sales_price": 160,
+                "box": "2 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 162,
+                "name": "30 CM RED",
+                "tamilName": "30 செமீ ரெட்",
+                "regular_price": 1550,
+                "sales_price": 155,
+                "box": "2 Box",
+                "image": "assets/products/pro162.jpg"
+            },
+            {
+                "sno": 163,
+                "name": "50 CM ELECTRIC",
+                "tamilName": "50 செமீ எலக்ட்ரிக்",
+                "regular_price": 2500,
+                "sales_price": 250,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 164,
+                "name": "50 CM COLOUR",
+                "tamilName": "50 செமீ கலர்",
+                "regular_price": 2800,
+                "sales_price": 280,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 164,
+                "name": "50 CM GREEN",
+                "tamilName": "50 செமீ கிரீன்",
+                "regular_price": 3200,
+                "sales_price": 320,
+                "box": "1 Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 165,
+                "name": "UMBERLLA SPARKLER",
+                "tamilName": "7 அம்பர்லா ஸ்பார்க்லர்",
+                "regular_price": 3400,
+                "sales_price": 340,
+                "box": "1 Box",
+                "image": "assets/products/pro165.jpg"
+            }
+        ]
     },
     {
-        "category":  "sparklers",
-        "categoryName":  "SPARKLERS",
-        "iconClass":  "fas fa-sparkles",
-        "products":  [
-                         {
-                             "sno":  139,
-                             "name":  "7 CM ELECTRIC",
-                             "tamilName":  "7 செமீ எலக்ட்ரிக்",
-                             "regular_price":  1300,
-                             "sales_price":  130,
-                             "box":  "10 Box",
-                             "image":  "assets/products/pro139.jpg"
-                         },
-                         {
-                             "sno":  140,
-                             "name":  "7 CM COLOUR",
-                             "tamilName":  "7 செமீ கலர்",
-                             "regular_price":  1500,
-                             "sales_price":  150,
-                             "box":  "10 Box",
-                             "image":  "assets/products/pro140.jpg"
-                         },
-                         {
-                             "sno":  141,
-                             "name":  "7 CM GREEN",
-                             "tamilName":  "7 செமீ கிரீன்",
-                             "regular_price":  1700,
-                             "sales_price":  170,
-                             "box":  "10 Box",
-                             "image":  "assets/products/pro141.webp"
-                         },
-                         {
-                             "sno":  142,
-                             "name":  "7 CM RED",
-                             "tamilName":  "7 செமீரெட்",
-                             "regular_price":  1900,
-                             "sales_price":  190,
-                             "box":  "10 Box",
-                             "image":  "assets/products/pro142.webp"
-                         },
-                         {
-                             "sno":  143,
-                             "name":  "10 CM ELECTRIC",
-                             "tamilName":  "10 செமீ எலக்ட்ரிக்",
-                             "regular_price":  250,
-                             "sales_price":  25,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro143.webp"
-                         },
-                         {
-                             "sno":  144,
-                             "name":  "10 CM COLOUR",
-                             "tamilName":  "10 செமீ கலர்",
-                             "regular_price":  280,
-                             "sales_price":  28,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro144.webp"
-                         },
-                         {
-                             "sno":  145,
-                             "name":  "10 CM GREEN",
-                             "tamilName":  "10 செமீ கிரீன்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro145.webp"
-                         },
-                         {
-                             "sno":  146,
-                             "name":  "10 CM RED",
-                             "tamilName":  "10 செமீ ரெட்",
-                             "regular_price":  330,
-                             "sales_price":  33,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro146.webp"
-                         },
-                         {
-                             "sno":  147,
-                             "name":  "10 CM VIOLET",
-                             "tamilName":  "10 செமீ வயலட்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "5 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  148,
-                             "name":  "10 CM BLUE",
-                             "tamilName":  "10 செமீ புளு",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "5 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  149,
-                             "name":  "10 CM PINK",
-                             "tamilName":  "10 செமீ பிங்க்",
-                             "regular_price":  300,
-                             "sales_price":  30,
-                             "box":  "5 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  150,
-                             "name":  "12 CM ELECTRIC",
-                             "tamilName":  "12 செமீ எலக்ட்ரிக்",
-                             "regular_price":  290,
-                             "sales_price":  29,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro150.webp"
-                         },
-                         {
-                             "sno":  151,
-                             "name":  "12 CM COLOUR",
-                             "tamilName":  "12 செமீ கலர்",
-                             "regular_price":  310,
-                             "sales_price":  31,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro151.webp"
-                         },
-                         {
-                             "sno":  152,
-                             "name":  "12 CM GREEN",
-                             "tamilName":  "12 செமீ கிரீன்",
-                             "regular_price":  330,
-                             "sales_price":  33,
-                             "box":  "5 Box",
-                             "image":  "assets/products/pro152.webp"
-                         },
-                         {
-                             "sno":  153,
-                             "name":  "12 CM RED",
-                             "tamilName":  "12 செமீ ரெட்",
-                             "regular_price":  350,
-                             "sales_price":  35,
-                             "box":  "5 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  154,
-                             "name":  "15 CM ELECTRIC",
-                             "tamilName":  "15 செமீ எலக்ட்ரிக்",
-                             "regular_price":  500,
-                             "sales_price":  50,
-                             "box":  "2 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  155,
-                             "name":  "15 CM COLOUR",
-                             "tamilName":  "15 செமீ கலர்",
-                             "regular_price":  540,
-                             "sales_price":  54,
-                             "box":  "2 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  156,
-                             "name":  "15 CM GREEN",
-                             "tamilName":  "15 செமீ கிரீன்",
-                             "regular_price":  580,
-                             "sales_price":  58,
-                             "box":  "2 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  157,
-                             "name":  "15 CM RED",
-                             "tamilName":  "15 செமீ ரெட்",
-                             "regular_price":  620,
-                             "sales_price":  62,
-                             "box":  "2 Box",
-                             "image":  "assets/products/pro157.jpg"
-                         },
-                         {
-                             "sno":  158,
-                             "name":  "15 CM PINK",
-                             "tamilName":  "15 செமீ பிங்க்",
-                             "regular_price":  680,
-                             "sales_price":  68,
-                             "box":  "2 Box",
-                             "image":  "assets/products/pro158.jpg"
-                         },
-                         {
-                             "sno":  159,
-                             "name":  "30 CM ELECTRIC",
-                             "tamilName":  "30 செமீ எலக்ட்ரிக்",
-                             "regular_price":  500,
-                             "sales_price":  50,
-                             "box":  "2 Box",
-                             "image":  "assets/products/pro159.jpg"
-                         },
-                         {
-                             "sno":  160,
-                             "name":  "30 CM COLOUR",
-                             "tamilName":  "30 செமீ கலர்",
-                             "regular_price":  540,
-                             "sales_price":  54,
-                             "box":  "2 Box",
-                             "image":  "assets/products/pro160.jpg"
-                         },
-                         {
-                             "sno":  161,
-                             "name":  "30 CM GREEN",
-                             "tamilName":  "30 செமீ கிரீன்",
-                             "regular_price":  580,
-                             "sales_price":  58,
-                             "box":  "2 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  162,
-                             "name":  "30 CM RED",
-                             "tamilName":  "30 செமீ ரெட்",
-                             "regular_price":  620,
-                             "sales_price":  62,
-                             "box":  "2 Box",
-                             "image":  "assets/products/pro162.jpg"
-                         },
-                         {
-                             "sno":  163,
-                             "name":  "50 CM ELECTRIC",
-                             "tamilName":  "50 செமீ எலக்ட்ரிக்",
-                             "regular_price":  1800,
-                             "sales_price":  180,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  164,
-                             "name":  "50 CM COLOUR",
-                             "tamilName":  "50 செமீ கலர்",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  164,
-                             "name":  "50 CM GREEN",
-                             "tamilName":  "50 செமீ கிரீன்",
-                             "regular_price":  2200.00,
-                             "sales_price":  220.00,
-                             "box":  "1 Box",
-                             "image":  "assets/images/star-logo.png"
-                         },
-                         {
-                             "sno":  165,
-                             "name":  "UMBERLLA SPARKLER",
-                             "tamilName":  "7 அம்பர்லா ஸ்பார்க்லர்",
-                             "regular_price":  2500,
-                             "sales_price":  250,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro165.jpg"
-                         }
-                     ]
+        "category": "wala",
+        "categoryName": "WALA",
+        "iconClass": "fas fa-fire-alt",
+        "products": [
+            {
+                "sno": 166,
+                "name": "28 GIANT",
+                "tamilName": "28 ஜெய்ன்ட்",
+                "regular_price": 420,
+                "sales_price": 42,
+                "box": "1 Box",
+                "image": "assets/products/pro166.webp"
+            },
+            {
+                "sno": 167,
+                "name": "100 WALA",
+                "tamilName": "100 வாலா",
+                "regular_price": 1100,
+                "sales_price": 110,
+                "box": "1 Box",
+                "image": "assets/products/pro167.jpg"
+            },
+            {
+                "sno": 168,
+                "name": "300 WALA",
+                "tamilName": "300 வாலா",
+                "regular_price": 3300,
+                "sales_price": 330,
+                "box": "1 Box",
+                "image": "assets/products/pro168.jpeg"
+            },
+            {
+                "sno": 169,
+                "name": "1000 WALA HALF",
+                "tamilName": "1000வாலா காப்",
+                "regular_price": 2600,
+                "sales_price": 260,
+                "box": "1 Box",
+                "image": "assets/products/pro169.webp"
+            },
+            {
+                "sno": 170,
+                "name": "1000 WALA FULL",
+                "tamilName": "1000வாலா",
+                "regular_price": 4200,
+                "sales_price": 420,
+                "box": "1 Box",
+                "image": "assets/products/pro170.jpg"
+            },
+            {
+                "sno": 171,
+                "name": "2000 WALA FULL",
+                "tamilName": "2000 வாலா",
+                "regular_price": 8400,
+                "sales_price": 840,
+                "box": "1 Box",
+                "image": "assets/products/pro171.jpg"
+            },
+            {
+                "sno": 172,
+                "name": "5000 WALA FULL",
+                "tamilName": "5000 வாலா",
+                "regular_price": 21000,
+                "sales_price": 2100,
+                "box": "1 Box",
+                "image": "assets/products/pro172.jpg"
+            },
+            {
+                "sno": 173,
+                "name": "10000 WALA FULL",
+                "tamilName": "10000 வாலா",
+                "regular_price": 42000,
+                "sales_price": 4200,
+                "box": "1 Box",
+                "image": "assets/products/pro173.webp"
+            }
+        ]
     },
     {
-        "category":  "wala",
-        "categoryName":  "WALA",
-        "iconClass":  "fas fa-fire-alt",
-        "products":  [
-                         {
-                             "sno":  166,
-                             "name":  "28 GIANT",
-                             "tamilName":  "28 ஜெய்ன்ட்",
-                             "regular_price":  250,
-                             "sales_price":  25,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro166.webp"
-                         },
-                         {
-                             "sno":  167,
-                             "name":  "100 WALA",
-                             "tamilName":  "100 வாலா",
-                             "regular_price":  900,
-                             "sales_price":  90,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro167.jpg"
-                         },
-                         {
-                             "sno":  168,
-                             "name":  "300 WALA",
-                             "tamilName":  "300 வாலா",
-                             "regular_price":  2000,
-                             "sales_price":  200,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro168.jpeg"
-                         },
-                         {
-                             "sno":  169,
-                             "name":  "1000 WALA HALF",
-                             "tamilName":  "1000வாலா காப்",
-                             "regular_price":  2500,
-                             "sales_price":  250,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro169.webp"
-                         },
-                         {
-                             "sno":  170,
-                             "name":  "1000 WALA FULL",
-                             "tamilName":  "1000வாலா",
-                             "regular_price":  3800,
-                             "sales_price":  380,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro170.jpg"
-                         },
-                         {
-                             "sno":  171,
-                             "name":  "2000 WALA FULL",
-                             "tamilName":  "2000 வாலா",
-                             "regular_price":  7600,
-                             "sales_price":  760,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro171.jpg"
-                         },
-                         {
-                             "sno":  172,
-                             "name":  "5000 WALA FULL",
-                             "tamilName":  "5000 வாலா",
-                             "regular_price":  19000,
-                             "sales_price":  1900,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro172.jpg"
-                         },
-                         {
-                             "sno":  173,
-                             "name":  "10000 WALA FULL",
-                             "tamilName":  "10000 வாலா",
-                             "regular_price":  38000,
-                             "sales_price":  3800,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro173.webp"
-                         }
-                     ]
+        "category": "paper-bomb",
+        "categoryName": "PAPER BOMB",
+        "iconClass": "fas fa-newspaper",
+        "products": [
+            {
+                "sno": 174,
+                "name": "ATIYAL 1/4 KG",
+                "tamilName": "அட்டியள் 1/4 KG",
+                "regular_price": 750,
+                "sales_price": 75,
+                "box": "1 Box",
+                "image": "assets/products/pro174.webp"
+            },
+            {
+                "sno": 175,
+                "name": "ATIYAL 1/4 KG COLOUR PAPER",
+                "tamilName": "அட்டியள் 1/4 KG கலர் பேப்பர்",
+                "regular_price": 850,
+                "sales_price": 85,
+                "box": "1 Box",
+                "image": "assets/products/pro175.jpg"
+            },
+            {
+                "sno": 176,
+                "name": "ATIYAL 1/2 KG",
+                "tamilName": "அட்டியள் 1/2 KG",
+                "regular_price": 1700,
+                "sales_price": 170,
+                "box": "1 Box",
+                "image": "assets/products/pro176.jpeg"
+            },
+            {
+                "sno": 177,
+                "name": "ATIYAL 1 KG",
+                "tamilName": "அட்டியள் 1 KG",
+                "regular_price": 3400,
+                "sales_price": 340,
+                "box": "1 Box",
+                "image": "assets/products/pro177.jpeg"
+            }
+        ]
     },
     {
-        "category":  "paper-bomb",
-        "categoryName":  "PAPER BOMB",
-        "iconClass":  "fas fa-newspaper",
-        "products":  [
-                         {
-                             "sno":  174,
-                             "name":  "ATIYAL 1/4 KG",
-                             "tamilName":  "அட்டியள் 1/4 KG",
-                             "regular_price":  550,
-                             "sales_price":  55,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro174.webp"
-                         },
-                         {
-                             "sno":  175,
-                             "name":  "ATIYAL 1/4 KG COLOUR PAPER",
-                             "tamilName":  "அட்டியள் 1/4 KG கலர் பேப்பர்",
-                             "regular_price":  650,
-                             "sales_price":  65,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro175.jpg"
-                         },
-                         {
-                             "sno":  176,
-                             "name":  "ATIYAL 1/2 KG",
-                             "tamilName":  "அட்டியள் 1/2 KG",
-                             "regular_price":  1100,
-                             "sales_price":  110,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro176.jpeg"
-                         },
-                         {
-                             "sno":  177,
-                             "name":  "ATIYAL 1 KG",
-                             "tamilName":  "அட்டியள் 1 KG",
-                             "regular_price":  2200,
-                             "sales_price":  220,
-                             "box":  "1 Box",
-                             "image":  "assets/products/pro177.jpeg"
-                         }
-                     ]
+        "category": "gift-box",
+        "categoryName": "GIFT BOX",
+        "iconClass": "fas fa-gift",
+        "products": [
+            {
+                "sno": 178,
+                "name": "MINIONS 20 ITEMS",
+                "regular_price": 4000,
+                "sales_price": 400,
+                "box": "Gift Box",
+                "image": "assets/products/pro178.png"
+            },
+            {
+                "sno": 179,
+                "name": "RIO 25 ITEMS",
+                "regular_price": 5000,
+                "sales_price": 500,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 180,
+                "name": "SUPER SONIC 30 ITEMS",
+                "regular_price": 6000,
+                "sales_price": 600,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 181,
+                "name": "THE LORAX 35 ITEMS",
+                "regular_price": 7000,
+                "sales_price": 700,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 182,
+                "name": "MOANA 40 ITEMS",
+                "regular_price": 9000,
+                "sales_price": 900,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 183,
+                "name": "MEJESTIC 45 ITEMS",
+                "regular_price": 11000,
+                "sales_price": 1100,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 184,
+                "name": "EMPIRE 50 ITEMS",
+                "regular_price": 12000,
+                "sales_price": 1200,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 185,
+                "name": "MIRACLE 55 ITEMS",
+                "regular_price": 15000,
+                "sales_price": 1500,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            },
+            {
+                "sno": 186,
+                "name": "CASINO 60 ITEMS",
+                "regular_price": 17000,
+                "sales_price": 1700,
+                "box": "Gift Box",
+                "image": "assets/images/logo.png"
+            }
+        ]
     }
 ]
