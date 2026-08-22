@@ -2,6 +2,13 @@
 
 // 185 wholesale products data verified from the PDF Price List
 const wholesaleProducts = [
+  // FAMILY COMBO PACKS (at the top)
+  { sno: 187, name: "KUTTY CHELLAM COMBO PACK (3K)", tamilName: "குட்டிசெல்லம் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "47 Items", image: "assets/images/category1.jpg" },
+  { sno: 188, name: "SWEET MASS COMBO PACK (3K)", tamilName: "ஸ்வீட் மாஸ் காம்போ பேக் (3K)", regularPrice: 5000, discountedPrice: 3000, unit: "50 Items", image: "assets/images/category2.jpg" },
+  { sno: 189, name: "GOLDEN COMBO (5K)", tamilName: "கோல்டன் இரவு காம்போ பேக் (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "38 Items", image: "assets/images/category3.jpg" },
+  { sno: 190, name: "GOLD THALA DIWALI COMBO PACK (5K)", tamilName: "GOLD தல தீபாவளி காம்போ (5K)", regularPrice: 8000, discountedPrice: 5000, unit: "51 Items", image: "assets/images/category4.jpg" },
+  { sno: 191, name: "LOVE JODI COMBO PACK (10K)", tamilName: "LOVE ஜோடி காம்போ பேக் (10K)", regularPrice: 15000, discountedPrice: 10000, unit: "93 Items", image: "assets/images/banner5.jpg" },
+
   // Page 2: ONE SOUND CRACKERS
   { sno: 1, name: "2 3/4 KURUVI", tamilName: "2 3/4 குருவி", regularPrice: 80, discountedPrice: 8, unit: "1 Pkt", image: "assets/products/pro1.jpg" },
   { sno: 2, name: "2 3/4 KURUVI (Machine Fuse)", tamilName: "2 3/4 குருவி", regularPrice: 150, discountedPrice: 15, unit: "1 Pkt", image: "assets/products/pro2.jpg" },
