@@ -185,6 +185,16 @@ body {
     box-shadow: 0 6px 22px rgba(17, 153, 142, 0.6);
 }
 
+.order-combo-btn {
+    background: linear-gradient(135deg, #FF9800, #FFC107);
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+}
+
+.order-combo-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 22px rgba(255, 152, 0, 0.6);
+}
+
 /* Pulse animation */
 @keyframes pulse {
     0% { transform: scale(1); }

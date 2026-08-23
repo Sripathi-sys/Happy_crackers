@@ -3,54 +3,68 @@
 // State variable
 let selectedCombos = {};
 
-// Toggle select/deselect combo pack
-function toggleCombo(sno, price, name, itemsCount) {
+// Change quantity of combo pack
+function changeQuantity(sno, change, price, name, itemsCount) {
+    const qtySpan = document.getElementById(`qty-${sno}`);
+    const totalPriceSpan = document.getElementById(`total-price-${sno}`);
     const card = document.getElementById(`combo-${sno}`);
-    const button = card.querySelector('.select-btn');
-
-    if (selectedCombos[sno]) {
-        // Deselect
+    
+    let currentQty = selectedCombos[sno] ? selectedCombos[sno].qty : 0;
+    let newQty = currentQty + change;
+    
+    if (newQty < 0) newQty = 0;
+    
+    if (newQty === 0) {
         delete selectedCombos[sno];
         card.classList.remove('selected');
-        button.textContent = "Select Pack";
-        button.className = "btn btn-outline-warning select-btn";
+        if (qtySpan) qtySpan.textContent = "0";
+        if (totalPriceSpan) {
+            totalPriceSpan.textContent = "₹0.00";
+            totalPriceSpan.style.color = '#6c757d';
+            totalPriceSpan.style.fontWeight = 'normal';
+        }
     } else {
-        // Select
         selectedCombos[sno] = {
             sno: sno,
             price: price,
             name: name,
-            items: itemsCount
+            items: itemsCount,
+            qty: newQty
         };
         card.classList.add('selected');
-        button.textContent = "Deselect Pack";
-        button.className = "btn btn-warning select-btn text-dark";
+        if (qtySpan) qtySpan.textContent = newQty;
+        if (totalPriceSpan) {
+            totalPriceSpan.textContent = `₹${(price * newQty).toFixed(2)}`;
+            totalPriceSpan.style.color = '#28a745';
+            totalPriceSpan.style.fontWeight = 'bold';
+        }
     }
-
+    
     updateCartSummary();
 }
 
 // Update bottom cart floating summary
 function updateCartSummary() {
     const keys = Object.keys(selectedCombos);
-    const count = keys.length;
-    
+    let totalPacks = 0;
     let subtotal = 0;
+    
     keys.forEach(k => {
-        subtotal += selectedCombos[k].price;
+        totalPacks += selectedCombos[k].qty;
+        subtotal += (selectedCombos[k].price * selectedCombos[k].qty);
     });
 
     const cartSummary = document.getElementById('cartSummary');
     const itemsCountElement = document.querySelector('.cart-items-count');
     const totalAmountElement = document.querySelector('.cart-total-amount');
 
-    if (count > 0) {
-        cartSummary.style.display = 'block';
-        itemsCountElement.textContent = `${count} pack${count > 1 ? 's' : ''}`;
-        totalAmountElement.textContent = `₹${subtotal.toFixed(2)}`;
+    if (totalPacks > 0) {
+        if (cartSummary) cartSummary.style.display = 'block';
+        if (itemsCountElement) itemsCountElement.textContent = `${totalPacks} pack${totalPacks > 1 ? 's' : ''}`;
+        if (totalAmountElement) totalAmountElement.textContent = `₹${subtotal.toFixed(2)}`;
         document.body.style.paddingBottom = '100px';
     } else {
-        cartSummary.style.display = 'none';
+        if (cartSummary) cartSummary.style.display = 'none';
         document.body.style.paddingBottom = '0';
     }
 }
@@ -65,7 +79,7 @@ function orderCombos() {
 
     let subtotal = 0;
     keys.forEach(k => {
-        subtotal += selectedCombos[k].price;
+        subtotal += (selectedCombos[k].price * selectedCombos[k].qty);
     });
 
     const packingCharge = Math.round(subtotal * 0.03);
@@ -106,8 +120,9 @@ function orderCombos() {
 
             keys.forEach((k, index) => {
                 const item = selectedCombos[k];
-                orderMessage += `${index + 1}. *${item.name}* (${item.items})\n`;
-                orderMessage += `    Price: ₹${item.price.toFixed(2)}\n\n`;
+                orderMessage += `${index + 1}. *${item.name}* (${item.items}) x ${item.qty}\n`;
+                orderMessage += `    Price: ₹${item.price.toFixed(2)} each\n`;
+                orderMessage += `    Subtotal: ₹${(item.price * item.qty).toFixed(2)}\n\n`;
             });
 
             orderMessage += `${'='.repeat(40)}\n`;
