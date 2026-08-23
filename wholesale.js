@@ -303,7 +303,7 @@ function renderWholesaleProducts(products) {
                 <div class="wholesale-section" style="background-color: #fff9e6; border-radius: 8px; padding: 6px 10px; border: 1px solid #ffeeba;">
                   <div class="wholesale-qty" style="font-size: 12px; font-weight: bold; color: #856404; margin-bottom: 2px;">
                     Wholesale Pack: <strong>${wholesaleQty} ${packUnit}</strong> 
-                    <span class="text-secondary fw-normal ms-1">(${product.discountedPrice} * ${wholesaleQty} = ${wholesalePrice})</span>
+                    <span style="white-space: nowrap; font-weight: 800; color: #bd2130; margin-left: 4px;">(${product.discountedPrice} * ${wholesaleQty} = ${wholesalePrice})</span>
                   </div>
                   <div class="wholesale-price" style="font-size: 15px; font-weight: 800; color: #28a745; margin-bottom: 6px;">Pack Price: <strong>₹${wholesalePrice}</strong></div>
                   <div class="quantity-section d-flex align-items-center justify-content-between pt-2 border-top border-secondary-subtle">
