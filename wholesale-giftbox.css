@@ -1,0 +1,749 @@
+/* Wholesale Gift Box CSS - Mobile-First Design for Happy Enjoy Crackers */
+
+:root {
+  --primary-color: #e65100;
+  --primary-light: #fff3e0;
+  --primary-gradient: linear-gradient(135deg, #ff6f00 0%, #e65100 100%);
+  --secondary-color: #d32f2f;
+  --whatsapp-green: #25d366;
+  --whatsapp-hover: #1ebd5a;
+  --dark-text: #1f2937;
+  --muted-text: #6b7280;
+  --card-bg: #ffffff;
+  --body-bg: #f8fafc;
+  --border-color: #e2e8f0;
+  --badge-bg: #fef3c7;
+  --badge-text: #b45309;
+  --accent-gold: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  background-color: #f1f5f9;
+  color: var(--dark-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  padding-bottom: 140px; /* Space for fixed bottom bar */
+}
+
+/* Mobile App Wrapper - Centers on Desktop like a Mobile Device */
+.mobile-app-container {
+  max-width: 520px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--body-bg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* App Header */
+.app-header {
+  background: var(--primary-gradient);
+  color: #ffffff;
+  padding: 14px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(230, 81, 0, 0.25);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-back-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.header-back-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.header-title-box h1 {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
+}
+
+.header-title-box p {
+  font-size: 11px;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.header-contact-btn {
+  background: #ffffff;
+  color: var(--primary-color);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Wholesale Notice Marquee */
+.wholesale-notice-bar {
+  background: #fff8e1;
+  border-bottom: 1px solid #ffe082;
+  padding: 8px 12px;
+  font-size: 11.5px;
+  color: #b45309;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Search Bar */
+.search-container {
+  padding: 12px 16px;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  border-radius: 24px;
+  border: 1.5px solid #e2e8f0;
+  font-size: 13.5px;
+  background: #f8fafc;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--primary-color);
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(230, 81, 0, 0.15);
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* Hero Info Card */
+.info-banner {
+  margin: 12px 16px;
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 1px dashed #f59e0b;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.info-banner-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #92400e;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info-banner-desc {
+  font-size: 11.5px;
+  color: #78350f;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.info-highlights {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.highlight-pill {
+  background: rgba(245, 158, 11, 0.2);
+  color: #92400e;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+/* Product Cards Container */
+.products-list {
+  padding: 8px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Individual Product Card */
+.giftbox-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.giftbox-card.active-in-cart {
+  border-color: var(--primary-color);
+  box-shadow: 0 6px 18px rgba(230, 81, 0, 0.12);
+}
+
+/* Card Top Tag */
+.card-badge-row {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.items-count-badge {
+  background: #1e293b;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.status-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.status-badge.warning { background: #fef08a; color: #854d0e; }
+.status-badge.danger { background: #fecaca; color: #991b1b; }
+.status-badge.primary { background: #dbeafe; color: #1e40af; }
+.status-badge.success { background: #bbf7d0; color: #166534; }
+.status-badge.pink { background: #fbcfe8; color: #9d174d; }
+.status-badge.info { background: #cffafe; color: #155e75; }
+.status-badge.purple { background: #e9d5ff; color: #6b21a8; }
+.status-badge.indigo { background: #e0e7ff; color: #3730a3; }
+.status-badge.dark { background: #f1f5f9; color: #0f172a; }
+
+/* Image Container */
+.card-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: #f8fafc;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card-image-wrap:hover img {
+  transform: scale(1.03);
+}
+
+.tap-zoom-hint {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  backdrop-filter: blur(4px);
+}
+
+/* Alternate Image Switcher for 16 Items (Minions / Ice Age) */
+.alt-image-toggle {
+  display: flex;
+  gap: 6px;
+  padding: 6px 14px;
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.alt-tab {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: #ffffff;
+  color: #475569;
+  cursor: pointer;
+}
+
+.alt-tab.active {
+  background: var(--primary-color);
+  color: #ffffff;
+  border-color: var(--primary-color);
+}
+
+/* Card Body */
+.card-body-content {
+  padding: 14px;
+}
+
+.card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+
+.card-product-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.card-product-brand {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.card-product-desc {
+  font-size: 11.5px;
+  color: #64748b;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+/* Explicit Wholesale Multiplication Card Section */
+.case-calculation-box {
+  background: #fdf4ec;
+  border: 1.5px solid #ffccbc;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.calc-breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #475569;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed #ffd5c7;
+}
+
+.calc-breakdown-item strong {
+  color: #0f172a;
+}
+
+.calc-formula-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #ffab91;
+}
+
+.formula-text {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #c2410c;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.case-rate-tag {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #b91c1c;
+}
+
+/* Quantity & Dynamic Price Row */
+.quantity-control-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.qty-stepper {
+  display: flex;
+  align-items: center;
+  background: #f1f5f9;
+  border-radius: 28px;
+  border: 1px solid #cbd5e1;
+  padding: 3px;
+}
+
+.stepper-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.stepper-btn.minus {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.stepper-btn.minus:active {
+  background: #cbd5e1;
+}
+
+.stepper-btn.plus {
+  background: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(230, 81, 0, 0.3);
+}
+
+.stepper-btn.plus:active {
+  background: #bf360c;
+  transform: scale(0.95);
+}
+
+.case-count-display {
+  min-width: 65px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+/* Dynamic Item Total */
+.item-total-display {
+  text-align: right;
+}
+
+.item-total-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  display: block;
+}
+
+.item-total-price {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.item-total-price.has-items {
+  color: #b91c1c;
+}
+
+.item-boxes-summary {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #d97706;
+}
+
+/* Quick Add Shortcut Pills */
+.quick-add-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.quick-pill {
+  flex: 1;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #475569;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.quick-pill:hover, .quick-pill:active {
+  background: #ffedd5;
+  color: #c2410c;
+  border-color: #fdba74;
+}
+
+/* Sivakasi Wholesale Terms Box at bottom of list */
+.terms-notice-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 14px;
+  margin-top: 10px;
+}
+
+.terms-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #991b1b;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.terms-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 11px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Sticky Cart Summary (Exact Match to Wholesale Page) */
+.cart-summary {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #ffc107 0%, #ffb300 100%);
+  padding: 12px 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.18);
+  z-index: 1050;
+  border-top: 3px solid #ff9800;
+  animation: slideUpCart 0.35s ease-out;
+}
+
+@keyframes slideUpCart {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cart-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cart-items-count {
+  background: rgba(255, 255, 255, 0.35);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 12px;
+  width: fit-content;
+}
+
+.cart-total-label {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.cart-total-amount {
+  font-weight: 800;
+  color: #b91c1c;
+  font-size: 20px;
+}
+
+.cart-summary .btn-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.35);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.cart-summary .btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.45);
+  background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+}
+
+/* Floating WhatsApp Icon */
+.fixed-icons-right {
+  position: fixed;
+  bottom: 85px;
+  right: 16px;
+  z-index: 1040;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.fixed-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s;
+}
+
+.fixed-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Image Zoom Modal */
+.image-zoom-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.image-zoom-overlay.active {
+  display: flex;
+}
+
+.zoom-content-box {
+  position: relative;
+  max-width: 92%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zoom-content-box img {
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.zoom-title {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.zoom-close-btn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Empty State / No results */
+.no-results-box {
+  text-align: center;
+  padding: 40px 16px;
+  color: #64748b;
+}
+
+.no-results-box i {
+  font-size: 40px;
+  margin-bottom: 12px;
+  color: #cbd5e1;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+  70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+.pulse-button {
+  animation: pulseGlow 2s infinite;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Wholesale Gift Box - Happy Enjoy Crackers Sivakasi</title>
+  
+  <!-- Meta description for SEO -->
+  <meta name="description" content="Wholesale Gift Box Case Rates direct from Sivakasi factory. Buy festival cracker gift boxes in bulk with clear case pricing and WhatsApp ordering.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/star-logo.png" type="image/png">
+  
+  <!-- Bootstrap & Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <!-- Custom Mobile-First CSS -->
+  <link href="wholesale-giftbox.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Mobile App Container -->
+  <div class="mobile-app-container">
+
+    <!-- App Sticky Header -->
+    <header class="app-header">
+      <div class="header-top">
+        <div class="header-left">
+          <a href="index.html" class="header-back-btn" title="Back to Home">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <div class="header-title-box">
+            <h1>Wholesale Gift Box</h1>
+            <p>Happy Enjoy Crackers • Sivakasi</p>
+          </div>
+        </div>
+        <a href="https://wa.me/919962314877" target="_blank" class="header-contact-btn">
+          <i class="fab fa-whatsapp text-success"></i> Help
+        </a>
+      </div>
+    </header>
+
+    <!-- Wholesale Rates Notice Bar -->
+    <div class="wholesale-notice-bar">
+      <i class="fas fa-bullhorn text-warning"></i>
+      <span>Factory Wholesale Case Rates • 3% Packing Charge</span>
+    </div>
+
+    <!-- Search Section -->
+    <div class="search-container">
+      <div class="search-wrapper">
+        <i class="fas fa-search search-icon"></i>
+        <input 
+          type="search" 
+          id="searchBox" 
+          class="search-input" 
+          placeholder="Search by items (16, 26, 60) or name (Moana, Hulk)..."
+          autocomplete="off"
+        >
+      </div>
+    </div>
+
+    <!-- Info Banner Explaining Wholesale Calculation -->
+    <div class="info-banner">
+      <div class="info-banner-title">
+        <i class="fas fa-calculator text-warning"></i> Wholesale Case Pricing Guide
+      </div>
+      <p class="info-banner-desc">
+        Prices are calculated per wholesale case. Each case contains a fixed number of gift boxes. 
+        Tap <strong>+</strong> or <strong>-</strong> to select the number of cases.
+      </p>
+      <div class="info-highlights">
+        <span class="highlight-pill"><i class="fas fa-box me-1"></i> Full Case Booking</span>
+        <span class="highlight-pill"><i class="fas fa-percentage me-1"></i> 3% Packing Charge</span>
+        <span class="highlight-pill"><i class="fas fa-truck me-1"></i> Sivakasi Lorry Transport</span>
+      </div>
+    </div>
+
+    <!-- Products List (Populated dynamically by wholesale-giftbox.js) -->
+    <main class="products-list" id="productsList">
+      <!-- Gift box cards will be injected here -->
+    </main>
+
+    <!-- Terms & Information Notice -->
+    <div class="p-3">
+      <div class="terms-notice-box">
+        <div class="terms-title">
+          <i class="fas fa-info-circle"></i> Wholesale Booking Terms & Conditions
+        </div>
+        <ul class="terms-list">
+          <li><strong>Packing Charge:</strong> Standard 3% packing charges will be added to the estimate total.</li>
+          <li><strong>Lorry Transport:</strong> Sivakasi to your destination transport freight to be paid upon delivery.</li>
+          <li><strong>Delivery Timelines:</strong> Book early before festival rush to guarantee safe and timely lorry transit.</li>
+          <li><strong>WhatsApp Confirmation:</strong> Once you tap Order via WhatsApp, our team confirms invoice and payment details immediately.</li>
+          <li><strong>Direct Helpline:</strong> 📞 99623 14877</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Image Zoom Modal -->
+    <div class="image-zoom-overlay" id="imageZoomModal">
+      <div class="zoom-content-box">
+        <button class="zoom-close-btn" onclick="closeZoomModal()" aria-label="Close image">✕</button>
+        <img src="" alt="Gift Box View" id="zoomModalImage">
+        <div class="zoom-title" id="zoomModalTitle"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white py-4 text-center mt-3">
+      <div class="container">
+        <div class="mb-2">
+          <span class="badge bg-success me-2"><i class="fas fa-shield-alt me-1"></i>Safety Certified</span>
+          <span class="badge bg-warning text-dark"><i class="fas fa-award me-1"></i>Licensed Dealer</span>
+        </div>
+        <p class="mb-1 text-light small">&copy; 2026 Happy Enjoy Crackers. All rights reserved.</p>
+        <a href="https://wa.me/919080781843?text=Hi%2C%20I%20came%20across%20Happy%20Enjoy%20Crackers%20website%20developed%20by%20Elfgency%20Growth%20Lab%20and%20would%20like%20to%20connect." class="text-warning text-decoration-none fw-bold" target="_blank">
+          Developed by Elfgency Growth Lab Pvt Ltd
+        </a>
+      </div>
+    </footer>
+
+  </div> <!-- End Mobile App Container -->
+
+  <!-- Fixed Right WhatsApp Icon (Matching wholesale.html) -->
+  <div class="fixed-icons-right">
+    <div class="icon animate-icon">
+      <a href="https://wa.me/919962314877" target="_blank" style="display:contents">
+        <img src="assets/images/whatsappicon.webp" alt="WhatsApp" class="fixed-logo">
+      </a>
+    </div>
+  </div>
+
+  <!-- Sticky Cart Summary (Exact match to Wholesale & Estimate pages) -->
+  <div id="cartSummary" class="cart-summary" style="display: none;">
+    <div class="container" style="max-width: 520px;">
+      <div class="row align-items-center g-2">
+        <div class="col-7">
+          <div class="cart-info" style="display: block;">
+            <span class="cart-items-count" id="cartItemsCount" style="display: inline-block; margin-bottom: 2px;">0 Cases</span>
+            <div>
+              <span class="cart-total-label" style="font-size: 14px;">Grand Total: </span>
+              <span class="cart-total-amount" id="cartTotalAmount" style="font-size: 19px;">₹0.00</span>
+            </div>
+            <div id="cartPackingNote" style="color: #6c4b00;"></div>
+          </div>
+        </div>
+        <div class="col-5 text-end">
+          <button class="btn btn-success btn-lg w-100" onclick="orderViaWhatsApp()" style="padding: 10px 14px; font-size: 13.5px; white-space: nowrap;">
+            <i class="fab fa-whatsapp me-1"></i>Order Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="wholesale-giftbox.js"></script>
+</body>
+</html>
