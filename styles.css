@@ -837,6 +837,36 @@ body {
     padding: 0.5rem 0.75rem;
 }
 
+/* Statutory Disclaimer Box */
+.footer-disclaimer {
+    padding: 1.25rem 0 1.5rem 0;
+}
+
+.disclaimer-box {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 20px 24px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #f1f3f5;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.disclaimer-box p {
+    margin: 0;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .disclaimer-box {
+        padding: 14px 16px;
+        font-size: 0.84rem;
+        line-height: 1.65;
+    }
+}
+
 .footer-bottom {
     background: rgba(0, 0, 0, 0.2);
 }
