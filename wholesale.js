@@ -136,7 +136,7 @@ const wholesaleProducts = [
   { sno: 107, name: "CANDY CRUSH", tamilName: "கேன்டி கிரஸ்", regularPrice: 4500, discountedPrice: 450, unit: "1 Box", image: "assets/products/pro107.jpg" },
   { sno: 108, name: "15 SHOT MULTI COLOR", tamilName: "15 சாட் மல்டிகலர்", regularPrice: 2800, discountedPrice: 280, unit: "1 Box", image: "assets/products/pro108.png" },
   { sno: 109, name: "WHISTLING ZIP (25 SHOT)", tamilName: "", regularPrice: 7000, discountedPrice: 700, unit: "1 Box", image: "assets/products/pro109.webp" },
-  { sno: 110, name: "30 SHOT (M.C) SRI DURGA", tamilName: "30 ஒரு கா", regularPrice: 2500, discountedPrice: 250, unit: "1 Box", image: "assets/products/pro110.webp" },
+  { sno: 110, name: "30 SHOT (M.C) SRI DURGA", tamilName: "30 ஒரு கா", regularPrice: 4000, discountedPrice: 400, unit: "1 Box", image: "assets/products/pro110.webp" },
   { sno: 111, name: "30 SHOT (M.C) JOKER", tamilName: "30 சாட் மல்டிகலர் ஜோக்கர்", regularPrice: 5000, discountedPrice: 500, unit: "1 Box", image: "assets/images/star-logo.png" },
 
   // Page 9: MULTI COLOUR SHOTS (Cont.) & MULTI COLOUR MEGA SET OUT & KIDS SPECIAL
