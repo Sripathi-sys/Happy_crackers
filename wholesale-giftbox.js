@@ -456,10 +456,11 @@ function orderViaWhatsApp() {
         📦 <strong>${totalCases} Case(s) (${totalBoxes} Boxes)</strong><br>
         💰 <strong>Grand Total: ₹${grandTotal.toLocaleString('en-IN')}</strong> (including 3% packing)
       </div>
-      <input type="text" id="custName" class="swal2-input" placeholder="Shop / Contact Name *" style="margin: 8px auto; width: 90%;">
-      <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone / WhatsApp Number *" style="margin: 8px auto; width: 90%;">
-      <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address *" style="margin: 8px auto; width: 90%; height: 75px;"></textarea>
-      <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode / Town *" style="margin: 8px auto; width: 90%;">
+      <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
+      <input type="text" id="custName" class="swal2-input" placeholder="Shop / Contact Name (Optional)" style="margin: 8px auto; width: 90%;">
+      <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone / WhatsApp Number (Optional)" style="margin: 8px auto; width: 90%;">
+      <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address (Optional)" style="margin: 8px auto; width: 90%; height: 75px;"></textarea>
+      <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode / Town (Optional)" style="margin: 8px auto; width: 90%;">
       <input type="text" id="custLorry" class="swal2-input" placeholder="Preferred Lorry / Transport (Optional)" style="margin: 8px auto; width: 90%;">
     `,
     showCancelButton: true,
@@ -474,10 +475,6 @@ function orderViaWhatsApp() {
       const pincode = document.getElementById('custPincode').value.trim();
       const lorry = document.getElementById('custLorry').value.trim();
 
-      if (!name || !number || !address || !pincode) {
-        Swal.showValidationMessage('Please fill all required fields (*)');
-        return false;
-      }
       return { name, number, address, pincode, lorry };
     }
   }).then((result) => {
@@ -490,14 +487,17 @@ function orderViaWhatsApp() {
 
       let message = `🎆 *Happy Enjoy Crackers - Wholesale Gift Box Order* 🎆\n\n`;
       message += `📅 *Order Date:* ${dateStr}, ${timeStr}\n`;
-      message += `👤 *Customer / Shop Name:* ${name}\n`;
-      message += `📞 *Phone Number:* ${number}\n`;
-      message += `🏠 *Delivery Address:* ${address}\n`;
-      message += `📮 *Pincode:* ${pincode}\n`;
+      if (name) message += `👤 *Customer / Shop Name:* ${name}\n`;
+      if (number) message += `📞 *Phone Number:* ${number}\n`;
+      if (address) message += `🏠 *Delivery Address:* ${address}\n`;
+      if (pincode) message += `📮 *Pincode:* ${pincode}\n`;
       if (lorry) {
         message += `🚛 *Preferred Lorry Transport:* ${lorry}\n`;
       }
-      message += `\n📦 *ORDERED GIFT BOX CASES:*\n`;
+      if (name || number || address || pincode || lorry) {
+        message += `\n`;
+      }
+      message += `📦 *ORDERED GIFT BOX CASES:*\n`;
       message += `------------------------------------\n`;
 
       selectedItems.forEach((item, index) => {

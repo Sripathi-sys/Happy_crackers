@@ -257,10 +257,11 @@ function orderViaWhatsApp() {
     Swal.fire({
         title: 'Enter Your Details',
         html: `
-            <input type="text" id="custName" class="swal2-input" placeholder="Full Name">           
-            <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address"></textarea>
-            <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode">
-            <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number">
+            <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
+            <input type="text" id="custName" class="swal2-input" placeholder="Full Name (Optional)">           
+            <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number (Optional)">
+            <textarea id="custAddress" class="swal2-textarea" placeholder="Delivery Address (Optional)"></textarea>
+            <input type="text" id="custPincode" class="swal2-input" placeholder="Pincode (Optional)">
         `,
         confirmButtonText: 'Send Order via WhatsApp',
         showCancelButton: true,
@@ -271,10 +272,6 @@ function orderViaWhatsApp() {
             const pincode = document.getElementById('custPincode').value.trim();
             const number = document.getElementById('custNumber').value.trim();
 
-            if (!name || !number || !address || !pincode) {
-                Swal.showValidationMessage('Please fill all the fields');
-                return false;
-            }
             return { name, number, address, pincode };
         }
     }).then((result) => {
@@ -285,7 +282,13 @@ function orderViaWhatsApp() {
             let orderMessage = `🎆 *New Order - Happy Enjoy Crackers* 🎆\n\n`;
             orderMessage += `📅 *Order Date:* ${new Date().toLocaleDateString()}\n`;
             orderMessage += `⏰ *Order Time:* ${new Date().toLocaleTimeString()}\n\n`;
-            orderMessage += `👤 *Customer Name:* ${name}\n🏠 *Address:* ${address}\n📮 *Pincode:* ${pincode}\n📞 *Phone:* ${number}\n\n`;
+            if (name) orderMessage += `👤 *Customer Name:* ${name}\n`;
+            if (number) orderMessage += `📞 *Phone:* ${number}\n`;
+            if (address) orderMessage += `🏠 *Address:* ${address}\n`;
+            if (pincode) orderMessage += `📮 *Pincode:* ${pincode}\n`;
+            if (name || number || address || pincode) {
+                orderMessage += `\n`;
+            }
             orderMessage += `📋 *Order Details:*\n${'='.repeat(40)}\n`;
 
             cart.forEach((item, index) => {
