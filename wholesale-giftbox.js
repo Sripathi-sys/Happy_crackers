@@ -9,9 +9,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "16 Items - Minions / Ice Age Gift Box",
     "boxName": "Minions Celebrations Pack / Ice Age",
     "brand": "Anandam's",
-    "boxRate": 270,
+    "boxRate": 320,
     "boxesPerCase": 52,
-    "casePrice": 14040,
+    "casePrice": 16640,
     "image": "assets/images/giftbox/minions_16.jpg",
     "altImage": "assets/images/giftbox/ice_age_16.jpg",
     "tag": "Hot Seller",
@@ -24,9 +24,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "19 Items - Dora The Explorer Gift Box",
     "boxName": "Dora The Explorer",
     "brand": "Anandam's",
-    "boxRate": 320,
+    "boxRate": 370,
     "boxesPerCase": 36,
-    "casePrice": 11520,
+    "casePrice": 13320,
     "image": "assets/images/giftbox/dora_19.jpg",
     "tag": "Kids Favorite",
     "badgeColor": "pink",
@@ -38,9 +38,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "21 Items - Home Moana Gift Box",
     "boxName": "Home Moana",
     "brand": "Anandam's",
-    "boxRate": 350,
+    "boxRate": 400,
     "boxesPerCase": 36,
-    "casePrice": 12600,
+    "casePrice": 14400,
     "image": "assets/images/giftbox/moana_21.jpg",
     "tag": "Popular",
     "badgeColor": "info",
@@ -52,9 +52,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "26 Items - Avengers Gift Box",
     "boxName": "Avengers Super Special",
     "brand": "Anandam's",
-    "boxRate": 450,
+    "boxRate": 500,
     "boxesPerCase": 26,
-    "casePrice": 11700,
+    "casePrice": 13000,
     "image": "assets/images/giftbox/avengers_26.jpg",
     "tag": "Super Hit",
     "badgeColor": "danger",
@@ -66,9 +66,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "30 Items - Avatar Gift Box",
     "boxName": "Avatar Special Edition",
     "brand": "Anandam's",
-    "boxRate": 500,
+    "boxRate": 550,
     "boxesPerCase": 20,
-    "casePrice": 10000,
+    "casePrice": 11000,
     "image": "assets/images/giftbox/avatar_30.jpg",
     "tag": "Value Pack",
     "badgeColor": "primary",
@@ -80,9 +80,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "36 Items - Hulk Power Pack Gift Box",
     "boxName": "Hulk Power Pack",
     "brand": "Sri Anandam's",
-    "boxRate": 600,
+    "boxRate": 650,
     "boxesPerCase": 20,
-    "casePrice": 12000,
+    "casePrice": 13000,
     "image": "assets/images/giftbox/hulk_36.jpg",
     "tag": "High Demand",
     "badgeColor": "success",
@@ -94,9 +94,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "40 Items - Angry Birds Gift Pack",
     "boxName": "Angry Birds Gift Pack",
     "brand": "Sri Anandam's",
-    "boxRate": 700,
+    "boxRate": 800,
     "boxesPerCase": 18,
-    "casePrice": 12600,
+    "casePrice": 14400,
     "image": "assets/images/giftbox/angry_birds_40.jpg",
     "tag": "Trending",
     "badgeColor": "danger",
@@ -108,9 +108,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "45 Items - Paradise Gift Box",
     "boxName": "Sri Anandam's Paradise",
     "brand": "Sri Anandam's",
-    "boxRate": 800,
+    "boxRate": 900,
     "boxesPerCase": 16,
-    "casePrice": 12800,
+    "casePrice": 14400,
     "image": "assets/images/giftbox/paradise_45.jpg",
     "tag": "Family Delight",
     "badgeColor": "warning",
@@ -122,9 +122,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "50 Items - Wonderful VIP's Gift Box",
     "boxName": "Wonderful VIP's Choice",
     "brand": "Sri Anandam's",
-    "boxRate": 975,
+    "boxRate": 1075,
     "boxesPerCase": 12,
-    "casePrice": 11700,
+    "casePrice": 12900,
     "image": "assets/images/giftbox/wonderful_50.jpg",
     "tag": "Bumper Pack",
     "badgeColor": "purple",
@@ -136,9 +136,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "55 Items - Carnival Treat Gift Box",
     "boxName": "Carnival Treat",
     "brand": "Sri Anandam's",
-    "boxRate": 1120,
+    "boxRate": 1220,
     "boxesPerCase": 12,
-    "casePrice": 13440,
+    "casePrice": 14640,
     "image": "assets/images/giftbox/carnival_55.jpg",
     "tag": "Royal Deluxe",
     "badgeColor": "indigo",
@@ -150,9 +150,9 @@ const DEFAULT_GIFT_BOXES = [
     "name": "60 Items - VIP Celebration Champion Gift Box",
     "boxName": "VIP Champion Celebration",
     "brand": "Anandam's",
-    "boxRate": 1250,
+    "boxRate": 1350,
     "boxesPerCase": 12,
-    "casePrice": 15000,
+    "casePrice": 16200,
     "image": "assets/images/giftbox/vip_60.jpg",
     "tag": "Mega VIP Pack",
     "badgeColor": "dark",
@@ -388,7 +388,9 @@ function updateCartTotals() {
   });
 
   const packingCharge = Math.round(subtotal * 0.03); // 3% Packing Charge
-  const grandTotal = subtotal + packingCharge;
+  const isGstApplicable = subtotal > 5000;
+  const gstCharge = isGstApplicable ? Math.round(subtotal * 0.12) : 0; // 12% GST strictly applicable above 5000
+  const grandTotal = subtotal + packingCharge + gstCharge;
 
   const cartSummary = document.getElementById('cartSummary');
   const itemsCount = document.getElementById('cartItemsCount');
@@ -399,7 +401,13 @@ function updateCartTotals() {
     if (cartSummary) cartSummary.style.display = 'block';
     if (itemsCount) itemsCount.textContent = `${totalCases} Case${totalCases > 1 ? 's' : ''} (${totalBoxes} Boxes)`;
     if (totalAmountElement) totalAmountElement.textContent = `₹${grandTotal.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-    if (packingNote) packingNote.innerHTML = `<small style="font-size: 11px; opacity: 0.85; display: block;">(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')})</small>`;
+    if (packingNote) {
+      if (isGstApplicable) {
+        packingNote.innerHTML = `<small style="font-size: 11px; opacity: 0.9; display: block; line-height: 1.3;">(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')} + 12% GST: ₹${gstCharge.toLocaleString('en-IN')})</small>`;
+      } else {
+        packingNote.innerHTML = `<small style="font-size: 11px; opacity: 0.9; display: block; line-height: 1.3;">(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')})</small>`;
+      }
+    }
     document.body.style.paddingBottom = '110px';
   } else {
     if (cartSummary) cartSummary.style.display = 'none';
@@ -446,15 +454,18 @@ function orderViaWhatsApp() {
   }
 
   const packingCharge = Math.round(subtotal * 0.03);
-  const grandTotal = subtotal + packingCharge;
+  const isGstApplicable = subtotal > 5000;
+  const gstCharge = isGstApplicable ? Math.round(subtotal * 0.12) : 0;
+  const grandTotal = subtotal + packingCharge + gstCharge;
 
   // Show SweetAlert form matching wholesale / estimate
   Swal.fire({
     title: '<strong>Enter Wholesale Order Details</strong>',
     html: `
-      <div style="text-align:left; font-size:13px; margin-bottom:12px; color:#495057; background:#fff3cd; padding:8px 12px; border-radius:6px;">
+      <div style="text-align:left; font-size:13px; margin-bottom:12px; color:#495057; background:#fff3cd; padding:10px 12px; border-radius:6px; line-height: 1.45;">
         📦 <strong>${totalCases} Case(s) (${totalBoxes} Boxes)</strong><br>
-        💰 <strong>Grand Total: ₹${grandTotal.toLocaleString('en-IN')}</strong> (including 3% packing)
+        💰 <strong>Grand Total: ₹${grandTotal.toLocaleString('en-IN')}</strong><br>
+        <span style="font-size:11.5px; color:#78350f;">(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')}${isGstApplicable ? ` + 12% GST: ₹${gstCharge.toLocaleString('en-IN')}` : ''})</span>
       </div>
       <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
       <input type="text" id="custName" class="swal2-input" placeholder="Shop / Contact Name (Optional)" style="margin: 8px auto; width: 90%;">
@@ -511,9 +522,16 @@ function orderViaWhatsApp() {
       message += `Total Cases           : ${totalCases} Case(s) (${totalBoxes} Boxes)\n`;
       message += `Subtotal Amount       : ₹${subtotal.toLocaleString('en-IN', { minimumFractionDigits: 2 })}\n`;
       message += `Packing Charge (3%)   : ₹${packingCharge.toLocaleString('en-IN', { minimumFractionDigits: 2 })}\n`;
+      if (isGstApplicable) {
+        message += `GST Charge (12%)      : ₹${gstCharge.toLocaleString('en-IN', { minimumFractionDigits: 2 })}\n`;
+      }
       message += `------------------------------------\n`;
       message += `*GRAND TOTAL          : ₹${grandTotal.toLocaleString('en-IN', { minimumFractionDigits: 2 })}*\n\n`;
-      message += `_Note: Sivakasi to destination transport freight payable upon delivery._\n`;
+      if (isGstApplicable) {
+        message += `_Note: 12% GST is strictly applicable on orders above ₹5,000. Sivakasi to destination transport freight payable upon delivery._\n`;
+      } else {
+        message += `_Note: Sivakasi to destination transport freight payable upon delivery._\n`;
+      }
       message += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
 
       const encodedMessage = encodeURIComponent(message);

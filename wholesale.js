@@ -449,11 +449,17 @@ function orderViaWhatsApp() {
   }
 
   const deliveryCharge = Math.round(grandTotal * 0.03);
-  const grandTotalWithDelivery = grandTotal + deliveryCharge;
+  const isGstApplicable = grandTotal > 5000;
+  const gstCharge = isGstApplicable ? Math.round(grandTotal * 0.12) : 0;
+  const grandTotalWithDelivery = grandTotal + deliveryCharge + gstCharge;
 
   Swal.fire({
     title: 'Enter Wholesale Order Details',
     html: `
+      <div style="text-align:left; font-size:13px; margin-bottom:12px; color:#495057; background:#fff3cd; padding:10px 12px; border-radius:6px; line-height: 1.45;">
+        💰 <strong>Grand Total: ₹${grandTotalWithDelivery.toFixed(2)}</strong><br>
+        <span style="font-size:11.5px; color:#78350f;">(Wholesale Amount: ₹${grandTotal.toFixed(2)} + 3% Packing: ₹${deliveryCharge.toFixed(2)}${isGstApplicable ? ` + 12% GST: ₹${gstCharge.toFixed(2)}` : ''})</span>
+      </div>
       <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
       <input type="text" id="custName" class="swal2-input" placeholder="Shop / Contact Name (Optional)">
       <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number (Optional)">
@@ -494,7 +500,13 @@ function orderViaWhatsApp() {
       orderMessage += `${'='.repeat(40)}\n`;
       orderMessage += `Total Wholesale Amount = ₹${grandTotal.toFixed(2)}\n`;
       orderMessage += `Packing Charge (3%)    = ₹${deliveryCharge.toFixed(2)}\n`;
+      if (isGstApplicable) {
+        orderMessage += `GST Charge (12%)       = ₹${gstCharge.toFixed(2)}\n`;
+      }
       orderMessage += `Grand Total            = ₹${grandTotalWithDelivery.toFixed(2)}\n\n`;
+      if (isGstApplicable) {
+        orderMessage += `_Note: 12% GST is strictly applicable on orders above ₹5,000._\n`;
+      }
       orderMessage += `Thank you for your Wholesale Order! 🙏`;
 
       const phoneNumber = "9962314877";
