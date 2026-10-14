@@ -59,10 +59,31 @@ function updateCartSummary() {
     const totalAmountElement = document.querySelector('.cart-total-amount');
 
     if (totalPacks > 0) {
+        const packingCharge = Math.round(subtotal * 0.03);
+        const isGstApplicable = subtotal > 5000;
+        const gstCharge = isGstApplicable ? Math.round(subtotal * 0.12) : 0;
+        const grandTotal = subtotal + packingCharge + gstCharge;
+
         if (cartSummary) cartSummary.style.display = 'block';
         if (itemsCountElement) itemsCountElement.textContent = `${totalPacks} pack${totalPacks > 1 ? 's' : ''}`;
-        if (totalAmountElement) totalAmountElement.textContent = `₹${subtotal.toFixed(2)}`;
-        document.body.style.paddingBottom = '100px';
+        if (totalAmountElement) {
+            totalAmountElement.textContent = `₹${grandTotal.toFixed(2)}`;
+            let noteEl = document.getElementById('comboGstNote');
+            if (!noteEl) {
+                noteEl = document.createElement('div');
+                noteEl.id = 'comboGstNote';
+                noteEl.style.fontSize = '11px';
+                noteEl.style.opacity = '0.9';
+                noteEl.style.marginTop = '2px';
+                totalAmountElement.parentElement.appendChild(noteEl);
+            }
+            if (isGstApplicable) {
+                noteEl.innerHTML = `(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')} + 12% GST: ₹${gstCharge.toLocaleString('en-IN')})`;
+            } else {
+                noteEl.innerHTML = `(Subtotal: ₹${subtotal.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')})`;
+            }
+        }
+        document.body.style.paddingBottom = '110px';
     } else {
         if (cartSummary) cartSummary.style.display = 'none';
         document.body.style.paddingBottom = '0';
@@ -83,11 +104,17 @@ function orderCombos() {
     });
 
     const packingCharge = Math.round(subtotal * 0.03);
-    const grandTotal = subtotal + packingCharge;
+    const isGstApplicable = subtotal > 5000;
+    const gstCharge = isGstApplicable ? Math.round(subtotal * 0.12) : 0;
+    const grandTotal = subtotal + packingCharge + gstCharge;
 
     Swal.fire({
         title: 'Enter Combo Order Details',
         html: `
+            <div style="text-align:left; font-size:13px; margin-bottom:12px; color:#495057; background:#fff3cd; padding:10px 12px; border-radius:6px; line-height: 1.45;">
+                💰 <strong>Grand Total: ₹${grandTotal.toFixed(2)}</strong><br>
+                <span style="font-size:11.5px; color:#78350f;">(Subtotal: ₹${subtotal.toFixed(2)} + 3% Packing: ₹${packingCharge.toFixed(2)}${isGstApplicable ? ` + 12% GST: ₹${gstCharge.toFixed(2)}` : ''})</span>
+            </div>
             <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
             <input type="text" id="custName" class="swal2-input" placeholder="Full Name (Optional)">
             <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number (Optional)">
@@ -131,7 +158,13 @@ function orderCombos() {
             orderMessage += `${'='.repeat(40)}\n`;
             orderMessage += `Subtotal Amount        = ₹${subtotal.toFixed(2)}\n`;
             orderMessage += `Packing Charge (3%)    = ₹${packingCharge.toFixed(2)}\n`;
+            if (isGstApplicable) {
+                orderMessage += `GST Charge (12%)       = ₹${gstCharge.toFixed(2)}\n`;
+            }
             orderMessage += `Grand Total            = ₹${grandTotal.toFixed(2)}\n\n`;
+            if (isGstApplicable) {
+                orderMessage += `_Note: 12% GST is strictly applicable on orders above ₹5,000._\n`;
+            }
             orderMessage += `Thank you for your order! 🙏`;
 
             const phoneNumber = "9962314877";

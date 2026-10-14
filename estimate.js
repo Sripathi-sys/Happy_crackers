@@ -229,12 +229,32 @@ function updateCartSummary() {
     const totalAmountElement = document.querySelector('.cart-total-amount');
     
     if (totalItems > 0) {
+        const packingCharge = Math.round(totalAmount * 0.03);
+        const isGstApplicable = totalAmount > 5000;
+        const gstCharge = isGstApplicable ? Math.round(totalAmount * 0.12) : 0;
+        const grandTotalWithAll = totalAmount + packingCharge + gstCharge;
+
         cartSummary.style.display = 'block';
         itemsCount.textContent = `${totalItems} item${totalItems > 1 ? 's' : ''}`;
-        totalAmountElement.textContent = `₹${totalAmount.toFixed(2)}`;
+        totalAmountElement.textContent = `₹${grandTotalWithAll.toFixed(2)}`;
+
+        let noteEl = document.getElementById('estimateCartGstNote');
+        if (!noteEl) {
+            noteEl = document.createElement('div');
+            noteEl.id = 'estimateCartGstNote';
+            noteEl.style.fontSize = '11px';
+            noteEl.style.opacity = '0.9';
+            noteEl.style.marginTop = '2px';
+            totalAmountElement.parentElement.appendChild(noteEl);
+        }
+        if (isGstApplicable) {
+            noteEl.innerHTML = `(Subtotal: ₹${totalAmount.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')} + 12% GST: ₹${gstCharge.toLocaleString('en-IN')})`;
+        } else {
+            noteEl.innerHTML = `(Subtotal: ₹${totalAmount.toLocaleString('en-IN')} + 3% Packing: ₹${packingCharge.toLocaleString('en-IN')})`;
+        }
         
         // Add body padding to prevent content overlap
-        document.body.style.paddingBottom = '100px';
+        document.body.style.paddingBottom = '110px';
     } else {
         cartSummary.style.display = 'none';
         document.body.style.paddingBottom = '0';
@@ -253,10 +273,19 @@ function orderViaWhatsApp() {
         return;
     }
 
+    const deliveryCharge = Math.round(grandTotal * 0.03);
+    const isGstApplicable = grandTotal > 5000;
+    const gstCharge = isGstApplicable ? Math.round(grandTotal * 0.12) : 0;
+    const totalWithDelivery = grandTotal + deliveryCharge + gstCharge;
+
     // Step 1: Show form popup
     Swal.fire({
         title: 'Enter Your Details',
         html: `
+            <div style="text-align:left; font-size:13px; margin-bottom:12px; color:#495057; background:#fff3cd; padding:10px 12px; border-radius:6px; line-height: 1.45;">
+                💰 <strong>Grand Total: ₹${totalWithDelivery.toFixed(2)}</strong><br>
+                <span style="font-size:11.5px; color:#78350f;">(Subtotal: ₹${grandTotal.toFixed(2)} + 3% Packing: ₹${deliveryCharge.toFixed(2)}${isGstApplicable ? ` + 12% GST: ₹${gstCharge.toFixed(2)}` : ''})</span>
+            </div>
             <div style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">Delivery details are optional. You can enter them or proceed directly to WhatsApp.</div>
             <input type="text" id="custName" class="swal2-input" placeholder="Full Name (Optional)">           
             <input type="tel" id="custNumber" class="swal2-input" placeholder="Phone Number (Optional)">
@@ -297,13 +326,16 @@ function orderViaWhatsApp() {
                 orderMessage += `\n    ₹${item.price} × ${item.quantity} = ₹${item.total.toFixed(2)}\n\n`;
             });
 
-            const deliveryCharge = Math.round(grandTotal * 0.03);
-            const totalWithDelivery = grandTotal + deliveryCharge;
-
             orderMessage += `${'='.repeat(40)}\n`;
             orderMessage += `Total Amount          = ₹${grandTotal.toFixed(2)}\n`;
             orderMessage += `Packing Charge (3%)   = ₹${deliveryCharge.toFixed(2)}\n`;
+            if (isGstApplicable) {
+                orderMessage += `GST Charge (12%)      = ₹${gstCharge.toFixed(2)}\n`;
+            }
             orderMessage += `Grand Total           = ₹${totalWithDelivery.toFixed(2)}\n\n`;
+            if (isGstApplicable) {
+                orderMessage += `_Note: 12% GST is strictly applicable on orders above ₹5,000._\n`;
+            }
             orderMessage += `Thank you for choosing Happy Enjoy Crackers! 🙏`;
 
             // Step 3: Send to WhatsApp

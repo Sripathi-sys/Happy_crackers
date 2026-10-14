@@ -426,10 +426,30 @@ function updateCartSummary() {
   const totalAmountElement = document.querySelector('.cart-total-amount');
   
   if (totalItems > 0) {
+    const deliveryCharge = Math.round(totalAmount * 0.03);
+    const isGstApplicable = totalAmount > 5000;
+    const gstCharge = isGstApplicable ? Math.round(totalAmount * 0.12) : 0;
+    const grandTotalWithAll = totalAmount + deliveryCharge + gstCharge;
+
     cartSummary.style.display = 'block';
     itemsCount.textContent = `${totalItems} pack${totalItems > 1 ? 's' : ''}`;
-    totalAmountElement.textContent = `₹${totalAmount.toFixed(2)}`;
-    document.body.style.paddingBottom = '100px';
+    totalAmountElement.textContent = `₹${grandTotalWithAll.toFixed(2)}`;
+
+    let noteEl = document.getElementById('wholesaleCartGstNote');
+    if (!noteEl) {
+      noteEl = document.createElement('div');
+      noteEl.id = 'wholesaleCartGstNote';
+      noteEl.style.fontSize = '11px';
+      noteEl.style.opacity = '0.9';
+      noteEl.style.marginTop = '2px';
+      totalAmountElement.parentElement.appendChild(noteEl);
+    }
+    if (isGstApplicable) {
+      noteEl.innerHTML = `(Subtotal: ₹${totalAmount.toLocaleString('en-IN')} + 3% Packing: ₹${deliveryCharge.toLocaleString('en-IN')} + 12% GST: ₹${gstCharge.toLocaleString('en-IN')})`;
+    } else {
+      noteEl.innerHTML = `(Subtotal: ₹${totalAmount.toLocaleString('en-IN')} + 3% Packing: ₹${deliveryCharge.toLocaleString('en-IN')})`;
+    }
+    document.body.style.paddingBottom = '110px';
   } else {
     cartSummary.style.display = 'none';
     document.body.style.paddingBottom = '0';

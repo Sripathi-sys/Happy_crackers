@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Enjoy Crackers - Wholesale Gift Box Case Rate List</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Teko:wght@600;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f1f5f9;
+      color: #111827;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .no-print-bar {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding: 12px 20px;
+      background: #1e293b;
+      color: #ffffff;
+      border-radius: 8px;
+    }
+
+    .print-btn {
+      background: #e65100;
+      color: #ffffff;
+      border: none;
+      padding: 10px 22px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+
+    .print-btn:hover {
+      background: #bf360c;
+    }
+
+    .document-page {
+      width: 100%;
+      max-width: 900px;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      border-radius: 12px;
+      padding: 36px 40px;
+      border: 2px solid #cbd5e1;
+    }
+
+    /* Header */
+    .doc-header {
+      border-bottom: 3px double #e65100;
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-title {
+      font-size: 28px;
+      font-weight: 800;
+      color: #b91c1c;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+
+    .brand-subtitle {
+      font-size: 13px;
+      color: #4b5563;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    .contact-box {
+      text-align: right;
+      font-size: 12px;
+      color: #374151;
+      line-height: 1.5;
+    }
+
+    .contact-phone {
+      font-size: 15px;
+      font-weight: 800;
+      color: #047857;
+    }
+
+    /* Sheet Title */
+    .sheet-title-banner {
+      background: linear-gradient(135deg, #e65100 0%, #b91c1c 100%);
+      color: #ffffff;
+      text-align: center;
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .sheet-title-banner h2 {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .sheet-title-banner p {
+      font-size: 11.5px;
+      margin-top: 3px;
+      opacity: 0.95;
+      font-weight: 500;
+    }
+
+    /* Table */
+    table.rate-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    table.rate-table th {
+      background: #1f2937;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 11px 12px;
+      border: 1px solid #111827;
+      text-align: center;
+    }
+
+    table.rate-table td {
+      font-size: 13px;
+      padding: 9px 12px;
+      border: 1px solid #94a3b8;
+      color: #111827;
+      vertical-align: middle;
+    }
+
+    table.rate-table tbody tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    table.rate-table tbody tr:hover {
+      background-color: #fef3c7;
+    }
+
+    .text-center { text-align: center; }
+    .text-start { text-align: left; }
+    .text-end { text-align: right; }
+
+    .items-tag {
+      font-weight: 800;
+      color: #b91c1c;
+      white-space: nowrap;
+    }
+
+    .box-name {
+      font-weight: 700;
+      color: #1f2937;
+    }
+
+    .brand-name {
+      font-size: 11px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .rate-val {
+      font-weight: 700;
+      font-size: 14px;
+      color: #0f172a;
+    }
+
+    .case-box-count {
+      font-weight: 700;
+      color: #0284c7;
+    }
+
+    .amount-val {
+      font-weight: 800;
+      font-size: 14.5px;
+      color: #b91c1c;
+    }
+
+    /* Terms & Notes Box */
+    .terms-box {
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      background: #fffbeb;
+      padding: 14px 18px;
+      font-size: 11.5px;
+      color: #451a03;
+      line-height: 1.6;
+    }
+
+    .terms-box h4 {
+      font-size: 13px;
+      font-weight: 800;
+      color: #9a3412;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .terms-box ul {
+      margin-left: 20px;
+    }
+
+    .terms-box li {
+      margin-bottom: 3px;
+    }
+
+    .terms-box strong {
+      color: #7c2d12;
+    }
+
+    /* Print styling */
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .no-print-bar {
+        display: none !important;
+      }
+      .document-page {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      @page {
+        size: A4 portrait;
+        margin: 12mm 15mm;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Screen Header with Download/Print Action -->
+  <div class="no-print-bar">
+    <div>
+      <strong>Happy Enjoy Crackers</strong> — Official Wholesale Gift Box Rate Card
+    </div>
+    <button class="print-btn" onclick="window.print()">
+      🖨️ Print / Save as PDF
+    </button>
+  </div>
+
+  <!-- Printable Document Sheet -->
+  <div class="document-page" id="rateCardDocument">
+    
+    <!-- Header -->
+    <div class="doc-header">
+      <div>
+        <div class="brand-title">🎆 HAPPY ENJOY CRACKERS</div>
+        <div class="brand-subtitle">Direct Factory Wholesale Case Pricing • Sivakasi, Tamil Nadu</div>
+      </div>
+      <div class="contact-box">
+        <div>Official Booking Helpline</div>
+        <div class="contact-phone">📞 99623 14877</div>
+        <div>WhatsApp Available</div>
+      </div>
+    </div>
+
+    <!-- Title Banner -->
+    <div class="sheet-title-banner">
+      <h2>GIFT BOXES – WHOLESALE CASE RATE LIST</h2>
+      <p>Direct Sivakasi Factory Case Rates • Updated Festival Price Schedule</p>
+    </div>
+
+    <!-- Wholesale Rate Table -->
+    <table class="rate-table">
+      <thead>
+        <tr>
+          <th style="width: 6%;">S.No</th>
+          <th style="width: 16%;">ITEMS</th>
+          <th style="width: 32%;">GIFT BOX NAME</th>
+          <th style="width: 14%;">RATE / BOX (₹)</th>
+          <th style="width: 14%;">BOXES / CASE</th>
+          <th style="width: 18%;">AMOUNT / CASE (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="text-center">1</td>
+          <td class="text-center items-tag">16 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Minions Celebrations / Ice Age</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹320</td>
+          <td class="text-center case-box-count">52 Boxes</td>
+          <td class="text-end amount-val">₹16,640</td>
+        </tr>
+        <tr>
+          <td class="text-center">2</td>
+          <td class="text-center items-tag">19 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Dora The Explorer Gift Box</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹370</td>
+          <td class="text-center case-box-count">36 Boxes</td>
+          <td class="text-end amount-val">₹13,320</td>
+        </tr>
+        <tr>
+          <td class="text-center">3</td>
+          <td class="text-center items-tag">21 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Home Moana Gift Box</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹400</td>
+          <td class="text-center case-box-count">36 Boxes</td>
+          <td class="text-end amount-val">₹14,400</td>
+        </tr>
+        <tr>
+          <td class="text-center">4</td>
+          <td class="text-center items-tag">26 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Avengers Super Special Gift Box</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹500</td>
+          <td class="text-center case-box-count">26 Boxes</td>
+          <td class="text-end amount-val">₹13,000</td>
+        </tr>
+        <tr>
+          <td class="text-center">5</td>
+          <td class="text-center items-tag">30 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Avatar Special Edition Gift Box</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹550</td>
+          <td class="text-center case-box-count">20 Boxes</td>
+          <td class="text-end amount-val">₹11,000</td>
+        </tr>
+        <tr>
+          <td class="text-center">6</td>
+          <td class="text-center items-tag">36 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Hulk Power Pack Gift Box</span>
+            <div class="brand-name">Brand: Sri Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹650</td>
+          <td class="text-center case-box-count">20 Boxes</td>
+          <td class="text-end amount-val">₹13,000</td>
+        </tr>
+        <tr>
+          <td class="text-center">7</td>
+          <td class="text-center items-tag">40 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Angry Birds Gift Pack</span>
+            <div class="brand-name">Brand: Sri Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹800</td>
+          <td class="text-center case-box-count">18 Boxes</td>
+          <td class="text-end amount-val">₹14,400</td>
+        </tr>
+        <tr>
+          <td class="text-center">8</td>
+          <td class="text-center items-tag">45 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Sri Anandam's Paradise Gift Box</span>
+            <div class="brand-name">Brand: Sri Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹900</td>
+          <td class="text-center case-box-count">16 Boxes</td>
+          <td class="text-end amount-val">₹14,400</td>
+        </tr>
+        <tr>
+          <td class="text-center">9</td>
+          <td class="text-center items-tag">50 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Wonderful VIP's Choice Gift Box</span>
+            <div class="brand-name">Brand: Sri Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹1,075</td>
+          <td class="text-center case-box-count">12 Boxes</td>
+          <td class="text-end amount-val">₹12,900</td>
+        </tr>
+        <tr>
+          <td class="text-center">10</td>
+          <td class="text-center items-tag">55 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">Carnival Treat Gift Box</span>
+            <div class="brand-name">Brand: Sri Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹1,220</td>
+          <td class="text-center case-box-count">12 Boxes</td>
+          <td class="text-end amount-val">₹14,640</td>
+        </tr>
+        <tr>
+          <td class="text-center">11</td>
+          <td class="text-center items-tag">60 ITEMS</td>
+          <td class="text-start">
+            <span class="box-name">VIP Champion Celebration Gift Box</span>
+            <div class="brand-name">Brand: Anandam's</div>
+          </td>
+          <td class="text-center rate-val">₹1,350</td>
+          <td class="text-center case-box-count">12 Boxes</td>
+          <td class="text-end amount-val">₹16,200</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Wholesale Terms & Statutory Notes -->
+    <div class="terms-box">
+      <h4>📌 Wholesale Order Terms & Commercial Conditions</h4>
+      <ul>
+        <li><strong>Packing Charge:</strong> Standard <strong>3%</strong> packing charges are applicable on the subtotal.</li>
+        <li><strong>GST (12%):</strong> <strong>12% GST</strong> is strictly applicable for all orders above ₹5,000.</li>
+        <li><strong>Full Case Booking:</strong> Gift boxes are supplied strictly in wholesale full case packaging.</li>
+        <li><strong>Lorry Transport Freight:</strong> Goods are dispatched from Sivakasi via registered transport; freight charges payable upon delivery.</li>
+        <li><strong>Direct WhatsApp Orders:</strong> Orders can be submitted directly via WhatsApp to <strong>📞 99623 14877</strong> for instant confirmation.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
